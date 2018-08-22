@@ -2,6 +2,10 @@
 # author='Shichao-Dong'
 # create time: 2018/8/22 
 
+'''
+移除列表中重复的元素
+如 [0,0,1,1,1,2,2,3,3,4] 返回 [0,1,2,3,4]
+'''
 class solution():
     def removeduplicate(A):
         # k = 0
