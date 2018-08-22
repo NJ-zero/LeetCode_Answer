@@ -11,7 +11,7 @@
 '''
 
 class solution():
-    def twosum(nums,target):
+    def twosum(self,nums,target):
         length = len(nums)
         print(length)
         i = 0
@@ -21,6 +21,7 @@ class solution():
                 if other == nums[j]:
                     return (i, j)
             i += 1
-s=solution
-a,b=s.twosum([3,5,4,8],7)
-print(a,b)
+if __name__=='__main__':
+    s=solution()
+    a,b=s.twosum([3,5,4,8],7)
+    print(a,b)

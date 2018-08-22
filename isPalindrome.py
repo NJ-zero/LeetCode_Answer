@@ -8,12 +8,9 @@
 '''
 
 class solution():
-    def isPalindrome(x):
+    def isPalindrome(self,x):
         # x=str(x)
-        # if x == x[::-1]:
-        #     return x == x[::-1]
-        # else:
-        #     return False
+        # return x == x[::-1]
 
         pre=x
         back=0
@@ -22,6 +19,7 @@ class solution():
             pre = pre // 10
         return back == x
 
-s=solution
-a=s.isPalindrome(124421)
-print(a)
+if __name__=='__main__':
+    s=solution()
+    a=s.isPalindrome(124421)
+    print(a)

@@ -9,7 +9,7 @@
 '''
 
 class solution():
-    def reverseint(x):
+    def reverseint(self,x):
         if x <= -(2 ** 31) or x >= 2 ** 31 or x == 0:
             return 0
         else:
@@ -40,7 +40,7 @@ class solution():
                     return 0
                 else:
                     return int(num)
-
-s=solution
-a = s.reverseint(1534236469)
-print(a)
+if __name__=='__main__':
+    s=solution()
+    a = s.reverseint(1534236469)
+    print(a)
