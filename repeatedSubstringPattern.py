@@ -26,6 +26,7 @@ class Solution(object):
         for i in range(1,int(length/2) +1):
             if length % i == 0:
                 if s==(s[:i] * int(length/i)):
+                    print(s[:i])
                     return True
                     break
         else:
@@ -33,6 +34,6 @@ class Solution(object):
 
 if __name__=="__main__":
     s=Solution()
-    word = "abcabc"
+    word = "abcdabcdabcdabcdabcd"
     a=s.repeatedSubstringPattern(word)
     print(a)
