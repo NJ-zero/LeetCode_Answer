@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/repeatedStringMatch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repeatedSubstringPattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/repeatedSubstringPattern.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/missingNumber.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-114">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -32,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repeatedSubstringPattern.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="repeatedSubstringPattern.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="134">
+              <caret line="34" selection-start-line="34" selection-end-line="38" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repeatedStringMatch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repeatedStringMatch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/detectCapitalUse.py" />
         <option value="$PROJECT_DIR$/repeatedSubstringPattern.py" />
+        <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
       </list>
     </option>
   </component>
@@ -137,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.repeatedSubstringPattern">
+  <component name="RunManager" selected="Python.repeatedStringMatch">
     <configuration name="detectCapitalUse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +202,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="repeatedStringMatch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/repeatedStringMatch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="repeatedSubstringPattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,38 +238,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="singleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/singleNumber.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.singleNumber" />
       <item itemvalue="Python.missingNumber" />
       <item itemvalue="Python.lengthOfLastWord" />
       <item itemvalue="Python.detectCapitalUse" />
       <item itemvalue="Python.repeatedSubstringPattern" />
+      <item itemvalue="Python.repeatedStringMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.repeatedStringMatch" />
         <item itemvalue="Python.repeatedSubstringPattern" />
         <item itemvalue="Python.detectCapitalUse" />
         <item itemvalue="Python.lengthOfLastWord" />
         <item itemvalue="Python.missingNumber" />
-        <item itemvalue="Python.singleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535081703537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="repeatedSubstringPattern">
+      <created>1535091872027</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535091872027</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +393,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -615,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/missingNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -628,8 +645,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="134">
+          <caret line="34" selection-start-line="34" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repeatedStringMatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
