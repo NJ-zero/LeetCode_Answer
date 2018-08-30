@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/strStr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repeatedStringMatch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="repeatedStringMatch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repeatedStringMatch.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -49,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="containsNearbyDuplicate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/containsNearbyDuplicate.py">
+      <file leaf-file-name="strStr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strStr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="267">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -109,6 +110,8 @@
         <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
         <option value="$PROJECT_DIR$/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/removeduplicates.py" />
+        <option value="$PROJECT_DIR$/maximumProduct.py" />
+        <option value="$PROJECT_DIR$/strStr.py" />
       </list>
     </option>
   </component>
@@ -366,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535354239571</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="maximumProduct">
+      <created>1535460106845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535460106845</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -406,7 +416,8 @@
     <MESSAGE value="detect CapitalUse" />
     <MESSAGE value="repeatedSubstringPattern" />
     <MESSAGE value="containsNearbyDuplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="containsNearbyDuplicate" />
+    <MESSAGE value="maximumProduct" />
+    <option name="LAST_COMMIT_MESSAGE" value="maximumProduct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/containsNearbyDuplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lengthOfLastWord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -721,10 +725,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/maximumProduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repeatedStringMatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/containsNearbyDuplicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
