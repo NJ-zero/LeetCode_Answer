@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +60,7 @@
         <option value="$PROJECT_DIR$/maximumProduct.py" />
         <option value="$PROJECT_DIR$/strStr.py" />
         <option value="$PROJECT_DIR$/firstUniqChar.py" />
+        <option value="$PROJECT_DIR$/reverseWords.py" />
       </list>
     </option>
   </component>
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536742706153</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="反转字符串中的单词">
+      <created>1538982633889</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1538982633889</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -383,7 +389,8 @@
     <MESSAGE value="maximumProduct" />
     <MESSAGE value="strStr string.find" />
     <MESSAGE value="firstUniqChar" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstUniqChar" />
+    <MESSAGE value="反转字符串中的单词" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转字符串中的单词" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,13 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/removeduplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -763,6 +763,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverseWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
