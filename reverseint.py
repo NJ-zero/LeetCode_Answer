@@ -10,37 +10,19 @@
 
 class solution():
     def reverseint(self,x):
-        if x <= -(2 ** 31) or x >= 2 ** 31 or x == 0:
-            return 0
+        if -10<x<10:
+            return x
+        str_x=str(x)
+        if str_x[0]!='-':
+            str_x=str_x[::-1]
+            x=int(str_x)
         else:
-            num = str(x)
-            if num[0] == '-':
-                num = "-" + num[::-1][:-1]
-                i = 0
-                while i < len(num):
-                    if num[1] == 0:
-                        num = num[0] + num[2:]
-                    else:
-                        break
-                    i += 1
-                if int(num) <= -(2 ** 31):
-                    return 0
-                else:
-                    return int(num)
-            else:
-                num = num[::-1]
-                i = 0
-                while i < len(num):
-                    if num[0] == '0':
-                        num = num[1:]
-                    else:
-                        break
-                    i += 1
-                if int(num) >= 2 ** 31:
-                    return 0
-                else:
-                    return int(num)
+            str_x=str_x[1:][::-1]
+            str_x='-'+str_x
+            x=int(str_x)
+
+        return x if -(2**31)<x<2**31-1 else 0
 if __name__=='__main__':
     s=solution()
-    a = s.reverseint(1534236469)
+    a = s.reverseint(-2100)
     print(a)
