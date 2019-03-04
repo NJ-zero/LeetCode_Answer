@@ -2,6 +2,10 @@
 # author='Shichao-Dong'
 # create time: 2019/3/4
 
+'''
+时间复杂度 O(n^2)
+'''
+
 def bubblesort(n):
     '''
     :param n: list
@@ -16,3 +20,4 @@ def bubblesort(n):
 
 n=[2,5,4,9,6,12,45,23,155,1,75]
 print(bubblesort(n))
+
