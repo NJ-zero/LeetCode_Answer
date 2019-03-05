@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/romanToInt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longestCommonPrefix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pingip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/pingip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-              <folding>
-                <element signature="e#65#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,65 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detectCapitalUse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detectCapitalUse.py">
+      <file leaf-file-name="longestCommonPrefix.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/longestCommonPrefix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="romanToInt.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/romanToInt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countSegments.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/countSegments.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" selection-start-line="27" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lengthOfLongestSubstring.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reverseint.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reverseint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" selection-start-line="24" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lengthOfLastWord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lengthOfLastWord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -143,12 +77,13 @@
         <option value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/detectCapitalUse.py" />
         <option value="$PROJECT_DIR$/romanToInt.py" />
+        <option value="$PROJECT_DIR$/longestCommonPrefix.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="4" />
+    <option name="x" value="2014" />
+    <option name="y" value="25" />
     <option name="width" value="1524" />
     <option name="height" value="963" />
   </component>
@@ -190,25 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.romanToInt">
-    <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/paixu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/paixu/bubblesort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.longestCommonPrefix">
     <configuration name="countSegments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,6 +180,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="longestCommonPrefix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longestCommonPrefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="romanToInt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,19 +217,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.bubblesort" />
       <item itemvalue="Python.countSegments" />
       <item itemvalue="Python.lengthOfLongestSubstring" />
       <item itemvalue="Python.detectCapitalUse" />
       <item itemvalue="Python.romanToInt" />
+      <item itemvalue="Python.longestCommonPrefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.longestCommonPrefix" />
         <item itemvalue="Python.romanToInt" />
         <item itemvalue="Python.detectCapitalUse" />
         <item itemvalue="Python.lengthOfLongestSubstring" />
         <item itemvalue="Python.countSegments" />
-        <item itemvalue="Python.bubblesort" />
       </list>
     </recent_temporary>
   </component>
@@ -533,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551769429852</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="罗马数字转整数">
+      <created>1551775663562</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1551775663562</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="3" width="1016" height="642" extended-state="0" />
+    <frame x="1983" y="17" width="1016" height="642" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2642857" />
@@ -545,11 +487,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32277226" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32277226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3980198" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3980198" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -563,7 +505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add readme" />
     <MESSAGE value="remove duplicate" />
     <MESSAGE value="remove Element" />
     <MESSAGE value="missing Number" />
@@ -588,21 +529,15 @@
     <MESSAGE value="最长的无重复的子串的长度" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+    <MESSAGE value="罗马数字转整数" />
+    <option name="LAST_COMMIT_MESSAGE" value="罗马数字转整数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/singleNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/missingNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -938,10 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
+    <entry file="file://$PROJECT_DIR$/romanToInt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -952,10 +887,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/romanToInt.py">
+    <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="178">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/longestCommonPrefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
