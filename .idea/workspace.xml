@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lengthOfLongestSubstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paixu/bubblesort.py" beforeDir="false" afterPath="$PROJECT_DIR$/paixu/bubblesort.py" afterDir="false" />
     </list>
@@ -26,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
@@ -35,11 +36,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="countSegments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countSegments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="27" selection-start-line="27" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lengthOfLongestSubstring.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="reverseint.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reverseint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="24" selection-start-line="24" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -104,6 +123,8 @@
         <option value="$PROJECT_DIR$/review_answer/pingip.py" />
         <option value="$PROJECT_DIR$/reverseint.py" />
         <option value="$PROJECT_DIR$/paixu/bubblesort.py" />
+        <option value="$PROJECT_DIR$/countSegments.py" />
+        <option value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
       </list>
     </option>
   </component>
@@ -151,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.countSegments">
+  <component name="RunManager" selected="Python.lengthOfLongestSubstring">
     <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,24 +191,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="checkip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="countSegments" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,6 +204,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countSegments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,19 +264,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.checkip" />
       <item itemvalue="Python.pingip" />
       <item itemvalue="Python.bubblesort" />
       <item itemvalue="Python.reverseint" />
       <item itemvalue="Python.countSegments" />
+      <item itemvalue="Python.lengthOfLongestSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lengthOfLongestSubstring" />
         <item itemvalue="Python.countSegments" />
         <item itemvalue="Python.bubblesort" />
         <item itemvalue="Python.reverseint" />
         <item itemvalue="Python.pingip" />
-        <item itemvalue="Python.checkip" />
       </list>
     </recent_temporary>
   </component>
@@ -466,18 +487,26 @@
       <option name="project" value="LOCAL" />
       <updated>1551701366051</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="字符串中的单词数">
+      <created>1551766569440</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1551766569440</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="113" y="24" width="1016" height="642" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2642857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2642857" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32277226" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32277226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -518,7 +547,8 @@
     <MESSAGE value="python ping ip" />
     <MESSAGE value="冒泡排序" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="字符串中的单词数" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串中的单词数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,20 +556,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reverseint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/removeduplicates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -858,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reverseint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lengthOfLastWord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -886,6 +895,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverseint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" selection-start-line="24" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countSegments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" selection-start-line="27" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
