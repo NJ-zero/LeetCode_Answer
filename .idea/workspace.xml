@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/romanToInt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detectCapitalUse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detectCapitalUse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="romanToInt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/romanToInt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -101,7 +120,6 @@
         <option value="$PROJECT_DIR$/singleNumber.py" />
         <option value="$PROJECT_DIR$/missingNumber.py" />
         <option value="$PROJECT_DIR$/lengthOfLastWord.py" />
-        <option value="$PROJECT_DIR$/detectCapitalUse.py" />
         <option value="$PROJECT_DIR$/repeatedSubstringPattern.py" />
         <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
         <option value="$PROJECT_DIR$/containsNearbyDuplicate.py" />
@@ -123,12 +141,14 @@
         <option value="$PROJECT_DIR$/paixu/bubblesort.py" />
         <option value="$PROJECT_DIR$/countSegments.py" />
         <option value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
+        <option value="$PROJECT_DIR$/detectCapitalUse.py" />
+        <option value="$PROJECT_DIR$/romanToInt.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
-    <option name="y" value="36" />
+    <option name="x" value="16" />
+    <option name="y" value="4" />
     <option name="width" value="1524" />
     <option name="height" value="963" />
   </component>
@@ -170,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detectCapitalUse">
+  <component name="RunManager" selected="Python.romanToInt">
     <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,7 +263,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="reverseint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="romanToInt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,7 +275,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverseint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/romanToInt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,18 +283,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.bubblesort" />
-      <item itemvalue="Python.reverseint" />
       <item itemvalue="Python.countSegments" />
       <item itemvalue="Python.lengthOfLongestSubstring" />
       <item itemvalue="Python.detectCapitalUse" />
+      <item itemvalue="Python.romanToInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.romanToInt" />
         <item itemvalue="Python.detectCapitalUse" />
         <item itemvalue="Python.lengthOfLongestSubstring" />
         <item itemvalue="Python.countSegments" />
         <item itemvalue="Python.bubblesort" />
-        <item itemvalue="Python.reverseint" />
       </list>
     </recent_temporary>
   </component>
@@ -506,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551768967890</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="modify">
+      <created>1551769429852</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551769429852</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="24" width="1016" height="642" extended-state="0" />
+    <frame x="11" y="3" width="1016" height="642" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2642857" />
@@ -539,7 +566,6 @@
     <MESSAGE value="Add readme" />
     <MESSAGE value="remove duplicate" />
     <MESSAGE value="remove Element" />
-    <MESSAGE value="modify" />
     <MESSAGE value="missing Number" />
     <MESSAGE value="Singel Number" />
     <MESSAGE value="length Of LastWord" />
@@ -561,21 +587,15 @@
     <MESSAGE value="字符串中的单词数" />
     <MESSAGE value="最长的无重复的子串的长度" />
     <MESSAGE value="冒泡排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序" />
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/removeduplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/singleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -729,13 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detectCapitalUse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -929,6 +942,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectCapitalUse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/romanToInt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
