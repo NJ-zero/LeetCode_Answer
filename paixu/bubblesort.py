@@ -20,5 +20,4 @@ def bubblesort(n):
 
 n=[2,5,4,9,6,12,45,23,155,1,75]
 print(bubblesort(n))
-strs="0021"
-print(int(strs))
+
