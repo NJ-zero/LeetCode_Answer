@@ -17,13 +17,15 @@ class Solution(object):
         :type word: str
         :rtype: bool
         """
-        if (word[0].upper()+word[1:].lower())==word or word==word.upper() or word == word.lower():
+        if word.upper() == word or word.lower() == word or word.capitalize() == word:
             return True
         else:
-            return (False)
+            return False
 
 if __name__=="__main__":
     s=Solution()
     word = "FlaG"
     a=s.detectCapitalUse(word)
     print(a)
+    s="addd"
+    print(s.capitalize())

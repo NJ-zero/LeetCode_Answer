@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lengthOfLongestSubstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paixu/bubblesort.py" beforeDir="false" afterPath="$PROJECT_DIR$/paixu/bubblesort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bubblesort.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="178">
@@ -45,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lengthOfLongestSubstring.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lengthOfLongestSubstring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lengthOfLongestSubstring.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -172,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lengthOfLongestSubstring">
+  <component name="RunManager" selected="Python.detectCapitalUse">
     <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +207,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="detectCapitalUse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detectCapitalUse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,24 +238,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="pingip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/review_answer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/review_answer/pingip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +262,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.pingip" />
       <item itemvalue="Python.bubblesort" />
       <item itemvalue="Python.reverseint" />
       <item itemvalue="Python.countSegments" />
       <item itemvalue="Python.lengthOfLongestSubstring" />
+      <item itemvalue="Python.detectCapitalUse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.detectCapitalUse" />
         <item itemvalue="Python.lengthOfLongestSubstring" />
         <item itemvalue="Python.countSegments" />
         <item itemvalue="Python.bubblesort" />
         <item itemvalue="Python.reverseint" />
-        <item itemvalue="Python.pingip" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +492,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551766569440</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="最长的无重复的子串的长度">
+      <created>1551768955093</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1551768955093</updated>
+    </task>
+    <task id="LOCAL-00031" summary="冒泡排序">
+      <created>1551768967890</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551768967890</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,10 +557,11 @@
     <MESSAGE value="有效的括号" />
     <MESSAGE value="check ip是否合法" />
     <MESSAGE value="python ping ip" />
-    <MESSAGE value="冒泡排序" />
     <MESSAGE value="优化" />
     <MESSAGE value="字符串中的单词数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串中的单词数" />
+    <MESSAGE value="最长的无重复的子串的长度" />
+    <MESSAGE value="冒泡排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reverseint.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -916,6 +922,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
