@@ -18,17 +18,24 @@
 '''
 class Solution(object):
     def isValid(self, s):
-        all={'{':'}','[':']','(':')'}
-        l=[]
+        all = {'{': '}', '[': ']', '(': ')'}
+        l = []
+
+        if len(s) % 2 == 1:
+            return False
+        if len(s) == 0:
+            return True
+        if s[0] not in all:
+            return False
         for i in s:
             if i in all:
                 l.append(i)
             else:
-                if i==all[l[-1]]:
-                    l.pop()
-        return l==[]
+                if not l or all[l.pop()] != i:
+                    return False
+        return l == []
 
 if __name__=='__main__':
     s=Solution()
-    ss='[]{}()[{}](())[{()}]'
+    ss=""
     print(s.isValid(ss))
