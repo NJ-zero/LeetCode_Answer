@@ -2,7 +2,9 @@
 # author='Shichao-Dong'
 # create time: 2019/3/6 
 
-
+'''
+反转该字符串中的元音字母
+'''
 
 class Solution(object):
     def reverseVowels(self, s):
