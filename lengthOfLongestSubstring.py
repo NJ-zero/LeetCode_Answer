@@ -22,5 +22,5 @@ class Solution(object):
         return res
 if __name__=='__main__':
     s=Solution()
-    a = s.lengthOfLongestSubstring("abcdxcfagc")
+    a = s.lengthOfLongestSubstring("abccdxccfagc")
     print(a)
