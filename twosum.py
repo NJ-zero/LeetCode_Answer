@@ -21,7 +21,23 @@ class solution():
                 if other == nums[j]:
                     return (i, j)
             i += 1
+
+    def twosum2(self,nums,target):
+        n = len(nums)
+        i = 0
+        j = n-1
+        while i<j:
+            sum = nums[i] + nums[j]
+            if sum == target:
+                return (i,j)
+            elif sum < target:
+                i+=1
+            else:
+                j-=1
+
 if __name__=='__main__':
     s=solution()
     a,b=s.twosum([3,5,4,8],7)
+    print(a,b)
+    a,b=s.twosum2([3,5,4,8],9)
     print(a,b)
