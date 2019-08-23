@@ -20,7 +20,19 @@ class Solution(object):
             pos_dic[s[right]]=right
             res=max(res,right-left+1)
         return res
+
+    def length(self,s):
+        i , j =0 ,0
+        res = 0
+        while i < len(s):
+            if j < len(s) and s[j] not in s[i:j]:
+                j += 1
+            else:
+                i += 1
+            res = max(res,j-i)
+        return res
 if __name__=='__main__':
     s=Solution()
-    a = s.lengthOfLongestSubstring("abccdxccfagc")
+    a = s.lengthOfLongestSubstring("abccdxccfagcefghji")
     print(a)
+    print(s.length("abcabcbb"))
