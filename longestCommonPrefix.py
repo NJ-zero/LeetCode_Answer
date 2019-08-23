@@ -22,6 +22,18 @@ class Solution(object):
                         return s[:i]
             return s[:i+1]
 
+    def logest(self,strs):
+        n = len(strs)
+        if n < 1:
+            return ""
+        tmp = ""
+        for i in range(len(strs[0])):
+            tmp += strs[0][i]
+            for j in range(1, n):
+                if tmp != strs[j][:i + 1]:
+                    return tmp[:i]
+        return tmp
+
 if __name__=="__main__":
     s=Solution()
     strs=["a"]
