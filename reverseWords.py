@@ -20,4 +20,11 @@ class Solution(object):
         for i in range(len(sl)):
             sl[i]=(sl[i][::-1])
         print(sl)
+        sl = [ i for i in sl if i != ""]
         return (" ".join(sl))
+
+
+if __name__=='__main__':
+    s=Solution()
+    a = s.reverseWords("a  ab  c     cdd")
+    print(a)
