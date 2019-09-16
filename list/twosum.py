@@ -47,6 +47,12 @@ class solution():
             else:
                 j-=1
     def towsum3(self,nums,target):
+        '''
+        最优解
+        :param nums:
+        :param target:
+        :return:
+        '''
         dic ={}
         for i ,num in enumerate(nums):
             a = target - num
