@@ -11,6 +11,8 @@ s = "loveleetcode",
 返回 2.
 '''
 
+import collections
+
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -32,6 +34,11 @@ class Solution(object):
         else:
             return -1
 
+        count=collections.Counter(s)
+        for i ,c in enumerate(s):
+            if count[c] ==1:
+                return i
+        return -1
 
 if __name__=='__main__':
     s=Solution()
