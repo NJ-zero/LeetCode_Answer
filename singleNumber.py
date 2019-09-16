@@ -21,13 +21,20 @@ class solution():
             num = num ^ i
         return num
 
-        # s={}
-        # for i in nums:
-        #     if i in s.keys():
-        #         s.pop(i)
-        #     else:
-        #         s[i]=1
-        # print(list(s.keys())[0])
+    def singlennn(self,nums):
+        '''
+        借助额外的空间
+        :param nums:
+        :return:
+        '''
+        dic={}
+
+        for num in nums:
+            if num in dic:
+                dic.pop(num)
+            else:
+                dic[num]=1
+        return list(dic.keys())[-1]
 
 if __name__=='__main__':
     s=solution()
@@ -35,3 +42,5 @@ if __name__=='__main__':
     a=s.singleNumber(nums)
     print(a)
     print(1^2^1)
+
+    print(s.singlennn(nums))
