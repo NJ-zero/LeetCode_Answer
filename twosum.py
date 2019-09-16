@@ -12,6 +12,12 @@
 
 class solution():
     def twosum(self,nums,target):
+        '''
+        暴力解法
+        :param nums:
+        :param target:
+        :return:
+        '''
         length = len(nums)
         print(length)
         i = 0
@@ -23,6 +29,12 @@ class solution():
             i += 1
 
     def twosum2(self,nums,target):
+        '''
+            用于数组是有序数组
+        :param nums:
+        :param target:
+        :return:
+        '''
         n = len(nums)
         i = 0
         j = n-1
@@ -34,10 +46,19 @@ class solution():
                 i+=1
             else:
                 j-=1
+    def towsum3(self,nums,target):
+        dic ={}
+        for i ,num in enumerate(nums):
+            a = target - num
+            if num in dic:
+                return (dic[num],i)
+            else:
+                dic[a] = i
+
 
 if __name__=='__main__':
     s=solution()
     a,b=s.twosum([3,5,4,8],7)
     print(a,b)
-    a,b=s.twosum2([3,5,4,8],9)
+    a,b=s.twosum2([3,2,4],6)
     print(a,b)
