@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="1.两数之和">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/containsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/containsDuplicate.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="217. 存在重复元素">
+      <change afterPath="$PROJECT_DIR$/string/reverseString.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +13,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/int/reverseint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/removeelements.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -31,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="380">
               <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/reverseString.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -114,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/singleNumber.py" />
         <option value="$PROJECT_DIR$/missingNumber.py" />
         <option value="$PROJECT_DIR$/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
@@ -165,6 +163,7 @@
         <option value="$PROJECT_DIR$/list/twosum.py" />
         <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
+        <option value="$PROJECT_DIR$/string/reverseString.py" />
       </list>
     </option>
   </component>
@@ -193,7 +192,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,8 +207,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/string" />
       <recent name="$PROJECT_DIR$/list" />
+      <recent name="$PROJECT_DIR$/string" />
       <recent name="$PROJECT_DIR$/int" />
       <recent name="$PROJECT_DIR$/other" />
     </key>
@@ -226,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.containsDuplicate">
+  <component name="RunManager" selected="Python.reverseString">
     <configuration name="climbStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mySqrt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverseString" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,11 +297,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/mySqrt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/reverseString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,18 +333,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.containsDuplicate" />
-      <item itemvalue="Python.mySqrt" />
       <item itemvalue="Python.twosum" />
       <item itemvalue="Python.climbStairs" />
       <item itemvalue="Python.fib" />
+      <item itemvalue="Python.reverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverseString" />
         <item itemvalue="Python.containsDuplicate" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.climbStairs" />
         <item itemvalue="Python.twosum" />
-        <item itemvalue="Python.mySqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -359,13 +358,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00014" summary="maximumProduct">
-      <created>1535460106845</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1535460106845</updated>
     </task>
     <task id="LOCAL-00015" summary="strStr string.find">
       <created>1535619597458</created>
@@ -703,19 +695,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568632986559</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="217. 存在重复元素">
+      <created>1568633233179</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1568633233179</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1579" y="64" width="1214" height="958" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32277226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -730,7 +728,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="罗马数字转整数" />
     <MESSAGE value="有效的括号fix" />
     <MESSAGE value="检查回文数" />
     <MESSAGE value="反转该字符串中的元音字母" />
@@ -755,10 +752,10 @@
     <MESSAGE value="move" />
     <MESSAGE value="1.两数之和" />
     <MESSAGE value="387. First Unique Character in a String" />
-    <option name="LAST_COMMIT_MESSAGE" value="387. First Unique Character in a String" />
+    <MESSAGE value="217. 存在重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="217. 存在重复元素" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python36/Lib/re.py" />
     <entry file="file://C:/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1072,8 +1069,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="380">
           <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/reverseString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
