@@ -28,14 +28,22 @@ class Solution(object):
             return False
         count={}
         for i in nums:
-            print(i)
             if i in count:
-                print(1)
                 return True
             else:
                 count[i]=1
         return False
 
+    def cotainsdup2(self,nums):
+        dic = {}
+        for i,num in enumerate(nums):
+            if num in dic:
+                return True
+            else:
+                dic[num] = i
+        return False
+
 if __name__ == "__main__":
     s = Solution()
-    print(s.containsDuplicate([1,3]))
+    print(s.containsDuplicate([1,3,2,4,5,6,3]))
+    print(s.cotainsdup2([1,3,2,4,5,6]))

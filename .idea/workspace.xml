@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="move">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="1.两数之和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoreThanHalfNum_Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/isValid.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/isValid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximumProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/maximumProduct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minSubArrayLen.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/minSubArrayLen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mySqrt.py" beforeDir="false" afterPath="$PROJECT_DIR$/int/mySqrt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/removeelements.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/removeelements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseVowels.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/reverseVowels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseWords.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/reverseWords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverseint.py" beforeDir="false" afterPath="$PROJECT_DIR$/int/reverseint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotate.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/rotate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchInsert.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/searchInsert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplifyPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/simplifyPath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twosum.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/twosum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/containsDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/containsDuplicate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,33 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/minSubArrayLen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/longestCommonPrefix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/int/mySqrt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/reverseint.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,6 +31,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mostCommonWord.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -89,10 +59,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
+        <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/firstUniqChar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="690">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/missingNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -100,15 +93,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/twosum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="267">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/isPalindrome.py" />
         <option value="$PROJECT_DIR$/singleNumber.py" />
         <option value="$PROJECT_DIR$/missingNumber.py" />
         <option value="$PROJECT_DIR$/lengthOfLastWord.py" />
@@ -176,6 +162,9 @@
         <option value="$PROJECT_DIR$/digui/climbStairs.py" />
         <option value="$PROJECT_DIR$/digui/fib.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/list/twosum.py" />
+        <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
+        <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
       </list>
     </option>
   </component>
@@ -201,6 +190,11 @@
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,10 +208,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/string" />
       <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/int" />
       <recent name="$PROJECT_DIR$/other" />
-      <recent name="$PROJECT_DIR$/string" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fib">
+  <component name="RunManager" selected="Python.containsDuplicate">
     <configuration name="climbStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,11 +341,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.containsDuplicate" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.climbStairs" />
         <item itemvalue="Python.twosum" />
         <item itemvalue="Python.mySqrt" />
-        <item itemvalue="Python.containsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -365,27 +359,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00011" summary="repeatedSubstringPattern">
-      <created>1535081703537</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1535081703537</updated>
-    </task>
-    <task id="LOCAL-00012" summary="repeatedSubstringPattern">
-      <created>1535091872027</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1535091872027</updated>
-    </task>
-    <task id="LOCAL-00013" summary="containsNearbyDuplicate">
-      <created>1535354239570</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1535354239571</updated>
     </task>
     <task id="LOCAL-00014" summary="maximumProduct">
       <created>1535460106845</created>
@@ -709,23 +682,45 @@
       <option name="project" value="LOCAL" />
       <updated>1568625564152</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="move">
+      <created>1568625872171</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1568625872171</updated>
+    </task>
+    <task id="LOCAL-00061" summary="1.两数之和">
+      <created>1568632662216</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1568632662217</updated>
+    </task>
+    <task id="LOCAL-00062" summary="387. First Unique Character in a String">
+      <created>1568632986559</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1568632986559</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1579" y="64" width="1214" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22055428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32277226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36836028" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36836028" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -735,8 +730,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="冒泡排序" />
-    <MESSAGE value="modify" />
     <MESSAGE value="罗马数字转整数" />
     <MESSAGE value="有效的括号fix" />
     <MESSAGE value="检查回文数" />
@@ -760,16 +753,11 @@
     <MESSAGE value="70.爬楼梯" />
     <MESSAGE value="509. 斐波那契数" />
     <MESSAGE value="move" />
-    <option name="LAST_COMMIT_MESSAGE" value="move" />
+    <MESSAGE value="1.两数之和" />
+    <MESSAGE value="387. First Unique Character in a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="387. First Unique Character in a String" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/romanToInt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python36/Lib/re.py" />
     <entry file="file://C:/Python36/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
@@ -789,13 +777,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/missingNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/validPalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -905,24 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/mergelist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -944,13 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/firstUniqChar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1020,13 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/twosum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1083,6 +1036,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missingNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/twosum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/firstUniqChar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
