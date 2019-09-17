@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="28.实现strStr()">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="20.有效的括号">
+      <change afterPath="$PROJECT_DIR$/list/majorityElement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/isValid.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/isValid.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/isValid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -58,9 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/majorityElement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/maximumProduct.py" />
         <option value="$PROJECT_DIR$/searchInsert.py" />
         <option value="$PROJECT_DIR$/paixu/selectionSort.py" />
@@ -165,6 +168,7 @@
         <option value="$PROJECT_DIR$/list/moveZeroes.py" />
         <option value="$PROJECT_DIR$/strStr.py" />
         <option value="$PROJECT_DIR$/other/isValid.py" />
+        <option value="$PROJECT_DIR$/list/majorityElement.py" />
       </list>
     </option>
   </component>
@@ -189,6 +193,11 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
@@ -226,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isValid">
+  <component name="RunManager" selected="Python.majorityElement">
     <configuration name="isValid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +257,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="majorityElement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/majorityElement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,27 +291,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/moveZeroes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reverseString" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/reverseString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,19 +342,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.reverseString" />
       <item itemvalue="Python.singleNumber" />
       <item itemvalue="Python.moveZeroes" />
       <item itemvalue="Python.strStr" />
       <item itemvalue="Python.isValid" />
+      <item itemvalue="Python.majorityElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.majorityElement" />
         <item itemvalue="Python.isValid" />
         <item itemvalue="Python.strStr" />
         <item itemvalue="Python.moveZeroes" />
         <item itemvalue="Python.singleNumber" />
-        <item itemvalue="Python.reverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -359,13 +368,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00020" summary="选择排序">
-      <created>1550836219041</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1550836219041</updated>
     </task>
     <task id="LOCAL-00021" summary="数组中出现次数超过一半的数字">
       <created>1551084365992</created>
@@ -703,24 +705,30 @@
       <option name="project" value="LOCAL" />
       <updated>1568704199299</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="20.有效的括号">
+      <created>1568708240692</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1568708240692</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1825" y="74" width="1214" height="958" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32277226" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22055428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36836028" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36836028" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -730,7 +738,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="819. 最常见的单词" />
     <MESSAGE value="88.合并两个有序数组" />
     <MESSAGE value="最长子串" />
     <MESSAGE value="189.旋转数组" />
@@ -755,10 +762,10 @@
     <MESSAGE value="136.只出现一次的数字" />
     <MESSAGE value="283.移动零" />
     <MESSAGE value="28.实现strStr()" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.实现strStr()" />
+    <MESSAGE value="20.有效的括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.有效的括号" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1933192067/builtins.py" />
     <entry file="file://$PROJECT_DIR$/review_answer/pingip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1086,6 +1093,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/majorityElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
