@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="136.只出现一次的数字">
-      <change afterPath="$PROJECT_DIR$/list/moveZeroes.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="28.实现strStr()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strStr.py" beforeDir="false" afterPath="$PROJECT_DIR$/strStr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/isValid.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/isValid.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
+        <entry file="file://$PROJECT_DIR$/string/strStr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="375">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/strStr.py">
+        <entry file="file://$PROJECT_DIR$/other/isValid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
         <option value="$PROJECT_DIR$/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/maximumProduct.py" />
         <option value="$PROJECT_DIR$/searchInsert.py" />
@@ -166,6 +164,7 @@
         <option value="$PROJECT_DIR$/singleNumber.py" />
         <option value="$PROJECT_DIR$/list/moveZeroes.py" />
         <option value="$PROJECT_DIR$/strStr.py" />
+        <option value="$PROJECT_DIR$/other/isValid.py" />
       </list>
     </option>
   </component>
@@ -191,6 +190,11 @@
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,8 +208,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/string" />
+      <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/int" />
       <recent name="$PROJECT_DIR$/other" />
     </key>
@@ -222,8 +226,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.strStr">
-    <configuration name="containsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.isValid">
+    <configuration name="isValid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/containsDuplicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/isValid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +323,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strStr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/strStr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,19 +333,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.containsDuplicate" />
       <item itemvalue="Python.reverseString" />
       <item itemvalue="Python.singleNumber" />
       <item itemvalue="Python.moveZeroes" />
       <item itemvalue="Python.strStr" />
+      <item itemvalue="Python.isValid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isValid" />
         <item itemvalue="Python.strStr" />
         <item itemvalue="Python.moveZeroes" />
         <item itemvalue="Python.singleNumber" />
         <item itemvalue="Python.reverseString" />
-        <item itemvalue="Python.containsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -355,27 +359,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00017" summary="反转字符串中的单词">
-      <created>1538982633889</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1538982633889</updated>
-    </task>
-    <task id="LOCAL-00018" summary="搜索插入位置">
-      <created>1538983654232</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1538983654233</updated>
-    </task>
-    <task id="LOCAL-00019" summary="选择排序">
-      <created>1550312220785</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1550312220785</updated>
     </task>
     <task id="LOCAL-00020" summary="选择排序">
       <created>1550836219041</created>
@@ -699,11 +682,32 @@
       <option name="project" value="LOCAL" />
       <updated>1568635142234</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="283.移动零">
+      <created>1568704164381</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1568704164382</updated>
+    </task>
+    <task id="LOCAL-00067" summary="28.实现strStr()">
+      <created>1568704188361</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1568704188361</updated>
+    </task>
+    <task id="LOCAL-00068" summary="28.实现strStr()">
+      <created>1568704199299</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1568704199299</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1716" y="65" width="1214" height="958" extended-state="0" />
+    <frame x="1825" y="74" width="1214" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
@@ -726,8 +730,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="反转该字符串中的元音字母" />
-    <MESSAGE value="最多删除一个字符否能成为回文字符串" />
     <MESSAGE value="819. 最常见的单词" />
     <MESSAGE value="88.合并两个有序数组" />
     <MESSAGE value="最长子串" />
@@ -751,7 +753,9 @@
     <MESSAGE value="217. 存在重复元素" />
     <MESSAGE value="344. 反转字符串" />
     <MESSAGE value="136.只出现一次的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="136.只出现一次的数字" />
+    <MESSAGE value="283.移动零" />
+    <MESSAGE value="28.实现strStr()" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.实现strStr()" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1933192067/builtins.py" />
@@ -953,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other/isValid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1064,13 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1078,10 +1068,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strStr.py">
+    <entry file="file://$PROJECT_DIR$/singleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="178">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/strStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/isValid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
