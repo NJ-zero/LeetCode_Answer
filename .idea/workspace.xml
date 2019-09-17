@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="217. 存在重复元素">
-      <change afterPath="$PROJECT_DIR$/string/reverseString.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="136.只出现一次的数字">
+      <change afterPath="$PROJECT_DIR$/list/moveZeroes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strStr.py" beforeDir="false" afterPath="$PROJECT_DIR$/strStr.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +15,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/removeelements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -30,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/reverseString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
@@ -40,19 +33,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mostCommonWord.py">
+        <entry file="file://$PROJECT_DIR$/singleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
+        <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strStr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,12 +115,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/missingNumber.py" />
-        <option value="$PROJECT_DIR$/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/repeatedStringMatch.py" />
         <option value="$PROJECT_DIR$/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/maximumProduct.py" />
-        <option value="$PROJECT_DIR$/strStr.py" />
         <option value="$PROJECT_DIR$/searchInsert.py" />
         <option value="$PROJECT_DIR$/paixu/selectionSort.py" />
         <option value="$PROJECT_DIR$/paixu/quickSort.py" />
@@ -164,12 +163,15 @@
         <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
         <option value="$PROJECT_DIR$/string/reverseString.py" />
+        <option value="$PROJECT_DIR$/singleNumber.py" />
+        <option value="$PROJECT_DIR$/list/moveZeroes.py" />
+        <option value="$PROJECT_DIR$/strStr.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1579" />
-    <option name="y" value="64" />
+    <option name="x" value="1825" />
+    <option name="y" value="74" />
     <option name="width" value="1214" />
     <option name="height" value="958" />
   </component>
@@ -188,11 +190,6 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,28 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reverseString">
-    <configuration name="climbStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/climbStairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.strStr">
     <configuration name="containsDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,11 +252,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/fib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/moveZeroes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twosum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="singleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,7 +298,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/twosum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/singleNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strStr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,18 +330,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.containsDuplicate" />
-      <item itemvalue="Python.twosum" />
-      <item itemvalue="Python.climbStairs" />
-      <item itemvalue="Python.fib" />
       <item itemvalue="Python.reverseString" />
+      <item itemvalue="Python.singleNumber" />
+      <item itemvalue="Python.moveZeroes" />
+      <item itemvalue="Python.strStr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.strStr" />
+        <item itemvalue="Python.moveZeroes" />
+        <item itemvalue="Python.singleNumber" />
         <item itemvalue="Python.reverseString" />
         <item itemvalue="Python.containsDuplicate" />
-        <item itemvalue="Python.fib" />
-        <item itemvalue="Python.climbStairs" />
-        <item itemvalue="Python.twosum" />
       </list>
     </recent_temporary>
   </component>
@@ -358,20 +355,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00015" summary="strStr string.find">
-      <created>1535619597458</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1535619597458</updated>
-    </task>
-    <task id="LOCAL-00016" summary="firstUniqChar">
-      <created>1536742706153</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1536742706153</updated>
     </task>
     <task id="LOCAL-00017" summary="反转字符串中的单词">
       <created>1538982633889</created>
@@ -702,18 +685,33 @@
       <option name="project" value="LOCAL" />
       <updated>1568633233179</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="344. 反转字符串">
+      <created>1568634670141</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1568634670141</updated>
+    </task>
+    <task id="LOCAL-00065" summary="136.只出现一次的数字">
+      <created>1568635142234</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1568635142234</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1579" y="64" width="1214" height="958" extended-state="0" />
+    <frame x="1716" y="65" width="1214" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22055428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32277226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -728,8 +726,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="有效的括号fix" />
-    <MESSAGE value="检查回文数" />
     <MESSAGE value="反转该字符串中的元音字母" />
     <MESSAGE value="最多删除一个字符否能成为回文字符串" />
     <MESSAGE value="819. 最常见的单词" />
@@ -753,17 +749,11 @@
     <MESSAGE value="1.两数之和" />
     <MESSAGE value="387. First Unique Character in a String" />
     <MESSAGE value="217. 存在重复元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="217. 存在重复元素" />
+    <MESSAGE value="344. 反转字符串" />
+    <MESSAGE value="136.只出现一次的数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="136.只出现一次的数字" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python36/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/1933192067/builtins.py" />
     <entry file="file://$PROJECT_DIR$/review_answer/pingip.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -970,13 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1078,6 +1061,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>

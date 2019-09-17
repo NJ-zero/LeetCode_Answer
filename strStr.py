@@ -25,3 +25,14 @@ class Solution(object):
                 return 0
             else:
                 return -1
+    def strStr2(self, haystack, needle):
+
+        for i in range(len(haystack)-len(needle)+1):
+            if haystack[i:i+len(needle)] ==needle:
+                return i
+        return -1
+
+
+if __name__ == "__main__":
+    s =Solution()
+    print(s.strStr2("","a"))
