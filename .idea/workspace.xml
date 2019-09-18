@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="169.求众数">
-      <change afterPath="$PROJECT_DIR$/int/trailingZeroes.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="326.3的幂">
+      <change afterPath="$PROJECT_DIR$/list/rob.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/reverseString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="427">
+              <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,11 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="187">
               <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/rob.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="60" selection-start-line="60" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -94,15 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/twosum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -118,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/searchInsert.py" />
-        <option value="$PROJECT_DIR$/paixu/selectionSort.py" />
         <option value="$PROJECT_DIR$/paixu/quickSort.py" />
         <option value="$PROJECT_DIR$/MoreThanHalfNum_Solution.py" />
         <option value="$PROJECT_DIR$/firstduplicate.py" />
@@ -169,12 +167,14 @@
         <option value="$PROJECT_DIR$/other/isValid.py" />
         <option value="$PROJECT_DIR$/list/majorityElement.py" />
         <option value="$PROJECT_DIR$/int/trailingZeroes.py" />
+        <option value="$PROJECT_DIR$/int/isPowerOfThree.py" />
+        <option value="$PROJECT_DIR$/list/rob.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1686" />
-    <option name="y" value="95" />
+    <option name="x" value="1749" />
+    <option name="y" value="261" />
     <option name="width" value="1214" />
     <option name="height" value="877" />
   </component>
@@ -197,12 +197,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="int" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +230,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trailingZeroes">
+  <component name="RunManager" selected="Python.rob">
+    <configuration name="isPowerOfThree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/isPowerOfThree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="isValid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,7 +294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="moveZeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,28 +306,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/moveZeroes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/strStr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/rob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,19 +337,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.moveZeroes" />
-      <item itemvalue="Python.strStr" />
       <item itemvalue="Python.isValid" />
       <item itemvalue="Python.majorityElement" />
       <item itemvalue="Python.trailingZeroes" />
+      <item itemvalue="Python.isPowerOfThree" />
+      <item itemvalue="Python.rob" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rob" />
+        <item itemvalue="Python.isPowerOfThree" />
         <item itemvalue="Python.trailingZeroes" />
         <item itemvalue="Python.majorityElement" />
         <item itemvalue="Python.isValid" />
-        <item itemvalue="Python.strStr" />
-        <item itemvalue="Python.moveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -368,20 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00022" summary="第一个只出现一次的字符">
-      <created>1551267888631</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1551267888631</updated>
-    </task>
-    <task id="LOCAL-00023" summary="有效的括号">
-      <created>1551270114085</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1551270114085</updated>
     </task>
     <task id="LOCAL-00024" summary="check ip是否合法">
       <created>1551493501618</created>
@@ -712,19 +693,32 @@
       <option name="project" value="LOCAL" />
       <updated>1568709859408</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="172.阶乘后的零">
+      <created>1568721419925</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1568721419926</updated>
+    </task>
+    <task id="LOCAL-00072" summary="326.3的幂">
+      <created>1568792711655</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1568792711655</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="23" width="1214" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="1749" y="261" width="1214" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2433121" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2433121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -739,8 +733,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长子串" />
-    <MESSAGE value="189.旋转数组" />
     <MESSAGE value="探索数组" />
     <MESSAGE value="两数之和" />
     <MESSAGE value="对撞指针" />
@@ -764,19 +756,11 @@
     <MESSAGE value="28.实现strStr()" />
     <MESSAGE value="20.有效的括号" />
     <MESSAGE value="169.求众数" />
-    <option name="LAST_COMMIT_MESSAGE" value="169.求众数" />
+    <MESSAGE value="172.阶乘后的零" />
+    <MESSAGE value="326.3的幂" />
+    <option name="LAST_COMMIT_MESSAGE" value="326.3的幂" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3225">
@@ -1055,13 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/reverseString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1097,10 +1074,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/int/isPowerOfThree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="187">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/reverseString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/rob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="60" selection-start-line="60" selection-end-line="69" selection-end-column="21" />
         </state>
       </provider>
     </entry>
