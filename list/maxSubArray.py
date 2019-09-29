@@ -26,6 +26,34 @@ class Solution(object):
                 sum=0
         return count
 
+    def maxsub(self,nums):
+        res = 0
+        maxnum = nums[0]
+        for i in range(len(nums)):
+            res += nums[i]
+            maxnum = max(maxnum,res)
+
+            if res < 0 :
+                res = 0
+        return maxnum
+
+    def maxsub3(self,nums):
+        '''
+        设sum[i]为以第i个元素结尾的最大的连续子数组的和
+        那么以第i个元素结尾且和最大的连续子数组实际上，
+        要么是以第i-1个元素结尾且和最大的连续子数组加上这个元素，要么是只包含第i个元素，即sum[i]= max(sum[i-1] + a[i], a[i])
+
+        :param nums:
+        :return:
+        '''
+        n = len(nums)
+        for i in range(1,n):
+            submax = max(nums[i],nums[i-1]+nums[i])
+            nums[i] = submax
+        return max(nums)
+
+
 if __name__=="__main__":
     s=Solution()
     print(s.maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+    print(s.maxsub([-2,1,4,6,-9,10]))
