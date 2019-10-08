@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="350. 两个数组的交集 II">
-      <change afterPath="$PROJECT_DIR$/review_answer/tentoeight.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="7.整数反转">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/int/isPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/int/isPalindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/review_answer/tentoeight.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/reverseint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -91,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/review_answer/pingip.py" />
-        <option value="$PROJECT_DIR$/reverseint.py" />
         <option value="$PROJECT_DIR$/countSegments.py" />
         <option value="$PROJECT_DIR$/detectCapitalUse.py" />
         <option value="$PROJECT_DIR$/romanToInt.py" />
@@ -142,12 +167,14 @@
         <option value="$PROJECT_DIR$/list/intersect.py" />
         <option value="$PROJECT_DIR$/list/missingnumber.py" />
         <option value="$PROJECT_DIR$/review_answer/tentoeight.py" />
+        <option value="$PROJECT_DIR$/int/reverseint.py" />
+        <option value="$PROJECT_DIR$/int/isPalindrome.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1813" />
-    <option name="y" value="132" />
+    <option name="x" value="1856" />
+    <option name="y" value="90" />
     <option name="width" value="1214" />
     <option name="height" value="877" />
   </component>
@@ -169,7 +196,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="review_answer" type="462c0819:PsiDirectoryNode" />
+              <item name="int" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tentoeight">
+  <component name="RunManager" selected="Python.reverseint">
     <configuration name="intersect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reverseint" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/rob.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/reverseint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,19 +337,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.rob" />
       <item itemvalue="Python.maxSubArray" />
       <item itemvalue="Python.intersect" />
       <item itemvalue="Python.missingnumber" />
       <item itemvalue="Python.tentoeight" />
+      <item itemvalue="Python.reverseint" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverseint" />
         <item itemvalue="Python.tentoeight" />
         <item itemvalue="Python.missingnumber" />
         <item itemvalue="Python.intersect" />
         <item itemvalue="Python.maxSubArray" />
-        <item itemvalue="Python.rob" />
       </list>
     </recent_temporary>
   </component>
@@ -336,20 +363,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00029" summary="字符串中的单词数">
-      <created>1551766569440</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1551766569440</updated>
-    </task>
-    <task id="LOCAL-00030" summary="最长的无重复的子串的长度">
-      <created>1551768955093</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1551768955093</updated>
     </task>
     <task id="LOCAL-00031" summary="冒泡排序">
       <created>1551768967890</created>
@@ -680,19 +693,33 @@
       <option name="project" value="LOCAL" />
       <updated>1569811662064</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="JD面试题，10进制转8进制">
+      <created>1570515692128</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1570515692129</updated>
+    </task>
+    <task id="LOCAL-00079" summary="7.整数反转">
+      <created>1570518100194</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1570518100194</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1813" y="132" width="1214" height="877" extended-state="0" />
+    <frame x="1856" y="90" width="1214" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22296731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2433121" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2433121" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -707,8 +734,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最长公共前缀" />
-    <MESSAGE value="new" />
     <MESSAGE value="217.存在重复元素" />
     <MESSAGE value="69.x的平方根" />
     <MESSAGE value="66.加一" />
@@ -732,7 +757,9 @@
     <MESSAGE value="53.最大子序和" />
     <MESSAGE value="268. 缺失数字" />
     <MESSAGE value="350. 两个数组的交集 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="350. 两个数组的交集 II" />
+    <MESSAGE value="JD面试题，10进制转8进制" />
+    <MESSAGE value="7.整数反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.整数反转" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/review_answer/MaxNumber.py">
@@ -765,13 +792,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/FirstNotRepeatingChar.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/string/isPalindrome_str.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -819,13 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -895,13 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/reverseint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1073,6 +1079,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/reverseint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
