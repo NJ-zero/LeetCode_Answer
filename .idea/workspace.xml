@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="58.最后一个单词的长度">
-      <change afterPath="$PROJECT_DIR$/string/addBinary.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="67.二进制求和">
+      <change afterPath="$PROJECT_DIR$/lianbiao/deleteDuplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/addBinary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="301">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/mySqrt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-314" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -64,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/repeatedSubstringPattern.py" />
         <option value="$PROJECT_DIR$/mostCommonWord.py" />
         <option value="$PROJECT_DIR$/mergelist.py" />
         <option value="$PROJECT_DIR$/rotate.py" />
@@ -115,12 +139,13 @@
         <option value="$PROJECT_DIR$/list/searchInsert.py" />
         <option value="$PROJECT_DIR$/string/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/string/addBinary.py" />
+        <option value="$PROJECT_DIR$/lianbiao/deleteDuplicates.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1870" />
-    <option name="y" value="86" />
+    <option name="x" value="2035" />
+    <option name="y" value="73" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -142,7 +167,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="lianbiao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,20 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00039" summary="最长子串">
-      <created>1552027026172</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1552027026172</updated>
-    </task>
-    <task id="LOCAL-00040" summary="最多删除一个字符否能成为回文字符串">
-      <created>1552109514970</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1552109514970</updated>
     </task>
     <task id="LOCAL-00041" summary="819. 最常见的单词">
       <created>1552120934526</created>
@@ -653,19 +664,33 @@
       <option name="project" value="LOCAL" />
       <updated>1570590911448</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="67.二进制求和">
+      <created>1570601412970</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1570601412970</updated>
+    </task>
+    <task id="LOCAL-00089" summary="67.二进制求和">
+      <created>1570601568308</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1570601568308</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1870" y="86" width="1205" height="962" extended-state="0" />
+    <frame x="2357" y="96" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16896552" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -680,7 +705,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.两数之和" />
     <MESSAGE value="387. First Unique Character in a String" />
     <MESSAGE value="217. 存在重复元素" />
     <MESSAGE value="344. 反转字符串" />
@@ -705,19 +729,10 @@
     <MESSAGE value="27.移除元素" />
     <MESSAGE value="35.搜索插入位置" />
     <MESSAGE value="58.最后一个单词的长度" />
-    <option name="LAST_COMMIT_MESSAGE" value="58.最后一个单词的长度" />
+    <MESSAGE value="67.二进制求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="67.二进制求和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="49" selection-start-line="49" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/FirstNotRepeatingChar.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/isPalindrome_str.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -795,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/mySqrt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1044,8 +1052,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/addBinary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="301">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/mySqrt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
