@@ -41,15 +41,13 @@ class Solution(object):
             sa[i]=int(a[i])
         for j in range(len(b)):
             sb[j]=int(b[j])
-        print(sa, sb)
+
         for i in range(l):
-            if sa[i]+sb[i]+s[i] < 2:
+            if sa[i]+sb[i]+s[i] < 2:         #关键在这边
                 s[i]=sa[i]+sb[i]+s[i]
-                print(1,s)
             else:
-                s[i]=(sa[i]+sb[i]+s[i])%2
+                s[i]=(sa[i]+sb[i]+s[i])%2     #这边也需要注意
                 s[i+1]=1
-                print(2,s)
 
         if s[-1]==0:
             res=s[:-1]
