@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="125. 验证回文串">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="167. 两数之和 II - 输入有序数组">
+      <change afterPath="$PROJECT_DIR$/other/generate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/singleNumber.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/singleNumber.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/twosum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-192">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/generate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="30" selection-start-line="30" selection-end-line="43" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -54,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/review_answer/move.py" />
         <option value="$PROJECT_DIR$/isPalindrome_str.py" />
         <option value="$PROJECT_DIR$/reverseVowels.py" />
         <option value="$PROJECT_DIR$/review_answer/MaxNumber.py" />
@@ -73,7 +100,6 @@
         <option value="$PROJECT_DIR$/twosum.py" />
         <option value="$PROJECT_DIR$/digui/climbStairs.py" />
         <option value="$PROJECT_DIR$/digui/fib.py" />
-        <option value="$PROJECT_DIR$/list/twosum.py" />
         <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
         <option value="$PROJECT_DIR$/string/reverseString.py" />
@@ -105,6 +131,8 @@
         <option value="$PROJECT_DIR$/other/maxProfitII.py" />
         <option value="$PROJECT_DIR$/string/isPalindrome_str.py" />
         <option value="$PROJECT_DIR$/singleNumber.py" />
+        <option value="$PROJECT_DIR$/list/twosum.py" />
+        <option value="$PROJECT_DIR$/other/generate.py" />
       </list>
     </option>
   </component>
@@ -129,6 +157,11 @@
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -143,8 +176,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/other" />
       <recent name="$PROJECT_DIR$/list" />
+      <recent name="$PROJECT_DIR$/other" />
       <recent name="$PROJECT_DIR$/string" />
       <recent name="$PROJECT_DIR$/int" />
     </key>
@@ -161,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.singleNumber">
+  <component name="RunManager" selected="Python.generate">
     <configuration name="addBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +208,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/addBinary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/generate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,27 +279,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="searchInsert" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/searchInsert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="singleNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,19 +301,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.searchInsert" />
       <item itemvalue="Python.addBinary" />
       <item itemvalue="Python.maxProfit" />
       <item itemvalue="Python.maxProfitII" />
       <item itemvalue="Python.singleNumber" />
+      <item itemvalue="Python.generate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate" />
         <item itemvalue="Python.singleNumber" />
         <item itemvalue="Python.maxProfitII" />
         <item itemvalue="Python.maxProfit" />
         <item itemvalue="Python.addBinary" />
-        <item itemvalue="Python.searchInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -294,20 +327,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00045" summary="189.旋转数组">
-      <created>1565272701118</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1565272701118</updated>
-    </task>
-    <task id="LOCAL-00046" summary="探索数组">
-      <created>1565349444938</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1565349444939</updated>
     </task>
     <task id="LOCAL-00047" summary="两数之和">
       <created>1565589929686</created>
@@ -638,18 +657,33 @@
       <option name="project" value="LOCAL" />
       <updated>1570614475396</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="136. 只出现一次的数字">
+      <created>1570620230100</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1570620230100</updated>
+    </task>
+    <task id="LOCAL-00095" summary="167. 两数之和 II - 输入有序数组">
+      <created>1570620636233</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1570620636233</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2014" y="116" width="1205" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16896552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -664,8 +698,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="283.移动零" />
-    <MESSAGE value="28.实现strStr()" />
     <MESSAGE value="20.有效的括号" />
     <MESSAGE value="169.求众数" />
     <MESSAGE value="172.阶乘后的零" />
@@ -689,16 +721,11 @@
     <MESSAGE value="121.买卖股票的最佳时机" />
     <MESSAGE value="122. 买卖股票的最佳时机 II" />
     <MESSAGE value="125. 验证回文串" />
-    <option name="LAST_COMMIT_MESSAGE" value="125. 验证回文串" />
+    <MESSAGE value="136. 只出现一次的数字" />
+    <MESSAGE value="167. 两数之和 II - 输入有序数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="167. 两数之和 II - 输入有序数组" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/countSegments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/detectCapitalUse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -761,13 +788,6 @@
     <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/twosum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/firstUniqChar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -814,13 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1028,10 +1041,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singleNumber.py">
+    <entry file="file://$PROJECT_DIR$/list/singleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/twosum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/generate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="30" selection-start-line="30" selection-end-line="43" selection-end-column="18" />
         </state>
       </provider>
     </entry>
