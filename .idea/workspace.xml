@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="83.删除排序链表中的重复元素">
-      <change afterPath="$PROJECT_DIR$/list/maxProfit.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="121.买卖股票的最佳时机">
+      <change afterPath="$PROJECT_DIR$/other/maxProfitII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/maxProfit.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/maxProfit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="40" selection-start-line="40" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/maxProfitII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -37,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mergelist.py" />
         <option value="$PROJECT_DIR$/rotate.py" />
         <option value="$PROJECT_DIR$/review_answer/move.py" />
         <option value="$PROJECT_DIR$/isPalindrome_str.py" />
@@ -88,12 +96,13 @@
         <option value="$PROJECT_DIR$/string/addBinary.py" />
         <option value="$PROJECT_DIR$/lianbiao/deleteDuplicates.py" />
         <option value="$PROJECT_DIR$/list/maxProfit.py" />
+        <option value="$PROJECT_DIR$/other/maxProfitII.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1866" />
-    <option name="y" value="55" />
+    <option name="x" value="2014" />
+    <option name="y" value="116" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -115,7 +124,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,8 +140,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/other" />
+      <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/string" />
       <recent name="$PROJECT_DIR$/int" />
     </key>
@@ -149,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.maxProfit">
+  <component name="RunManager" selected="Python.maxProfitII">
     <configuration name="addBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverseint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maxProfitII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,11 +209,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/reverseint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/maxProfitII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,19 +265,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.reverseint" />
       <item itemvalue="Python.romanToInt" />
       <item itemvalue="Python.searchInsert" />
       <item itemvalue="Python.addBinary" />
       <item itemvalue="Python.maxProfit" />
+      <item itemvalue="Python.maxProfitII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maxProfitII" />
         <item itemvalue="Python.maxProfit" />
         <item itemvalue="Python.addBinary" />
         <item itemvalue="Python.searchInsert" />
         <item itemvalue="Python.romanToInt" />
-        <item itemvalue="Python.reverseint" />
       </list>
     </recent_temporary>
   </component>
@@ -282,13 +291,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00042" summary="88.合并两个有序数组">
-      <created>1565263323010</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1565263323010</updated>
     </task>
     <task id="LOCAL-00043" summary="66.加一">
       <created>1565268026366</created>
@@ -626,19 +628,26 @@
       <option name="project" value="LOCAL" />
       <updated>1570602629873</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="121.买卖股票的最佳时机">
+      <created>1570604568124</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1570604568124</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1866" y="55" width="1205" height="962" extended-state="0" />
+    <frame x="1817" y="91" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16896552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3221709" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,7 +662,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="217. 存在重复元素" />
     <MESSAGE value="344. 反转字符串" />
     <MESSAGE value="136.只出现一次的数字" />
     <MESSAGE value="283.移动零" />
@@ -678,16 +686,10 @@
     <MESSAGE value="58.最后一个单词的长度" />
     <MESSAGE value="67.二进制求和" />
     <MESSAGE value="83.删除排序链表中的重复元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="83.删除排序链表中的重复元素" />
+    <MESSAGE value="121.买卖股票的最佳时机" />
+    <option name="LAST_COMMIT_MESSAGE" value="121.买卖股票的最佳时机" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/mergelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/containsNearbyDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1017,10 +1019,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/maxProfit.py">
+    <entry file="file://$PROJECT_DIR$/other/maxProfit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="40" selection-start-line="40" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="259">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/maxProfitII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
