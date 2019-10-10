@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="448.找到所有数组中消失的数字">
-      <change afterPath="$PROJECT_DIR$/list/findMaxConsecutiveOnes.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="485. 最大连续1的个数">
+      <change afterPath="$PROJECT_DIR$/list/findPairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,49 +14,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/containsNearbyDuplicate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/thirdMax.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="61" column="37" lean-forward="true" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/findDisappearedNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="61" column="54" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digui/fib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list/findMaxConsecutiveOnes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -65,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/findPairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="257">
+              <caret line="38" selection-start-line="38" selection-end-line="56" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -89,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/removeelements.py" />
         <option value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/checkInclusion.py" />
         <option value="$PROJECT_DIR$/reverseWords.py" />
@@ -140,12 +96,13 @@
         <option value="$PROJECT_DIR$/list/thirdMax.py" />
         <option value="$PROJECT_DIR$/list/findDisappearedNumbers.py" />
         <option value="$PROJECT_DIR$/list/findMaxConsecutiveOnes.py" />
+        <option value="$PROJECT_DIR$/list/findPairs.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1726" />
-    <option name="y" value="36" />
+    <option name="x" value="2042" />
+    <option name="y" value="23" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -201,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findMaxConsecutiveOnes">
+  <component name="RunManager" selected="Python.findPairs">
     <configuration name="containsNearbyDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="findPairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,11 +230,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/generate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findPairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -331,18 +288,18 @@
     <list>
       <item itemvalue="Python.thirdMax" />
       <item itemvalue="Python.containsNearbyDuplicate" />
-      <item itemvalue="Python.generate" />
       <item itemvalue="Python.getRows" />
       <item itemvalue="Python.findDisappearedNumbers" />
       <item itemvalue="Python.findMaxConsecutiveOnes" />
+      <item itemvalue="Python.findPairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findPairs" />
         <item itemvalue="Python.findMaxConsecutiveOnes" />
         <item itemvalue="Python.findDisappearedNumbers" />
         <item itemvalue="Python.containsNearbyDuplicate" />
         <item itemvalue="Python.getRows" />
-        <item itemvalue="Python.generate" />
       </list>
     </recent_temporary>
   </component>
@@ -356,13 +313,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00052" summary="new">
-      <created>1566818913379</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1566818913381</updated>
     </task>
     <task id="LOCAL-00053" summary="217.存在重复元素">
       <created>1567838343832</created>
@@ -700,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570692924955</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="485. 最大连续1的个数">
+      <created>1570693601167</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1570693601167</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1726" y="36" width="1205" height="962" extended-state="0" />
+    <frame x="2042" y="23" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
@@ -727,7 +684,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="26. 删除排序数组中的重复项" />
     <MESSAGE value="53.最大子序和" />
     <MESSAGE value="268. 缺失数字" />
     <MESSAGE value="350. 两个数组的交集 II" />
@@ -752,16 +708,10 @@
     <MESSAGE value="219.存在重复元素II" />
     <MESSAGE value="414.第三大的数" />
     <MESSAGE value="448.找到所有数组中消失的数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="448.找到所有数组中消失的数字" />
+    <MESSAGE value="485. 最大连续1的个数" />
+    <option name="LAST_COMMIT_MESSAGE" value="485. 最大连续1的个数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/minSubArrayLen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1097,6 +1047,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="39" selection-start-line="39" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findPairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="38" selection-start-line="38" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
