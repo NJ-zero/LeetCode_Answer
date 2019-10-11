@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="532. 数组中的K-diff数对">
-      <change afterPath="$PROJECT_DIR$/list/arrayPairSum.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="561.数组拆分 I">
+      <change afterPath="$PROJECT_DIR$/list/matrixReshape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/arrayPairSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/matrixReshape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -64,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/checkInclusion.py" />
         <option value="$PROJECT_DIR$/reverseWords.py" />
         <option value="$PROJECT_DIR$/simplifyPath.py" />
         <option value="$PROJECT_DIR$/search.py" />
@@ -115,6 +123,7 @@
         <option value="$PROJECT_DIR$/list/findMaxConsecutiveOnes.py" />
         <option value="$PROJECT_DIR$/list/findPairs.py" />
         <option value="$PROJECT_DIR$/list/arrayPairSum.py" />
+        <option value="$PROJECT_DIR$/list/matrixReshape.py" />
       </list>
     </option>
   </component>
@@ -176,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.arrayPairSum">
+  <component name="RunManager" selected="Python.matrixReshape">
     <configuration name="arrayPairSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,27 +199,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/arrayPairSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="containsNearbyDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/containsNearbyDuplicate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,6 +270,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="matrixReshape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/matrixReshape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,19 +314,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.containsNearbyDuplicate" />
       <item itemvalue="Python.findDisappearedNumbers" />
       <item itemvalue="Python.findMaxConsecutiveOnes" />
       <item itemvalue="Python.findPairs" />
       <item itemvalue="Python.arrayPairSum" />
+      <item itemvalue="Python.matrixReshape" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.matrixReshape" />
         <item itemvalue="Python.arrayPairSum" />
         <item itemvalue="Python.findPairs" />
         <item itemvalue="Python.findMaxConsecutiveOnes" />
         <item itemvalue="Python.findDisappearedNumbers" />
-        <item itemvalue="Python.containsNearbyDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -331,13 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00054" summary="69.x的平方根">
-      <created>1567840237066</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1567840237067</updated>
     </task>
     <task id="LOCAL-00055" summary="66.加一">
       <created>1568618007843</created>
@@ -675,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570699897047</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="561.数组拆分 I">
+      <created>1570762859914</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1570762859914</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -702,7 +711,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="268. 缺失数字" />
     <MESSAGE value="350. 两个数组的交集 II" />
     <MESSAGE value="JD面试题，10进制转8进制" />
     <MESSAGE value="7.整数反转" />
@@ -727,16 +735,10 @@
     <MESSAGE value="448.找到所有数组中消失的数字" />
     <MESSAGE value="485. 最大连续1的个数" />
     <MESSAGE value="532. 数组中的K-diff数对" />
-    <option name="LAST_COMMIT_MESSAGE" value="532. 数组中的K-diff数对" />
+    <MESSAGE value="561.数组拆分 I" />
+    <option name="LAST_COMMIT_MESSAGE" value="561.数组拆分 I" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mostCommonWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1072,6 +1074,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/matrixReshape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
