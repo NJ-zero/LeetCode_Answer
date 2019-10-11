@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="485. 最大连续1的个数">
-      <change afterPath="$PROJECT_DIR$/list/findPairs.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="532. 数组中的K-diff数对">
+      <change afterPath="$PROJECT_DIR$/list/arrayPairSum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/findPairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="38" selection-start-line="38" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="227">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/arrayPairSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="3674" column="8" selection-start-line="3674" selection-start-column="8" selection-end-line="3674" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -46,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/checkInclusion.py" />
         <option value="$PROJECT_DIR$/reverseWords.py" />
         <option value="$PROJECT_DIR$/simplifyPath.py" />
@@ -97,12 +114,13 @@
         <option value="$PROJECT_DIR$/list/findDisappearedNumbers.py" />
         <option value="$PROJECT_DIR$/list/findMaxConsecutiveOnes.py" />
         <option value="$PROJECT_DIR$/list/findPairs.py" />
+        <option value="$PROJECT_DIR$/list/arrayPairSum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2042" />
-    <option name="y" value="23" />
+    <option name="x" value="1972" />
+    <option name="y" value="62" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -158,7 +176,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findPairs">
+  <component name="RunManager" selected="Python.arrayPairSum">
+    <configuration name="arrayPairSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/arrayPairSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="containsNearbyDuplicate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,27 +282,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="getRows" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/getRows.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,18 +306,18 @@
     <list>
       <item itemvalue="Python.thirdMax" />
       <item itemvalue="Python.containsNearbyDuplicate" />
-      <item itemvalue="Python.getRows" />
       <item itemvalue="Python.findDisappearedNumbers" />
       <item itemvalue="Python.findMaxConsecutiveOnes" />
       <item itemvalue="Python.findPairs" />
+      <item itemvalue="Python.arrayPairSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arrayPairSum" />
         <item itemvalue="Python.findPairs" />
         <item itemvalue="Python.findMaxConsecutiveOnes" />
         <item itemvalue="Python.findDisappearedNumbers" />
         <item itemvalue="Python.containsNearbyDuplicate" />
-        <item itemvalue="Python.getRows" />
       </list>
     </recent_temporary>
   </component>
@@ -313,13 +331,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00053" summary="217.存在重复元素">
-      <created>1567838343832</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1567838343832</updated>
     </task>
     <task id="LOCAL-00054" summary="69.x的平方根">
       <created>1567840237066</created>
@@ -657,11 +668,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570693601167</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="532. 数组中的K-diff数对">
+      <created>1570699897046</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1570699897047</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2042" y="23" width="1205" height="962" extended-state="0" />
+    <frame x="1972" y="62" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
@@ -684,7 +702,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="53.最大子序和" />
     <MESSAGE value="268. 缺失数字" />
     <MESSAGE value="350. 两个数组的交集 II" />
     <MESSAGE value="JD面试题，10进制转8进制" />
@@ -709,16 +726,10 @@
     <MESSAGE value="414.第三大的数" />
     <MESSAGE value="448.找到所有数组中消失的数字" />
     <MESSAGE value="485. 最大连续1的个数" />
-    <option name="LAST_COMMIT_MESSAGE" value="485. 最大连续1的个数" />
+    <MESSAGE value="532. 数组中的K-diff数对" />
+    <option name="LAST_COMMIT_MESSAGE" value="532. 数组中的K-diff数对" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mostCommonWord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -796,13 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="139" column="4" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1052,8 +1056,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/findPairs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="38" selection-start-line="38" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="227">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="3674" column="8" selection-start-line="3674" selection-start-column="8" selection-end-line="3674" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/arrayPairSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
