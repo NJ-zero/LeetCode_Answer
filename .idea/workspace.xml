@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="581.最短无序连续子数组">
-      <change afterPath="$PROJECT_DIR$/list/canPlaceFlowers.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="628. 三个数的最大乘积">
+      <change afterPath="$PROJECT_DIR$/list/findMaxAverage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/canPlaceFlowers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="545">
               <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/findMaxAverage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -37,8 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/search.py" />
-        <option value="$PROJECT_DIR$/containsDuplicate.py" />
         <option value="$PROJECT_DIR$/mySqrt.py" />
         <option value="$PROJECT_DIR$/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/pulsOne.py" />
@@ -88,12 +104,14 @@
         <option value="$PROJECT_DIR$/list/matrixReshape.py" />
         <option value="$PROJECT_DIR$/list/findUnsortedSubarray.py" />
         <option value="$PROJECT_DIR$/list/canPlaceFlowers.py" />
+        <option value="$PROJECT_DIR$/list/maximumProduct.py" />
+        <option value="$PROJECT_DIR$/list/findMaxAverage.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1974" />
-    <option name="y" value="72" />
+    <option name="x" value="2020" />
+    <option name="y" value="39" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -149,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.canPlaceFlowers">
+  <component name="RunManager" selected="Python.findMaxAverage">
     <configuration name="arrayPairSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findPairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="findMaxAverage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,7 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findPairs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findMaxAverage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,19 +296,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.findPairs" />
       <item itemvalue="Python.arrayPairSum" />
       <item itemvalue="Python.matrixReshape" />
       <item itemvalue="Python.findUnsortedSubarray" />
       <item itemvalue="Python.canPlaceFlowers" />
+      <item itemvalue="Python.findMaxAverage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findMaxAverage" />
         <item itemvalue="Python.canPlaceFlowers" />
         <item itemvalue="Python.findUnsortedSubarray" />
         <item itemvalue="Python.matrixReshape" />
         <item itemvalue="Python.arrayPairSum" />
-        <item itemvalue="Python.findPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -304,20 +322,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00057" summary="70.爬楼梯">
-      <created>1568623999171</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1568623999171</updated>
-    </task>
-    <task id="LOCAL-00058" summary="509. 斐波那契数">
-      <created>1568624914011</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1568624914011</updated>
     </task>
     <task id="LOCAL-00059" summary="move">
       <created>1568625564152</created>
@@ -648,11 +652,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570847808744</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="605.种花问题">
+      <created>1570870541707</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1570870541707</updated>
+    </task>
+    <task id="LOCAL-00107" summary="628. 三个数的最大乘积">
+      <created>1570870946393</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1570870946393</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="72" width="1205" height="962" extended-state="0" />
+    <frame x="2020" y="39" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
@@ -675,8 +693,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7.整数反转" />
-    <MESSAGE value="9.回文数" />
     <MESSAGE value="13.罗马数字抓整数" />
     <MESSAGE value="14.最长公共前缀" />
     <MESSAGE value="21.合并两个有序链表" />
@@ -700,23 +716,11 @@
     <MESSAGE value="561.数组拆分 I" />
     <MESSAGE value="566.重塑矩阵" />
     <MESSAGE value="581.最短无序连续子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="581.最短无序连续子数组" />
+    <MESSAGE value="605.种花问题" />
+    <MESSAGE value="628. 三个数的最大乘积" />
+    <option name="LAST_COMMIT_MESSAGE" value="628. 三个数的最大乘积" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/int/isPowerOfThree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/reverseString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/isValid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1047,8 +1051,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/canPlaceFlowers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="545">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findMaxAverage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
