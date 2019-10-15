@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="665. 非递减数列">
-      <change afterPath="$PROJECT_DIR$/list/findLengthOfLCIS.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="674.最长连续递增序列">
+      <change afterPath="$PROJECT_DIR$/list/697.数组的度.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="28" selection-start-line="28" selection-end-line="41" selection-end-column="18" />
+            <state relative-caret-position="403">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/697.数组的度.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="31" selection-start-line="31" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/twosum.py" />
         <option value="$PROJECT_DIR$/digui/climbStairs.py" />
         <option value="$PROJECT_DIR$/digui/fib.py" />
         <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
@@ -133,6 +141,7 @@
         <option value="$PROJECT_DIR$/list/imageSmoother.py" />
         <option value="$PROJECT_DIR$/list/checkPossibility.py" />
         <option value="$PROJECT_DIR$/list/findLengthOfLCIS.py" />
+        <option value="$PROJECT_DIR$/list/697.数组的度.py" />
       </list>
     </option>
   </component>
@@ -194,8 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findLengthOfLCIS">
-    <configuration name="canPlaceFlowers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.697.数组的度">
+    <configuration name="697.数组的度" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/canPlaceFlowers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/697.数组的度.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.canPlaceFlowers" />
       <item itemvalue="Python.findMaxAverage" />
       <item itemvalue="Python.imageSmoother" />
       <item itemvalue="Python.checkPossibility" />
       <item itemvalue="Python.findLengthOfLCIS" />
+      <item itemvalue="Python.697.数组的度" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.697.数组的度" />
         <item itemvalue="Python.findLengthOfLCIS" />
         <item itemvalue="Python.checkPossibility" />
         <item itemvalue="Python.imageSmoother" />
         <item itemvalue="Python.findMaxAverage" />
-        <item itemvalue="Python.canPlaceFlowers" />
       </list>
     </recent_temporary>
   </component>
@@ -349,13 +358,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00062" summary="387. First Unique Character in a String">
-      <created>1568632986559</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1568632986559</updated>
     </task>
     <task id="LOCAL-00063" summary="217. 存在重复元素">
       <created>1568633233179</created>
@@ -693,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571120887324</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="674.最长连续递增序列">
+      <created>1571122810851</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1571122810852</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -720,7 +729,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="27.移除元素" />
     <MESSAGE value="35.搜索插入位置" />
     <MESSAGE value="58.最后一个单词的长度" />
     <MESSAGE value="67.二进制求和" />
@@ -745,16 +753,10 @@
     <MESSAGE value="643. 子数组最大平均数 I" />
     <MESSAGE value="661. 图片平滑器" />
     <MESSAGE value="665. 非递减数列" />
-    <option name="LAST_COMMIT_MESSAGE" value="665. 非递减数列" />
+    <MESSAGE value="674.最长连续递增序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="674.最长连续递增序列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paixu/bubblesort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/missingnumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1092,8 +1094,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="28" selection-start-line="28" selection-end-line="41" selection-end-column="18" />
+        <state relative-caret-position="403">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/697.数组的度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="31" selection-start-line="31" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>
