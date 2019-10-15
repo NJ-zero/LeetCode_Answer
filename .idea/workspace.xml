@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="697. 数组的度">
-      <change afterPath="$PROJECT_DIR$/list/hasGroupsSizeX.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="914.卡牌分组">
+      <change afterPath="$PROJECT_DIR$/list/maxDistToClosest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,65 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/canPlaceFlowers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/findMaxAverage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/imageSmoother.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/checkPossibility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/hasGroupsSizeX.py">
+        <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="42" selection-start-line="42" selection-end-line="59" selection-end-column="22" />
+            <state relative-caret-position="329">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -91,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/digui/fib.py" />
         <option value="$PROJECT_DIR$/string/firstUniqChar.py" />
         <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
         <option value="$PROJECT_DIR$/string/reverseString.py" />
@@ -142,12 +87,13 @@
         <option value="$PROJECT_DIR$/list/findLengthOfLCIS.py" />
         <option value="$PROJECT_DIR$/list/697.数组的度.py" />
         <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
+        <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1970" />
-    <option name="y" value="46" />
+    <option name="x" value="1905" />
+    <option name="y" value="72" />
     <option name="width" value="1205" />
     <option name="height" value="962" />
   </component>
@@ -203,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hasGroupsSizeX">
+  <component name="RunManager" selected="Python.maxDistToClosest">
     <configuration name="697.数组的度" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="imageSmoother" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maxDistToClosest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +246,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/imageSmoother.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/maxDistToClosest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +278,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.imageSmoother" />
       <item itemvalue="Python.checkPossibility" />
       <item itemvalue="Python.findLengthOfLCIS" />
       <item itemvalue="Python.697.数组的度" />
       <item itemvalue="Python.hasGroupsSizeX" />
+      <item itemvalue="Python.maxDistToClosest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maxDistToClosest" />
         <item itemvalue="Python.hasGroupsSizeX" />
         <item itemvalue="Python.697.数组的度" />
         <item itemvalue="Python.findLengthOfLCIS" />
         <item itemvalue="Python.checkPossibility" />
-        <item itemvalue="Python.imageSmoother" />
       </list>
     </recent_temporary>
   </component>
@@ -358,13 +304,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00064" summary="344. 反转字符串">
-      <created>1568634670141</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1568634670141</updated>
     </task>
     <task id="LOCAL-00065" summary="136.只出现一次的数字">
       <created>1568635142234</created>
@@ -702,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571124098837</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="914.卡牌分组">
+      <created>1571128158047</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1571128158048</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2134" y="46" width="1205" height="962" extended-state="0" />
+    <frame x="1905" y="72" width="1205" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22466215" />
@@ -729,7 +675,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="58.最后一个单词的长度" />
     <MESSAGE value="67.二进制求和" />
     <MESSAGE value="83.删除排序链表中的重复元素" />
     <MESSAGE value="121.买卖股票的最佳时机" />
@@ -754,16 +699,10 @@
     <MESSAGE value="665. 非递减数列" />
     <MESSAGE value="674.最长连续递增序列" />
     <MESSAGE value="697. 数组的度" />
-    <option name="LAST_COMMIT_MESSAGE" value="697. 数组的度" />
+    <MESSAGE value="914.卡牌分组" />
+    <option name="LAST_COMMIT_MESSAGE" value="914.卡牌分组" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/missingNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/intersect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1101,8 +1040,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/hasGroupsSizeX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="42" selection-start-line="42" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="437">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
