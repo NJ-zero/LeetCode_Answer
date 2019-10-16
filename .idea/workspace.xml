@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="849. 到最近的人的最大距离">
-      <change afterPath="$PROJECT_DIR$/list/isOneBitCharacter.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="742.寻找数组的中心索引">
+      <change afterPath="$PROJECT_DIR$/digui/minCostClimbingStairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,21 +13,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/digui/minCostClimbingStairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="283">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/isOneBitCharacter.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-            </state>
+            <state relative-caret-position="-47" />
           </provider>
         </entry>
       </file>
@@ -46,9 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/containsDuplicate.py" />
-        <option value="$PROJECT_DIR$/string/reverseString.py" />
-        <option value="$PROJECT_DIR$/list/moveZeroes.py" />
         <option value="$PROJECT_DIR$/strStr.py" />
         <option value="$PROJECT_DIR$/other/isValid.py" />
         <option value="$PROJECT_DIR$/list/majorityElement.py" />
@@ -97,12 +92,15 @@
         <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
         <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
         <option value="$PROJECT_DIR$/list/isOneBitCharacter.py" />
+        <option value="$PROJECT_DIR$/list/pivotIndex.py" />
+        <option value="$PROJECT_DIR$/list/minCostClimbingStairs.py" />
+        <option value="$PROJECT_DIR$/digui/minCostClimbingStairs.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1826" />
-    <option name="y" value="52" />
+    <option name="x" value="2105" />
+    <option name="y" value="88" />
     <option name="width" value="1030" />
     <option name="height" value="972" />
   </component>
@@ -124,7 +122,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,6 +138,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/digui" />
       <recent name="$PROJECT_DIR$/list" />
       <recent name="$PROJECT_DIR$/other" />
       <recent name="$PROJECT_DIR$/string" />
@@ -158,49 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isOneBitCharacter">
-    <configuration name="697.数组的度" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/697.数组的度.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="findLengthOfLCIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findLengthOfLCIS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.minCostClimbingStairs">
     <configuration name="hasGroupsSizeX" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,6 +221,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="minCostClimbingStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/minCostClimbingStairs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pivotIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/pivotIndex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,19 +286,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.findLengthOfLCIS" />
-      <item itemvalue="Python.697.数组的度" />
       <item itemvalue="Python.hasGroupsSizeX" />
       <item itemvalue="Python.maxDistToClosest" />
       <item itemvalue="Python.isOneBitCharacter" />
+      <item itemvalue="Python.pivotIndex" />
+      <item itemvalue="Python.minCostClimbingStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minCostClimbingStairs" />
+        <item itemvalue="Python.pivotIndex" />
         <item itemvalue="Python.isOneBitCharacter" />
         <item itemvalue="Python.maxDistToClosest" />
         <item itemvalue="Python.hasGroupsSizeX" />
-        <item itemvalue="Python.697.数组的度" />
-        <item itemvalue="Python.findLengthOfLCIS" />
       </list>
     </recent_temporary>
   </component>
@@ -313,20 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00066" summary="283.移动零">
-      <created>1568704164381</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1568704164382</updated>
-    </task>
-    <task id="LOCAL-00067" summary="28.实现strStr()">
-      <created>1568704188361</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1568704188361</updated>
     </task>
     <task id="LOCAL-00068" summary="28.实现strStr()">
       <created>1568704199299</created>
@@ -657,20 +642,34 @@
       <option name="project" value="LOCAL" />
       <updated>1571140395547</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="717. 1比特与2比特字符">
+      <created>1571196876200</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1571196876200</updated>
+    </task>
+    <task id="LOCAL-00116" summary="742.寻找数组的中心索引">
+      <created>1571205675337</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1571205675337</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1826" y="52" width="1030" height="972" extended-state="0" />
+    <frame x="2105" y="88" width="1030" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26362735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26362735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16704546" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3218391" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16704546" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3215909" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -684,8 +683,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="83.删除排序链表中的重复元素" />
-    <MESSAGE value="121.买卖股票的最佳时机" />
     <MESSAGE value="122. 买卖股票的最佳时机 II" />
     <MESSAGE value="125. 验证回文串" />
     <MESSAGE value="136. 只出现一次的数字" />
@@ -709,23 +706,11 @@
     <MESSAGE value="697. 数组的度" />
     <MESSAGE value="914.卡牌分组" />
     <MESSAGE value="849. 到最近的人的最大距离" />
-    <option name="LAST_COMMIT_MESSAGE" value="849. 到最近的人的最大距离" />
+    <MESSAGE value="717. 1比特与2比特字符" />
+    <MESSAGE value="742.寻找数组的中心索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="742.寻找数组的中心索引" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/review_answer/tentoeight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/reverseint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -808,11 +793,6 @@
         <state relative-caret-position="436">
           <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
@@ -1047,6 +1027,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/isOneBitCharacter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/pivotIndex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -1054,10 +1048,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/isOneBitCharacter.py">
+    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="-47" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/minCostClimbingStairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
