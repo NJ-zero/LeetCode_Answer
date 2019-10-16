@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="746. 使用最小花费爬楼梯">
-      <change afterPath="$PROJECT_DIR$/list/dominantIndex.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="434.字符串中的单词数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/validPalindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +22,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/dominantIndex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="15" selection-start-line="19" selection-end-line="20" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/countSegments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -53,8 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/other/isValid.py" />
-        <option value="$PROJECT_DIR$/list/majorityElement.py" />
         <option value="$PROJECT_DIR$/int/trailingZeroes.py" />
         <option value="$PROJECT_DIR$/int/isPowerOfThree.py" />
         <option value="$PROJECT_DIR$/list/rob.py" />
@@ -104,12 +120,14 @@
         <option value="$PROJECT_DIR$/list/minCostClimbingStairs.py" />
         <option value="$PROJECT_DIR$/digui/minCostClimbingStairs.py" />
         <option value="$PROJECT_DIR$/list/dominantIndex.py" />
+        <option value="$PROJECT_DIR$/string/countSegments.py" />
+        <option value="$PROJECT_DIR$/validPalindrome.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2208" />
-    <option name="y" value="78" />
+    <option name="x" value="1860" />
+    <option name="y" value="42" />
     <option name="width" value="1150" />
     <option name="height" value="976" />
   </component>
@@ -131,7 +149,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,20 +339,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00069" summary="20.有效的括号">
-      <created>1568708240692</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1568708240692</updated>
-    </task>
-    <task id="LOCAL-00070" summary="169.求众数">
-      <created>1568709859407</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1568709859408</updated>
     </task>
     <task id="LOCAL-00071" summary="172.阶乘后的零">
       <created>1568721419925</created>
@@ -665,19 +669,33 @@
       <option name="project" value="LOCAL" />
       <updated>1571210158682</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="747.至少是其他数字两倍的最大数">
+      <created>1571211140570</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1571211140570</updated>
+    </task>
+    <task id="LOCAL-00119" summary="434.字符串中的单词数">
+      <created>1571212337499</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1571212337499</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2208" y="78" width="1150" height="976" extended-state="0" />
+    <frame x="2405" y="27" width="1150" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23560673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1662896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1662896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3215909" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,8 +710,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="125. 验证回文串" />
-    <MESSAGE value="136. 只出现一次的数字" />
     <MESSAGE value="167. 两数之和 II - 输入有序数组" />
     <MESSAGE value="118. 杨辉三角" />
     <MESSAGE value="119.杨辉三角II" />
@@ -717,16 +733,11 @@
     <MESSAGE value="717. 1比特与2比特字符" />
     <MESSAGE value="742.寻找数组的中心索引" />
     <MESSAGE value="746. 使用最小花费爬楼梯" />
-    <option name="LAST_COMMIT_MESSAGE" value="746. 使用最小花费爬楼梯" />
+    <MESSAGE value="747.至少是其他数字两倍的最大数" />
+    <MESSAGE value="434.字符串中的单词数" />
+    <option name="LAST_COMMIT_MESSAGE" value="434.字符串中的单词数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/romanToInt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="51" selection-start-line="51" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -831,9 +842,6 @@
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/string/isPalindrome_str.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1064,8 +1072,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/dominantIndex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" selection-start-line="19" selection-end-line="20" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/countSegments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>
