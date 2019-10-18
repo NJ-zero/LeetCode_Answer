@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="917.仅仅反转字母">
-      <change afterPath="$PROJECT_DIR$/string/canConstruct.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="383.赎金信">
+      <change afterPath="$PROJECT_DIR$/string/compress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/canConstruct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="450">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/compress.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -64,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/rob.py" />
         <option value="$PROJECT_DIR$/list/removeduplicates.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/list/maxSubArray.py" />
@@ -115,13 +123,14 @@
         <option value="$PROJECT_DIR$/validPalindrome.py" />
         <option value="$PROJECT_DIR$/string/reverseOnlyLetters.py" />
         <option value="$PROJECT_DIR$/string/canConstruct.py" />
+        <option value="$PROJECT_DIR$/string/compress.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1816" />
-    <option name="y" value="96" />
-    <option name="width" value="1150" />
+    <option name="x" value="1775" />
+    <option name="y" value="354" />
+    <option name="width" value="1254" />
     <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -177,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.canConstruct">
+  <component name="RunManager" selected="Python.compress">
     <configuration name="canConstruct" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +200,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/canConstruct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/compress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,27 +263,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/minCostClimbingStairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pivotIndex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/pivotIndex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,19 +315,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.pivotIndex" />
       <item itemvalue="Python.minCostClimbingStairs" />
       <item itemvalue="Python.dominantIndex" />
       <item itemvalue="Python.reverseOnlyLetters" />
       <item itemvalue="Python.canConstruct" />
+      <item itemvalue="Python.compress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compress" />
         <item itemvalue="Python.canConstruct" />
         <item itemvalue="Python.reverseOnlyLetters" />
         <item itemvalue="Python.dominantIndex" />
         <item itemvalue="Python.minCostClimbingStairs" />
-        <item itemvalue="Python.pivotIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -332,13 +341,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00073" summary="198.打家劫舍">
-      <created>1568797650890</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1568797650891</updated>
     </task>
     <task id="LOCAL-00074" summary="26. 删除排序数组中的重复项">
       <created>1569742352833</created>
@@ -676,14 +678,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571300713637</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="383.赎金信">
+      <created>1571302202130</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1571302202130</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1816" y="96" width="1150" height="976" extended-state="0" />
+    <frame x="1775" y="354" width="1254" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23560673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21573398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -703,7 +712,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="119.杨辉三角II" />
     <MESSAGE value="219.存在重复元素II" />
     <MESSAGE value="414.第三大的数" />
     <MESSAGE value="448.找到所有数组中消失的数字" />
@@ -728,16 +736,10 @@
     <MESSAGE value="434.字符串中的单词数" />
     <MESSAGE value="680. 验证回文字符串 Ⅱ" />
     <MESSAGE value="917.仅仅反转字母" />
-    <option name="LAST_COMMIT_MESSAGE" value="917.仅仅反转字母" />
+    <MESSAGE value="383.赎金信" />
+    <option name="LAST_COMMIT_MESSAGE" value="383.赎金信" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/removeelements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/strStr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1073,8 +1075,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/canConstruct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/compress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
         </state>
       </provider>
     </entry>
