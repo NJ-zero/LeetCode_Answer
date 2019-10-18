@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="443.压缩字符串">
-      <change afterPath="$PROJECT_DIR$/string/repeatedSubstringPattern.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="520. 检测大写字母">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,13 +48,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/detectCapitalUse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/findLUSlength.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -82,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/list/maxSubArray.py" />
         <option value="$PROJECT_DIR$/paixu/bubblesort.py" />
         <option value="$PROJECT_DIR$/list/intersect.py" />
         <option value="$PROJECT_DIR$/list/missingnumber.py" />
@@ -133,6 +135,8 @@
         <option value="$PROJECT_DIR$/string/canConstruct.py" />
         <option value="$PROJECT_DIR$/string/compress.py" />
         <option value="$PROJECT_DIR$/string/repeatedSubstringPattern.py" />
+        <option value="$PROJECT_DIR$/string/detectCapitalUse.py" />
+        <option value="$PROJECT_DIR$/string/findLUSlength.py" />
       </list>
     </option>
   </component>
@@ -350,20 +354,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00075" summary="53.最大子序和">
-      <created>1569749201163</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1569749201163</updated>
-    </task>
-    <task id="LOCAL-00076" summary="268. 缺失数字">
-      <created>1569811615585</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1569811615585</updated>
     </task>
     <task id="LOCAL-00077" summary="350. 两个数组的交集 II">
       <created>1569811662064</created>
@@ -694,19 +684,33 @@
       <option name="project" value="LOCAL" />
       <updated>1571387960872</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="459.重复的子字符串">
+      <created>1571395878750</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1571395878750</updated>
+    </task>
+    <task id="LOCAL-00125" summary="520. 检测大写字母">
+      <created>1571396114954</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1571396114954</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1907" y="72" width="1254" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21573398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21573398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1662896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1662896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3215909" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,8 +725,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="414.第三大的数" />
-    <MESSAGE value="448.找到所有数组中消失的数字" />
     <MESSAGE value="485. 最大连续1的个数" />
     <MESSAGE value="532. 数组中的K-diff数对" />
     <MESSAGE value="561.数组拆分 I" />
@@ -746,23 +748,11 @@
     <MESSAGE value="917.仅仅反转字母" />
     <MESSAGE value="383.赎金信" />
     <MESSAGE value="443.压缩字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="443.压缩字符串" />
+    <MESSAGE value="459.重复的子字符串" />
+    <MESSAGE value="520. 检测大写字母" />
+    <option name="LAST_COMMIT_MESSAGE" value="520. 检测大写字母" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLastWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/addBinary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -1075,6 +1065,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/string/compress.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1082,15 +1082,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
+    <entry file="file://$PROJECT_DIR$/string/detectCapitalUse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/findLUSlength.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
