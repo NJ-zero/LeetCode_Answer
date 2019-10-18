@@ -10,6 +10,10 @@
 如果单词不只含有一个字母，只有首字母大写， 比如 "Google"。
 否则，我们定义这个单词没有正确使用大写字母。
 
+三种场景：
+1。首字母大写
+2。全部大写
+3。全部小写
 '''
 class Solution(object):
     def detectCapitalUse(self, word):
