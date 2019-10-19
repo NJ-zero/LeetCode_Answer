@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="1170. 比较字符串最小字母出现频次">
-      <change afterPath="$PROJECT_DIR$/string/gcdOfStrings.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="1071.字符串的最大公因子">
+      <change afterPath="$PROJECT_DIR$/string/buddyStrings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,56 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/reverseStr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/judgeCircle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/numSmallerByFrequency.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/string/gcdOfStrings.py">
+        <entry file="file://$PROJECT_DIR$/string/buddyStrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+            <state relative-caret-position="480">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -82,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/isPalindrome.py" />
         <option value="$PROJECT_DIR$/romanToInt.py" />
         <option value="$PROJECT_DIR$/longestCommonPrefix.py" />
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
@@ -133,12 +87,13 @@
         <option value="$PROJECT_DIR$/string/judgeCircle.py" />
         <option value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
         <option value="$PROJECT_DIR$/string/gcdOfStrings.py" />
+        <option value="$PROJECT_DIR$/string/buddyStrings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2009" />
-    <option name="y" value="45" />
+    <option name="x" value="1713" />
+    <option name="y" value="43" />
     <option name="width" value="1254" />
     <option name="height" value="976" />
   </component>
@@ -195,7 +150,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gcdOfStrings">
+  <component name="RunManager" selected="Python.buddyStrings">
+    <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/buddyStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="checkRecord" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,27 +235,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="repeatedSubstringPattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/repeatedSubstringPattern.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="reverseStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,12 +278,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.repeatedSubstringPattern" />
-      <item itemvalue="Python.reverseStr" />
       <item itemvalue="Python.checkRecord" />
-      <item itemvalue="Python.numSmallerByFrequency" />
       <item itemvalue="Python.gcdOfStrings" />
+      <item itemvalue="Python.numSmallerByFrequency" />
+      <item itemvalue="Python.reverseStr" />
     </list>
     <recent_temporary>
       <list>
@@ -336,7 +291,6 @@
         <item itemvalue="Python.numSmallerByFrequency" />
         <item itemvalue="Python.checkRecord" />
         <item itemvalue="Python.reverseStr" />
-        <item itemvalue="Python.repeatedSubstringPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +304,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00082" summary="13.罗马数字抓整数">
-      <created>1570533602511</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1570533602511</updated>
     </task>
     <task id="LOCAL-00083" summary="14.最长公共前缀">
       <created>1570535581024</created>
@@ -694,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571468047224</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="1071.字符串的最大公因子">
+      <created>1571474781723</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1571474781723</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2009" y="45" width="1254" height="976" extended-state="0" />
+    <frame x="1713" y="43" width="1254" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21573398" />
@@ -721,7 +675,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="605.种花问题" />
     <MESSAGE value="628. 三个数的最大乘积" />
     <MESSAGE value="643. 子数组最大平均数 I" />
     <MESSAGE value="661. 图片平滑器" />
@@ -746,16 +699,10 @@
     <MESSAGE value="551. 学生出勤记录 I" />
     <MESSAGE value="657. 机器人能否返回原点" />
     <MESSAGE value="1170. 比较字符串最小字母出现频次" />
-    <option name="LAST_COMMIT_MESSAGE" value="1170. 比较字符串最小字母出现频次" />
+    <MESSAGE value="1071.字符串的最大公因子" />
+    <option name="LAST_COMMIT_MESSAGE" value="1071.字符串的最大公因子" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/maxProfitII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/twosum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
@@ -1041,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/reverseStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1072,6 +1012,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/string/gcdOfStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -1079,10 +1026,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/gcdOfStrings.py">
+    <entry file="file://$PROJECT_DIR$/string/reverseStr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/buddyStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
         </state>
       </provider>
     </entry>
