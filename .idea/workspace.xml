@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="541. 反转字符串 II">
-      <change afterPath="$PROJECT_DIR$/string/checkRecord.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="657. 机器人能否返回原点">
+      <change afterPath="$PROJECT_DIR$/string/numSmallerByFrequency.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="390">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/judgeCircle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/numSmallerByFrequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/missingnumber.py" />
-        <option value="$PROJECT_DIR$/review_answer/tentoeight.py" />
         <option value="$PROJECT_DIR$/int/reverseint.py" />
         <option value="$PROJECT_DIR$/int/isPalindrome.py" />
         <option value="$PROJECT_DIR$/romanToInt.py" />
@@ -97,6 +113,8 @@
         <option value="$PROJECT_DIR$/string/findLUSlength.py" />
         <option value="$PROJECT_DIR$/string/reverseStr.py" />
         <option value="$PROJECT_DIR$/string/checkRecord.py" />
+        <option value="$PROJECT_DIR$/string/judgeCircle.py" />
+        <option value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
       </list>
     </option>
   </component>
@@ -159,28 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.checkRecord">
-    <configuration name="canConstruct" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/canConstruct.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.numSmallerByFrequency">
     <configuration name="checkRecord" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,6 +212,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/compress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="numSmallerByFrequency" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,19 +306,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.canConstruct" />
       <item itemvalue="Python.compress" />
       <item itemvalue="Python.repeatedSubstringPattern" />
       <item itemvalue="Python.reverseStr" />
       <item itemvalue="Python.checkRecord" />
+      <item itemvalue="Python.numSmallerByFrequency" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.numSmallerByFrequency" />
         <item itemvalue="Python.checkRecord" />
         <item itemvalue="Python.reverseStr" />
         <item itemvalue="Python.repeatedSubstringPattern" />
         <item itemvalue="Python.compress" />
-        <item itemvalue="Python.canConstruct" />
       </list>
     </recent_temporary>
   </component>
@@ -314,20 +332,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00079" summary="7.整数反转">
-      <created>1570518100194</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1570518100194</updated>
-    </task>
-    <task id="LOCAL-00080" summary="9.回文数">
-      <created>1570518890277</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1570518890277</updated>
     </task>
     <task id="LOCAL-00081" summary="13.罗马数字抓整数">
       <created>1570533548195</created>
@@ -658,7 +662,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571457082545</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="551. 学生出勤记录 I">
+      <created>1571465260377</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1571465260377</updated>
+    </task>
+    <task id="LOCAL-00129" summary="657. 机器人能否返回原点">
+      <created>1571465484376</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1571465484376</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -685,8 +703,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="561.数组拆分 I" />
-    <MESSAGE value="566.重塑矩阵" />
     <MESSAGE value="581.最短无序连续子数组" />
     <MESSAGE value="605.种花问题" />
     <MESSAGE value="628. 三个数的最大乘积" />
@@ -710,23 +726,11 @@
     <MESSAGE value="520. 检测大写字母" />
     <MESSAGE value="521. 最长特殊序列 Ⅰ" />
     <MESSAGE value="541. 反转字符串 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="541. 反转字符串 II" />
+    <MESSAGE value="551. 学生出勤记录 I" />
+    <MESSAGE value="657. 机器人能否返回原点" />
+    <option name="LAST_COMMIT_MESSAGE" value="657. 机器人能否返回原点" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/pulsOne.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/other/maxProfit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1049,8 +1053,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/judgeCircle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/numSmallerByFrequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
