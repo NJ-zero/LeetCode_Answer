@@ -29,6 +29,10 @@
 输出：true
 解释：长按名字中的字符并不是必要的。
 
+思路：
+遍历typed,遇到和name 相同的数，pos +1
+遍历结束，pos 应该和 name 长度一样
+
 '''
 
 class Solution(object):
