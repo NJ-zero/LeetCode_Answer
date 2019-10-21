@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="788.旋转数字" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="292.nim游戏">
+      <change afterPath="$PROJECT_DIR$/digui/tribonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digui/fib.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -84,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/string/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/string/addBinary.py" />
         <option value="$PROJECT_DIR$/lianbiao/deleteDuplicates.py" />
         <option value="$PROJECT_DIR$/list/maxProfit.py" />
@@ -135,11 +160,12 @@
         <option value="$PROJECT_DIR$/string/countBinarySubstrings.py" />
         <option value="$PROJECT_DIR$/string/rotatedDigits.py" />
         <option value="$PROJECT_DIR$/int/canWinNim.py" />
+        <option value="$PROJECT_DIR$/digui/tribonacci.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2038" />
+    <option name="x" value="1819" />
     <option name="y" value="61" />
     <option name="width" value="1199" />
     <option name="height" value="977" />
@@ -162,7 +188,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="int" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.countBinarySubstrings">
+  <component name="RunManager" selected="Python.tribonacci">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,27 +329,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numSmallerByFrequency" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,22 +350,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tribonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/tribonacci.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
       <item itemvalue="Python.gcdOfStrings" />
-      <item itemvalue="Python.numSmallerByFrequency" />
       <item itemvalue="Python.mostCommonWord" />
       <item itemvalue="Python.isLongPressedName" />
       <item itemvalue="Python.countBinarySubstrings" />
+      <item itemvalue="Python.tribonacci" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tribonacci" />
         <item itemvalue="Python.countBinarySubstrings" />
         <item itemvalue="Python.isLongPressedName" />
         <item itemvalue="Python.mostCommonWord" />
         <item itemvalue="Python.gcdOfStrings" />
-        <item itemvalue="Python.numSmallerByFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -374,13 +400,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00089" summary="67.二进制求和">
-      <created>1570601568308</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1570601568308</updated>
     </task>
     <task id="LOCAL-00090" summary="83.删除排序链表中的重复元素">
       <created>1570602629873</created>
@@ -718,11 +737,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571648579896</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="292.nim游戏">
+      <created>1571648856751</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1571648856751</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2038" y="61" width="1199" height="977" extended-state="0" />
+    <frame x="1819" y="61" width="1199" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
@@ -745,7 +771,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="697. 数组的度" />
     <MESSAGE value="914.卡牌分组" />
     <MESSAGE value="849. 到最近的人的最大距离" />
     <MESSAGE value="717. 1比特与2比特字符" />
@@ -770,16 +795,10 @@
     <MESSAGE value="925. 长按键入" />
     <MESSAGE value="696. 计数二进制子串" />
     <MESSAGE value="788.旋转数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="788.旋转数字" />
+    <MESSAGE value="292.nim游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="292.nim游戏" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/containsDuplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/containsNearbyDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -806,11 +825,6 @@
         <state relative-caret-position="511">
           <caret line="61" column="54" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="61" selection-end-column="54" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/fib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/findPairs.py">
@@ -924,11 +938,6 @@
         <state relative-caret-position="795">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/digui/minCostClimbingStairs.py">
@@ -1104,7 +1113,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/fib.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
