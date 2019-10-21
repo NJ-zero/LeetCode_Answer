@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="925. 长按键入">
-      <change afterPath="$PROJECT_DIR$/string/countBinarySubstrings.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="696. 计数二进制子串">
+      <change afterPath="$PROJECT_DIR$/string/rotatedDigits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="269">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/rotatedDigits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -73,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/removeelements.py" />
         <option value="$PROJECT_DIR$/list/searchInsert.py" />
         <option value="$PROJECT_DIR$/string/lengthOfLastWord.py" />
         <option value="$PROJECT_DIR$/string/addBinary.py" />
@@ -124,12 +132,13 @@
         <option value="$PROJECT_DIR$/mostCommonWord.py" />
         <option value="$PROJECT_DIR$/string/isLongPressedName.py" />
         <option value="$PROJECT_DIR$/string/countBinarySubstrings.py" />
+        <option value="$PROJECT_DIR$/string/rotatedDigits.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2045" />
-    <option name="y" value="63" />
+    <option name="x" value="2038" />
+    <option name="y" value="61" />
     <option name="width" value="1199" />
     <option name="height" value="977" />
   </component>
@@ -363,13 +372,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00087" summary="58.最后一个单词的长度">
-      <created>1570590911448</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1570590911448</updated>
     </task>
     <task id="LOCAL-00088" summary="67.二进制求和">
       <created>1570601412970</created>
@@ -707,19 +709,26 @@
       <option name="project" value="LOCAL" />
       <updated>1571624328683</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="696. 计数二进制子串">
+      <created>1571647516638</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1571647516638</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2195" y="78" width="1199" height="977" extended-state="0" />
+    <frame x="2038" y="61" width="1199" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1661017" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1661017" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32126698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -734,7 +743,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="665. 非递减数列" />
     <MESSAGE value="674.最长连续递增序列" />
     <MESSAGE value="697. 数组的度" />
     <MESSAGE value="914.卡牌分组" />
@@ -759,16 +767,10 @@
     <MESSAGE value="859. 亲密字符串" />
     <MESSAGE value="819.最常见的单词" />
     <MESSAGE value="925. 长按键入" />
-    <option name="LAST_COMMIT_MESSAGE" value="925. 长按键入" />
+    <MESSAGE value="696. 计数二进制子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="696. 计数二进制子串" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/majorityElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/singleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1094,8 +1096,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="269">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/rotatedDigits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
