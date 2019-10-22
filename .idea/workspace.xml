@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="21.合并两个有序链表">
-      <change afterPath="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="82. 删除排序链表中的重复元素 II" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="171">
+              <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -367,13 +364,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00094" summary="136. 只出现一次的数字">
-      <created>1570620230100</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1570620230100</updated>
     </task>
     <task id="LOCAL-00095" summary="167. 两数之和 II - 输入有序数组">
       <created>1570620636233</created>
@@ -711,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571715663563</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="82. 删除排序链表中的重复元素 II">
+      <created>1571734194736</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1571734194736</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -738,7 +735,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="742.寻找数组的中心索引" />
     <MESSAGE value="746. 使用最小花费爬楼梯" />
     <MESSAGE value="747.至少是其他数字两倍的最大数" />
     <MESSAGE value="434.字符串中的单词数" />
@@ -763,7 +759,8 @@
     <MESSAGE value="1137.第 N 个泰波那契数" />
     <MESSAGE value="19. 删除链表的倒数第N个节点" />
     <MESSAGE value="21.合并两个有序链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.合并两个有序链表" />
+    <MESSAGE value="82. 删除排序链表中的重复元素 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="82. 删除排序链表中的重复元素 II" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
@@ -1092,8 +1089,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="171">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
