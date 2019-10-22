@@ -16,25 +16,36 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
-        h = ListNode(-1)
-        cur = h
+        h = ListNode(0)       #创建一个空链表
+        cur = h               #创建一个指针指向新的链表头
 
-        cur1 = l1
-        cur2 = l2
-
-        while cur1 != None and cur2 != None:
-            if cur1.val <= cur2.val:
-                cur.next = cur1
-                cur1 = cur1.next
+        while l1 != None and l2 != None:
+            if l1.val <= l2.val:
+                cur.next = l1
+                l1 = l1.next
             else:
-                cur.next = cur2
-                cur2 = cur2.next
-            cur = cur.next
+                cur.next = l2
+                l2 = l2.next
+            cur = cur.next       #依次判断两个旧链表头结点val大小，cur指向小的那个
 
-        if cur1 != None:
-            cur.next = cur1
-
-        if cur2 != None:
-            cur.next = cur2
+        if l1 != None:           #一个旧链表全部接到新链表后，将另一个链表剩下的部分接到新链表
+            cur.next = l1
+        if l2 != None:
+            cur.next = l2
         return h.next
 
+    def mergedigui(self, l1, l2):
+        if not l1 : return l2
+        if not l2 : return l1
+
+        if l1.val < l2.val:
+            l1.next = self.mergedigui(l1.next,l2)
+            return l1
+        else:
+            l2.next = self.mergedigui(l1,l2.next)
+            return l2
+
+
+
+s=Solution()
+print(s.mergeTwoLists())
