@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="234.回文链表">
-      <change afterPath="$PROJECT_DIR$/lianbiao/deleteNode.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="237.删除链表中的节点">
+      <change afterPath="$PROJECT_DIR$/lianbiao/getIntersectionNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/other/getRows.py" />
         <option value="$PROJECT_DIR$/list/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/list/thirdMax.py" />
         <option value="$PROJECT_DIR$/list/findDisappearedNumbers.py" />
@@ -114,12 +122,13 @@
         <option value="$PROJECT_DIR$/lianbiao/reverseList.py" />
         <option value="$PROJECT_DIR$/lianbiao/isPalindrome.py" />
         <option value="$PROJECT_DIR$/lianbiao/deleteNode.py" />
+        <option value="$PROJECT_DIR$/lianbiao/getIntersectionNode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2300" />
-    <option name="y" value="96" />
+    <option name="x" value="2363" />
+    <option name="y" value="156" />
     <option name="width" value="963" />
     <option name="height" value="877" />
   </component>
@@ -358,13 +367,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00098" summary="219.存在重复元素II">
-      <created>1570677568467</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1570677568467</updated>
     </task>
     <task id="LOCAL-00099" summary="414.第三大的数">
       <created>1570688137963</created>
@@ -702,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571737472233</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="237.删除链表中的节点">
+      <created>1571737918870</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1571737918870</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2300" y="96" width="963" height="877" extended-state="0" />
+    <frame x="2363" y="156" width="963" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28237793" />
@@ -729,7 +738,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="680. 验证回文字符串 Ⅱ" />
     <MESSAGE value="917.仅仅反转字母" />
     <MESSAGE value="383.赎金信" />
     <MESSAGE value="443.压缩字符串" />
@@ -754,16 +762,10 @@
     <MESSAGE value="141.环形链表" />
     <MESSAGE value="206.反转链表" />
     <MESSAGE value="234.回文链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="234.回文链表" />
+    <MESSAGE value="237.删除链表中的节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="237.删除链表中的节点" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/findMaxConsecutiveOnes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" selection-start-line="39" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/canPlaceFlowers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
@@ -1083,8 +1085,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
