@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="141.环形链表">
-      <change afterPath="$PROJECT_DIR$/lianbiao/reverseList.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="234.回文链表">
+      <change afterPath="$PROJECT_DIR$/lianbiao/deleteNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -45,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/twosum.py" />
-        <option value="$PROJECT_DIR$/other/generate.py" />
         <option value="$PROJECT_DIR$/other/getRows.py" />
         <option value="$PROJECT_DIR$/list/containsNearbyDuplicate.py" />
         <option value="$PROJECT_DIR$/list/thirdMax.py" />
@@ -96,12 +112,14 @@
         <option value="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" />
         <option value="$PROJECT_DIR$/lianbiao/hasCycle.py" />
         <option value="$PROJECT_DIR$/lianbiao/reverseList.py" />
+        <option value="$PROJECT_DIR$/lianbiao/isPalindrome.py" />
+        <option value="$PROJECT_DIR$/lianbiao/deleteNode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2037" />
-    <option name="y" value="111" />
+    <option name="x" value="2300" />
+    <option name="y" value="96" />
     <option name="width" value="963" />
     <option name="height" value="877" />
   </component>
@@ -340,20 +358,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00096" summary="118. 杨辉三角">
-      <created>1570622216344</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1570622216344</updated>
-    </task>
-    <task id="LOCAL-00097" summary="119.杨辉三角II">
-      <created>1570675117101</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1570675117101</updated>
     </task>
     <task id="LOCAL-00098" summary="219.存在重复元素II">
       <created>1570677568467</created>
@@ -684,11 +688,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571735359661</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="206.反转链表">
+      <created>1571736694234</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1571736694234</updated>
+    </task>
+    <task id="LOCAL-00146" summary="234.回文链表">
+      <created>1571737472233</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1571737472233</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2037" y="111" width="963" height="877" extended-state="0" />
+    <frame x="2300" y="96" width="963" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28237793" />
@@ -711,8 +729,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="747.至少是其他数字两倍的最大数" />
-    <MESSAGE value="434.字符串中的单词数" />
     <MESSAGE value="680. 验证回文字符串 Ⅱ" />
     <MESSAGE value="917.仅仅反转字母" />
     <MESSAGE value="383.赎金信" />
@@ -736,23 +752,11 @@
     <MESSAGE value="21.合并两个有序链表" />
     <MESSAGE value="82. 删除排序链表中的重复元素 II" />
     <MESSAGE value="141.环形链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="141.环形链表" />
+    <MESSAGE value="206.反转链表" />
+    <MESSAGE value="234.回文链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="234.回文链表" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/matrixReshape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/findUnsortedSubarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/findMaxConsecutiveOnes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1067,6 +1071,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
