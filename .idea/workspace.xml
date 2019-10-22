@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="19. 删除链表的倒数第N个节点">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="21.合并两个有序链表">
+      <change afterPath="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,17 +25,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="122">
               <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/other/maxProfitII.py" />
         <option value="$PROJECT_DIR$/string/isPalindrome_str.py" />
         <option value="$PROJECT_DIR$/singleNumber.py" />
         <option value="$PROJECT_DIR$/list/twosum.py" />
@@ -114,14 +122,15 @@
         <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
+        <option value="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2009" />
-    <option name="y" value="28" />
+    <option name="x" value="2080" />
+    <option name="y" value="120" />
     <option name="width" value="1199" />
-    <option name="height" value="977" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -358,13 +367,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00093" summary="125. 验证回文串">
-      <created>1570614475396</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1570614475396</updated>
     </task>
     <task id="LOCAL-00094" summary="136. 只出现一次的数字">
       <created>1570620230100</created>
@@ -702,11 +704,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571710170737</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="21.合并两个有序链表">
+      <created>1571715663563</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1571715663563</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2161" y="24" width="1199" height="977" extended-state="0" />
+    <frame x="2080" y="120" width="1199" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
@@ -714,7 +723,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1661017" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18726115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32126698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,7 +738,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="717. 1比特与2比特字符" />
     <MESSAGE value="742.寻找数组的中心索引" />
     <MESSAGE value="746. 使用最小花费爬楼梯" />
     <MESSAGE value="747.至少是其他数字两倍的最大数" />
@@ -754,16 +762,10 @@
     <MESSAGE value="292.nim游戏" />
     <MESSAGE value="1137.第 N 个泰波那契数" />
     <MESSAGE value="19. 删除链表的倒数第N个节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. 删除链表的倒数第N个节点" />
+    <MESSAGE value="21.合并两个有序链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.合并两个有序链表" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/findPairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1076,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="122">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
@@ -1085,6 +1087,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
