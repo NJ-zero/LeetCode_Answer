@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="441.排列硬币">
-      <change afterPath="$PROJECT_DIR$/string/isSubsequence.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="392.判断子序列">
+      <change afterPath="$PROJECT_DIR$/erfen/firstBadVersion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="390">
               <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/canPlaceFlowers.py" />
         <option value="$PROJECT_DIR$/list/maximumProduct.py" />
         <option value="$PROJECT_DIR$/list/findMaxAverage.py" />
         <option value="$PROJECT_DIR$/list/imageSmoother.py" />
@@ -114,12 +122,13 @@
         <option value="$PROJECT_DIR$/list/intersection.py" />
         <option value="$PROJECT_DIR$/int/arrangeCoins.py" />
         <option value="$PROJECT_DIR$/string/isSubsequence.py" />
+        <option value="$PROJECT_DIR$/erfen/firstBadVersion.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2194" />
-    <option name="y" value="42" />
+    <option name="x" value="2133" />
+    <option name="y" value="40" />
     <option name="width" value="1122" />
     <option name="height" value="987" />
   </component>
@@ -141,7 +150,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="erfen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,13 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00107" summary="628. 三个数的最大乘积">
-      <created>1570870946393</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1570870946393</updated>
     </task>
     <task id="LOCAL-00108" summary="643. 子数组最大平均数 I">
       <created>1570879815948</created>
@@ -697,24 +699,31 @@
       <option name="project" value="LOCAL" />
       <updated>1572426529501</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="392.判断子序列">
+      <created>1572428880994</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1572428880994</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2194" y="42" width="1122" height="987" extended-state="0" />
+    <frame x="2354" y="23" width="1122" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27520436" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27520436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18659218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18659218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32126698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21564245" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21564245" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -724,7 +733,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="657. 机器人能否返回原点" />
     <MESSAGE value="1170. 比较字符串最小字母出现频次" />
     <MESSAGE value="1071.字符串的最大公因子" />
     <MESSAGE value="859. 亲密字符串" />
@@ -749,16 +757,10 @@
     <MESSAGE value="374.猜数字大小" />
     <MESSAGE value="349.两个数组的交集" />
     <MESSAGE value="441.排列硬币" />
-    <option name="LAST_COMMIT_MESSAGE" value="441.排列硬币" />
+    <MESSAGE value="392.判断子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="392.判断子序列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/digui/minCostClimbingStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/dominantIndex.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1076,8 +1078,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
