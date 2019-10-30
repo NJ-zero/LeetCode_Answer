@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="876. 链表的中间结点">
-      <change afterPath="$PROJECT_DIR$/lianbiao/removeElements.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="203.移除链表元素">
+      <change afterPath="$PROJECT_DIR$/lianbiao/ListNode.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianbiao/removeElements.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="443">
               <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/ListNode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -54,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/findDisappearedNumbers.py" />
         <option value="$PROJECT_DIR$/list/findMaxConsecutiveOnes.py" />
         <option value="$PROJECT_DIR$/list/findPairs.py" />
         <option value="$PROJECT_DIR$/list/arrayPairSum.py" />
@@ -105,14 +112,15 @@
         <option value="$PROJECT_DIR$/lianbiao/getIntersectionNode.py" />
         <option value="$PROJECT_DIR$/lianbiao/middleNode.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
+        <option value="$PROJECT_DIR$/lianbiao/ListNode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2248" />
-    <option name="y" value="43" />
-    <option name="width" value="963" />
-    <option name="height" value="877" />
+    <option name="x" value="2052" />
+    <option name="y" value="91" />
+    <option name="width" value="1238" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -317,11 +325,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
-      <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.gcdOfStrings" />
-      <item itemvalue="Python.mostCommonWord" />
-      <item itemvalue="Python.isLongPressedName" />
       <item itemvalue="Python.countBinarySubstrings" />
+      <item itemvalue="Python.gcdOfStrings" />
+      <item itemvalue="Python.isLongPressedName" />
+      <item itemvalue="Python.mostCommonWord" />
+      <item itemvalue="Python.thirdMax" />
       <item itemvalue="Python.tribonacci" />
     </list>
     <recent_temporary>
@@ -344,13 +352,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00101" summary="485. 最大连续1的个数">
-      <created>1570693601167</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1570693601167</updated>
     </task>
     <task id="LOCAL-00102" summary="532. 数组中的K-diff数对">
       <created>1570699897046</created>
@@ -688,13 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571886441414</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="203.移除链表元素">
+      <created>1571889269129</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1571889269129</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2248" y="43" width="963" height="877" extended-state="0" />
+    <frame x="88" y="27" width="1046" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23248407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21365854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -704,7 +713,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2611465" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.124840766" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -714,7 +723,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="443.压缩字符串" />
     <MESSAGE value="459.重复的子字符串" />
     <MESSAGE value="520. 检测大写字母" />
     <MESSAGE value="521. 最长特殊序列 Ⅰ" />
@@ -739,16 +747,10 @@
     <MESSAGE value="237.删除链表中的节点" />
     <MESSAGE value="160.相交链表" />
     <MESSAGE value="876. 链表的中间结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="876. 链表的中间结点" />
+    <MESSAGE value="203.移除链表元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="203.移除链表元素" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/imageSmoother.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/checkPossibility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -1010,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/hasCycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1066,6 +1061,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/hasCycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/ListNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
         </state>
       </provider>
     </entry>
