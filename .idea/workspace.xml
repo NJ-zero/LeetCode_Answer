@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="一些基本操作">
-      <change afterPath="$PROJECT_DIR$/list/findMedianSortedArrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="4.寻找两个有序数组的中位数">
+      <change afterPath="$PROJECT_DIR$/erfen/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/erfen/guessNumber.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,38 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/removeElements.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/ListNode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/findMedianSortedArrays.py">
+        <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="38" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -72,7 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/findPairs.py" />
         <option value="$PROJECT_DIR$/list/arrayPairSum.py" />
         <option value="$PROJECT_DIR$/list/matrixReshape.py" />
         <option value="$PROJECT_DIR$/list/findUnsortedSubarray.py" />
@@ -123,12 +95,13 @@
         <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
         <option value="$PROJECT_DIR$/lianbiao/ListNode.py" />
         <option value="$PROJECT_DIR$/list/findMedianSortedArrays.py" />
+        <option value="$PROJECT_DIR$/erfen/guessNumber.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2153" />
-    <option name="y" value="93" />
+    <option name="x" value="1909" />
+    <option name="y" value="114" />
     <option name="width" value="1181" />
     <option name="height" value="987" />
   </component>
@@ -151,7 +124,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="erfen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,11 +308,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
-      <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.gcdOfStrings" />
-      <item itemvalue="Python.mostCommonWord" />
-      <item itemvalue="Python.isLongPressedName" />
       <item itemvalue="Python.countBinarySubstrings" />
+      <item itemvalue="Python.gcdOfStrings" />
+      <item itemvalue="Python.isLongPressedName" />
+      <item itemvalue="Python.mostCommonWord" />
+      <item itemvalue="Python.thirdMax" />
       <item itemvalue="Python.tribonacci" />
     </list>
     <recent_temporary>
@@ -362,13 +335,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00103" summary="561.数组拆分 I">
-      <created>1570762859914</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1570762859914</updated>
     </task>
     <task id="LOCAL-00104" summary="566.重塑矩阵">
       <created>1570785800500</created>
@@ -706,14 +672,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572405844803</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="4.寻找两个有序数组的中位数">
+      <created>1572423471000</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1572423471001</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2153" y="93" width="1181" height="987" extended-state="0" />
+    <frame x="1974" y="93" width="1181" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18879311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2612069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -733,7 +706,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="520. 检测大写字母" />
     <MESSAGE value="521. 最长特殊序列 Ⅰ" />
     <MESSAGE value="541. 反转字符串 II" />
     <MESSAGE value="551. 学生出勤记录 I" />
@@ -758,17 +730,10 @@
     <MESSAGE value="876. 链表的中间结点" />
     <MESSAGE value="203.移除链表元素" />
     <MESSAGE value="一些基本操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="一些基本操作" />
+    <MESSAGE value="4.寻找两个有序数组的中位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.寻找两个有序数组的中位数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/697.数组的度.py" />
-    <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/hasGroupsSizeX.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1083,8 +1048,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list/findMedianSortedArrays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="38" selection-end-column="45" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
