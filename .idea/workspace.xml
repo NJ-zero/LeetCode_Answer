@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="392.判断子序列">
-      <change afterPath="$PROJECT_DIR$/erfen/firstBadVersion.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="367.有效的完全平方数">
+      <change afterPath="$PROJECT_DIR$/list/findRadius.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/findRadius.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -72,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/maximumProduct.py" />
-        <option value="$PROJECT_DIR$/list/findMaxAverage.py" />
         <option value="$PROJECT_DIR$/list/imageSmoother.py" />
         <option value="$PROJECT_DIR$/list/checkPossibility.py" />
         <option value="$PROJECT_DIR$/list/findLengthOfLCIS.py" />
@@ -123,12 +139,14 @@
         <option value="$PROJECT_DIR$/int/arrangeCoins.py" />
         <option value="$PROJECT_DIR$/string/isSubsequence.py" />
         <option value="$PROJECT_DIR$/erfen/firstBadVersion.py" />
+        <option value="$PROJECT_DIR$/erfen/isPerfectSquare.py" />
+        <option value="$PROJECT_DIR$/list/findRadius.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2133" />
-    <option name="y" value="40" />
+    <option name="x" value="2077" />
+    <option name="y" value="41" />
     <option name="width" value="1122" />
     <option name="height" value="987" />
   </component>
@@ -150,7 +168,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="erfen" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isSubsequence">
+  <component name="RunManager" selected="Python.isPerfectSquare">
     <configuration name="arrangeCoins" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +267,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isLongPressedName" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="isPerfectSquare" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,11 +275,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/isLongPressedName.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/isPerfectSquare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +354,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.isLongPressedName" />
       <item itemvalue="Python.countBinarySubstrings" />
       <item itemvalue="Python.tribonacci" />
       <item itemvalue="Python.arrangeCoins" />
       <item itemvalue="Python.isSubsequence" />
+      <item itemvalue="Python.isPerfectSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isPerfectSquare" />
         <item itemvalue="Python.isSubsequence" />
         <item itemvalue="Python.arrangeCoins" />
         <item itemvalue="Python.tribonacci" />
         <item itemvalue="Python.countBinarySubstrings" />
-        <item itemvalue="Python.isLongPressedName" />
       </list>
     </recent_temporary>
   </component>
@@ -362,20 +380,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00108" summary="643. 子数组最大平均数 I">
-      <created>1570879815948</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1570879815948</updated>
-    </task>
-    <task id="LOCAL-00109" summary="661. 图片平滑器">
-      <created>1571023859874</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1571023859875</updated>
     </task>
     <task id="LOCAL-00110" summary="665. 非递减数列">
       <created>1571120887324</created>
@@ -706,11 +710,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572428880994</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="278.第一个错误的版本">
+      <created>1572434513070</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1572434513070</updated>
+    </task>
+    <task id="LOCAL-00158" summary="367.有效的完全平方数">
+      <created>1572435064793</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1572435064793</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2354" y="23" width="1122" height="987" extended-state="0" />
+    <frame x="2154" y="52" width="1122" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27520436" />
@@ -733,8 +751,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1170. 比较字符串最小字母出现频次" />
-    <MESSAGE value="1071.字符串的最大公因子" />
     <MESSAGE value="859. 亲密字符串" />
     <MESSAGE value="819.最常见的单词" />
     <MESSAGE value="925. 长按键入" />
@@ -758,23 +774,11 @@
     <MESSAGE value="349.两个数组的交集" />
     <MESSAGE value="441.排列硬币" />
     <MESSAGE value="392.判断子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="392.判断子序列" />
+    <MESSAGE value="278.第一个错误的版本" />
+    <MESSAGE value="367.有效的完全平方数" />
+    <option name="LAST_COMMIT_MESSAGE" value="367.有效的完全平方数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/dominantIndex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/countSegments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/validPalindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1087,6 +1091,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findRadius.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
