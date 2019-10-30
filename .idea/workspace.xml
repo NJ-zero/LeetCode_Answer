@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="349.两个数组的交集">
-      <change afterPath="$PROJECT_DIR$/int/arrangeCoins.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="441.排列硬币">
+      <change afterPath="$PROJECT_DIR$/string/isSubsequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/arrangeCoins.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="35" selection-start-line="35" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="591">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -54,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/findUnsortedSubarray.py" />
         <option value="$PROJECT_DIR$/list/canPlaceFlowers.py" />
         <option value="$PROJECT_DIR$/list/maximumProduct.py" />
         <option value="$PROJECT_DIR$/list/findMaxAverage.py" />
@@ -105,12 +113,13 @@
         <option value="$PROJECT_DIR$/erfen/guessNumber.py" />
         <option value="$PROJECT_DIR$/list/intersection.py" />
         <option value="$PROJECT_DIR$/int/arrangeCoins.py" />
+        <option value="$PROJECT_DIR$/string/isSubsequence.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2052" />
-    <option name="y" value="46" />
+    <option name="x" value="2194" />
+    <option name="y" value="42" />
     <option name="width" value="1122" />
     <option name="height" value="987" />
   </component>
@@ -132,12 +141,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="erfen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="int" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.arrangeCoins">
+  <component name="RunManager" selected="Python.isSubsequence">
     <configuration name="arrangeCoins" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mostCommonWord" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="isSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/mostCommonWord.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/isSubsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +327,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.mostCommonWord" />
       <item itemvalue="Python.isLongPressedName" />
       <item itemvalue="Python.countBinarySubstrings" />
       <item itemvalue="Python.tribonacci" />
       <item itemvalue="Python.arrangeCoins" />
+      <item itemvalue="Python.isSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.isSubsequence" />
         <item itemvalue="Python.arrangeCoins" />
         <item itemvalue="Python.tribonacci" />
         <item itemvalue="Python.countBinarySubstrings" />
         <item itemvalue="Python.isLongPressedName" />
-        <item itemvalue="Python.mostCommonWord" />
       </list>
     </recent_temporary>
   </component>
@@ -349,13 +353,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00106" summary="605.种花问题">
-      <created>1570870541707</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1570870541707</updated>
     </task>
     <task id="LOCAL-00107" summary="628. 三个数的最大乘积">
       <created>1570870946393</created>
@@ -693,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572424664186</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="441.排列硬币">
+      <created>1572426529501</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1572426529501</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2052" y="46" width="1122" height="987" extended-state="0" />
+    <frame x="2194" y="42" width="1122" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27520436" />
@@ -720,7 +724,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="551. 学生出勤记录 I" />
     <MESSAGE value="657. 机器人能否返回原点" />
     <MESSAGE value="1170. 比较字符串最小字母出现频次" />
     <MESSAGE value="1071.字符串的最大公因子" />
@@ -745,16 +748,10 @@
     <MESSAGE value="4.寻找两个有序数组的中位数" />
     <MESSAGE value="374.猜数字大小" />
     <MESSAGE value="349.两个数组的交集" />
-    <option name="LAST_COMMIT_MESSAGE" value="349.两个数组的交集" />
+    <MESSAGE value="441.排列硬币" />
+    <option name="LAST_COMMIT_MESSAGE" value="441.排列硬币" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/digui/minCostClimbingStairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -1072,8 +1069,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/int/arrangeCoins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="35" selection-start-line="35" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="591">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
