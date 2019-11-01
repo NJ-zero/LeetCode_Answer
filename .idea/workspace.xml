@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="718.最长重复子数组">
-      <change afterPath="$PROJECT_DIR$/erfen/nextGreatestLetter.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="744. 寻找比目标字母大的最小字母">
+      <change afterPath="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erfen/nextGreatestLetter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="589">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/findLengthOfLCIS.py" />
         <option value="$PROJECT_DIR$/list/697.数组的度.py" />
         <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
         <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
@@ -114,12 +122,13 @@
         <option value="$PROJECT_DIR$/list/findRadius.py" />
         <option value="$PROJECT_DIR$/list/findLength.py" />
         <option value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
+        <option value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2104" />
-    <option name="y" value="78" />
+    <option name="x" value="2143" />
+    <option name="y" value="25" />
     <option name="width" value="1137" />
     <option name="height" value="1000" />
   </component>
@@ -176,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.nextGreatestLetter">
+  <component name="RunManager" selected="Python.peakIndexInMountainArray">
     <configuration name="arrangeCoins" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,6 +291,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="peakIndexInMountainArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,43 +333,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tribonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/tribonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.tribonacci" />
       <item itemvalue="Python.arrangeCoins" />
       <item itemvalue="Python.isSubsequence" />
       <item itemvalue="Python.isPerfectSquare" />
       <item itemvalue="Python.nextGreatestLetter" />
+      <item itemvalue="Python.peakIndexInMountainArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.peakIndexInMountainArray" />
         <item itemvalue="Python.nextGreatestLetter" />
         <item itemvalue="Python.isPerfectSquare" />
         <item itemvalue="Python.isSubsequence" />
         <item itemvalue="Python.arrangeCoins" />
-        <item itemvalue="Python.tribonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -353,13 +362,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00113" summary="914.卡牌分组">
-      <created>1571128158047</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1571128158048</updated>
     </task>
     <task id="LOCAL-00114" summary="849. 到最近的人的最大距离">
       <created>1571140395546</created>
@@ -697,14 +699,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572515311015</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="744. 寻找比目标字母大的最小字母">
+      <created>1572589936561</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1572589936561</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2104" y="78" width="1137" height="1000" extended-state="0" />
+    <frame x="2143" y="25" width="1137" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2715054" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -724,7 +733,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="925. 长按键入" />
     <MESSAGE value="696. 计数二进制子串" />
     <MESSAGE value="788.旋转数字" />
     <MESSAGE value="292.nim游戏" />
@@ -749,16 +757,10 @@
     <MESSAGE value="367.有效的完全平方数" />
     <MESSAGE value="475.供暖器" />
     <MESSAGE value="718.最长重复子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="718.最长重复子数组" />
+    <MESSAGE value="744. 寻找比目标字母大的最小字母" />
+    <option name="LAST_COMMIT_MESSAGE" value="744. 寻找比目标字母大的最小字母" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/canConstruct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py" />
     <entry file="file://$PROJECT_DIR$/string/compress.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1078,6 +1080,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
