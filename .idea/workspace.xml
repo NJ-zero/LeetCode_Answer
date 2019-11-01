@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="744. 寻找比目标字母大的最小字母">
-      <change afterPath="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="852. 山脉数组的峰顶索引">
+      <change afterPath="$PROJECT_DIR$/erfen/minEatingSpeed.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -72,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/697.数组的度.py" />
         <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
         <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
         <option value="$PROJECT_DIR$/list/isOneBitCharacter.py" />
@@ -123,12 +131,13 @@
         <option value="$PROJECT_DIR$/list/findLength.py" />
         <option value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
         <option value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
+        <option value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2143" />
-    <option name="y" value="25" />
+    <option name="x" value="1456" />
+    <option name="y" value="26" />
     <option name="width" value="1137" />
     <option name="height" value="1000" />
   </component>
@@ -185,28 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.peakIndexInMountainArray">
-    <configuration name="arrangeCoins" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/arrangeCoins.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.minEatingSpeed">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,6 +250,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/isSubsequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minEatingSpeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +345,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.arrangeCoins" />
       <item itemvalue="Python.isSubsequence" />
       <item itemvalue="Python.isPerfectSquare" />
       <item itemvalue="Python.nextGreatestLetter" />
       <item itemvalue="Python.peakIndexInMountainArray" />
+      <item itemvalue="Python.minEatingSpeed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minEatingSpeed" />
         <item itemvalue="Python.peakIndexInMountainArray" />
         <item itemvalue="Python.nextGreatestLetter" />
         <item itemvalue="Python.isPerfectSquare" />
         <item itemvalue="Python.isSubsequence" />
-        <item itemvalue="Python.arrangeCoins" />
       </list>
     </recent_temporary>
   </component>
@@ -362,13 +371,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00114" summary="849. 到最近的人的最大距离">
-      <created>1571140395546</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1571140395547</updated>
     </task>
     <task id="LOCAL-00115" summary="717. 1比特与2比特字符">
       <created>1571196876200</created>
@@ -706,11 +708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572589936561</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="852. 山脉数组的峰顶索引">
+      <created>1572595002395</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1572595002395</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2143" y="25" width="1137" height="1000" extended-state="0" />
+    <frame x="1456" y="26" width="1137" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
@@ -733,7 +742,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="696. 计数二进制子串" />
     <MESSAGE value="788.旋转数字" />
     <MESSAGE value="292.nim游戏" />
     <MESSAGE value="1137.第 N 个泰波那契数" />
@@ -758,10 +766,10 @@
     <MESSAGE value="475.供暖器" />
     <MESSAGE value="718.最长重复子数组" />
     <MESSAGE value="744. 寻找比目标字母大的最小字母" />
-    <option name="LAST_COMMIT_MESSAGE" value="744. 寻找比目标字母大的最小字母" />
+    <MESSAGE value="852. 山脉数组的峰顶索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="852. 山脉数组的峰顶索引" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repeatedSubstringPattern.py" />
     <entry file="file://$PROJECT_DIR$/string/compress.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1085,8 +1093,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>
