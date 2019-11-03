@@ -29,4 +29,6 @@ class Solution(object):
         return False
 
 
-
+if __name__ == "__main__":
+    s= Solution()
+    print(s.containsNearbyDuplicate([1,2,3,1],5))

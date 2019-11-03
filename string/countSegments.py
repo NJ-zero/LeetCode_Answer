@@ -6,6 +6,9 @@
 
 输入: "Hello, my name is John"
 输出: 5
+
+
+注意空字符串
 '''
 
 class Solution(object):

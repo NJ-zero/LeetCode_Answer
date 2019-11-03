@@ -41,3 +41,20 @@ class Solution(object):
                 for i in range(len(nums)):
                     if nums[i]<target and nums[i+1]>target:
                         return i+1
+    def searchInnnn(self,nums,target):
+        if nums[-1] < target:
+            return len(nums)
+        elif nums[0] >= target :
+            return 0
+        else:
+            for i in range(1,len(nums)):
+                if nums[i] == target:
+                    return i
+                else:
+                    if nums[i-1] < target < nums[i]:
+                        return i
+
+if __name__ == "__main__":
+    s = Solution()
+    a=s.searchInnnn([1,3,5,6],5)
+    print(a)

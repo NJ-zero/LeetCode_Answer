@@ -15,7 +15,7 @@ class Solution(object):
         :type banned: List[str]
         :rtype: str
         """
-        ps_list=re.split('[  ,]',paragraph)
+        ps_list=re.split('[ |,]',paragraph)
         print(ps_list)
         ps_new=[re.sub('[^a-z]','',i.lower()) for i in ps_list if i !='']
         print(ps_new)
@@ -32,5 +32,5 @@ class Solution(object):
 
 if __name__ == '__main__':
     s=Solution()
-    print(s.mostCommonWord("a, a, a, a, b,b,b,c, c",["a"]))
+    print(s.mostCommonWord("a., a, a, a, b,b,b,c, c",["a"]))
 

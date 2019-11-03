@@ -16,7 +16,6 @@ class solution():
 
 if __name__=="__main__":
     s=solution()
-    #ss=" hello world "
     ss=" hello wolrd asj  "
     a=s.lengthOfLastWord(ss)
     print(a)

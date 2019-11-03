@@ -19,6 +19,15 @@ class solution():
             pre = pre // 10
         return back == x
 
+    def isPanlidromestr(self,x):
+        '''
+        转化为str
+        :param x:
+        :return:
+        '''
+        x = str(x)
+        return  x == x[::-1]
+
 if __name__=='__main__':
     s=solution()
     a=s.isPalindrome(124421)

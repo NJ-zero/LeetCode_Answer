@@ -22,7 +22,19 @@ class solution():
             x=int(str_x)
 
         return x if -(2**31)<x<2**31-1 else 0
+
+    def reverse(self,x):
+        flag = 1
+        if x < 0:
+            flag = -1
+            x = x * -1
+        r = str(x)[::-1]
+        R = int(r)
+        return R * flag if -(2 ** 31) < R * flag < 2 ** 31 - 1 else 0
+
+
 if __name__=='__main__':
     s=solution()
     a = s.reverseint(-2100)
     print(a)
+    print(-5 * -1)
