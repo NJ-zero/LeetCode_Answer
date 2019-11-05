@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="852. 山脉数组的峰顶索引">
-      <change afterPath="$PROJECT_DIR$/erfen/minEatingSpeed.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="698. 划分为k个相等的子集">
+      <change afterPath="$PROJECT_DIR$/digui/kthGrammar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,47 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/findLength.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erfen/nextGreatestLetter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+        <entry file="file://$PROJECT_DIR$/digui/kthGrammar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/time.py">
+        <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -81,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
         <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
         <option value="$PROJECT_DIR$/list/isOneBitCharacter.py" />
         <option value="$PROJECT_DIR$/list/pivotIndex.py" />
@@ -108,7 +80,6 @@
         <option value="$PROJECT_DIR$/string/rotatedDigits.py" />
         <option value="$PROJECT_DIR$/int/canWinNim.py" />
         <option value="$PROJECT_DIR$/digui/tribonacci.py" />
-        <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" />
@@ -132,12 +103,14 @@
         <option value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
         <option value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
         <option value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
+        <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
+        <option value="$PROJECT_DIR$/digui/kthGrammar.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1456" />
-    <option name="y" value="26" />
+    <option name="x" value="1997" />
+    <option name="y" value="43" />
     <option name="width" value="1137" />
     <option name="height" value="1000" />
   </component>
@@ -149,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,12 +132,13 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="erfen" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minEatingSpeed">
+  <component name="RunManager" selected="Python.kthGrammar">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kthGrammar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +218,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/isSubsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/kthGrammar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,19 +318,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.isSubsequence" />
       <item itemvalue="Python.isPerfectSquare" />
       <item itemvalue="Python.nextGreatestLetter" />
       <item itemvalue="Python.peakIndexInMountainArray" />
       <item itemvalue="Python.minEatingSpeed" />
+      <item itemvalue="Python.kthGrammar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kthGrammar" />
         <item itemvalue="Python.minEatingSpeed" />
         <item itemvalue="Python.peakIndexInMountainArray" />
         <item itemvalue="Python.nextGreatestLetter" />
         <item itemvalue="Python.isPerfectSquare" />
-        <item itemvalue="Python.isSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -371,20 +344,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00115" summary="717. 1比特与2比特字符">
-      <created>1571196876200</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1571196876200</updated>
-    </task>
-    <task id="LOCAL-00116" summary="742.寻找数组的中心索引">
-      <created>1571205675337</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1571205675337</updated>
     </task>
     <task id="LOCAL-00117" summary="746. 使用最小花费爬楼梯">
       <created>1571210158682</created>
@@ -715,11 +674,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572595002395</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="875. 爱吃香蕉的珂珂">
+      <created>1572600205326</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1572600205326</updated>
+    </task>
+    <task id="LOCAL-00165" summary="698. 划分为k个相等的子集">
+      <created>1572610126687</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1572610126687</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1456" y="26" width="1137" height="1000" extended-state="0" />
+    <frame x="2138" y="44" width="1137" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
@@ -727,12 +700,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18392071" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32126698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18392071" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21564245" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21475771" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -742,8 +715,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="788.旋转数字" />
-    <MESSAGE value="292.nim游戏" />
     <MESSAGE value="1137.第 N 个泰波那契数" />
     <MESSAGE value="19. 删除链表的倒数第N个节点" />
     <MESSAGE value="21.合并两个有序链表" />
@@ -767,16 +738,11 @@
     <MESSAGE value="718.最长重复子数组" />
     <MESSAGE value="744. 寻找比目标字母大的最小字母" />
     <MESSAGE value="852. 山脉数组的峰顶索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="852. 山脉数组的峰顶索引" />
+    <MESSAGE value="875. 爱吃香蕉的珂珂" />
+    <MESSAGE value="698. 划分为k个相等的子集" />
+    <option name="LAST_COMMIT_MESSAGE" value="698. 划分为k个相等的子集" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/compress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/detectCapitalUse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -890,20 +856,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/digui/fib.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/canPartitionKSubsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/mergelist.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1077,10 +1029,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="690">
           <caret line="46" column="16" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digui/canPartitionKSubsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1091,17 +1064,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
+    <entry file="file://$PROJECT_DIR$/digui/kthGrammar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="510">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+    <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>
