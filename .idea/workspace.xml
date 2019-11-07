@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/list/threeSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_answer/count1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/int/checkPerfectNumber.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -15,56 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/MaxNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/maxArea.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" selection-start-line="5" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/tentoeight.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+        <entry file="file://$PROJECT_DIR$/int/checkPerfectNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="42" selection-start-line="42" selection-end-line="70" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/count1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -96,8 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/dominantIndex.py" />
-        <option value="$PROJECT_DIR$/string/countSegments.py" />
         <option value="$PROJECT_DIR$/validPalindrome.py" />
         <option value="$PROJECT_DIR$/string/reverseOnlyLetters.py" />
         <option value="$PROJECT_DIR$/string/canConstruct.py" />
@@ -143,16 +95,18 @@
         <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
         <option value="$PROJECT_DIR$/digui/kthGrammar.py" />
         <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
-        <option value="$PROJECT_DIR$/string/minWindow.py" />
         <option value="$PROJECT_DIR$/list/maxArea.py" />
         <option value="$PROJECT_DIR$/review_answer/count1.py" />
         <option value="$PROJECT_DIR$/list/threeSum.py" />
+        <option value="$PROJECT_DIR$/string/minWindow.py" />
+        <option value="$PROJECT_DIR$/list/maxSubArray.py" />
+        <option value="$PROJECT_DIR$/int/checkPerfectNumber.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2206" />
-    <option name="y" value="46" />
+    <option name="x" value="2123" />
+    <option name="y" value="44" />
     <option name="width" value="1137" />
     <option name="height" value="1000" />
   </component>
@@ -174,7 +128,12 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="erfen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="int" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tentoeight">
+  <component name="RunManager" selected="Python.minWindow">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,9 +327,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minWindow" />
         <item itemvalue="Python.tentoeight" />
         <item itemvalue="Python.count1" />
-        <item itemvalue="Python.minWindow" />
         <item itemvalue="Python.lengthOfLongestSubstring" />
         <item itemvalue="Python.kthGrammar" />
       </list>
@@ -386,27 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00119" summary="434.字符串中的单词数">
-      <created>1571212337499</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1571212337499</updated>
-    </task>
-    <task id="LOCAL-00120" summary="680. 验证回文字符串 Ⅱ">
-      <created>1571218732839</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1571218732839</updated>
-    </task>
-    <task id="LOCAL-00121" summary="917.仅仅反转字母">
-      <created>1571300713637</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1571300713637</updated>
     </task>
     <task id="LOCAL-00122" summary="383.赎金信">
       <created>1571302202130</created>
@@ -730,11 +668,32 @@
       <option name="project" value="LOCAL" />
       <updated>1572955895994</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="15.三数之和">
+      <created>1573115471759</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1573115471759</updated>
+    </task>
+    <task id="LOCAL-00169" summary="统计一个数转换为2进制数后 1 的个数">
+      <created>1573115504625</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1573115504625</updated>
+    </task>
+    <task id="LOCAL-00170" summary="53.最大的子序和">
+      <created>1573117182464</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1573117182464</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2206" y="46" width="1137" height="1000" extended-state="0" />
+    <frame x="2123" y="44" width="1137" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
@@ -757,9 +716,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21.合并两个有序链表" />
-    <MESSAGE value="82. 删除排序链表中的重复元素 II" />
-    <MESSAGE value="141.环形链表" />
     <MESSAGE value="206.反转链表" />
     <MESSAGE value="234.回文链表" />
     <MESSAGE value="237.删除链表中的节点" />
@@ -782,23 +738,12 @@
     <MESSAGE value="698. 划分为k个相等的子集" />
     <MESSAGE value="779. 第K个语法符号？？？" />
     <MESSAGE value="11. 盛最多水的容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. 盛最多水的容器" />
+    <MESSAGE value="15.三数之和" />
+    <MESSAGE value="统计一个数转换为2进制数后 1 的个数" />
+    <MESSAGE value="53.最大的子序和" />
+    <option name="LAST_COMMIT_MESSAGE" value="53.最大的子序和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/rotatedDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -935,20 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/findRadius.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1047,20 +978,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/maxDistToClosest.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/list/maximumProduct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/list/matrixReshape.py">
@@ -1087,6 +1008,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/review_answer/count1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1101,10 +1029,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="42" selection-start-line="42" selection-end-line="70" selection-end-column="18" />
+        <state relative-caret-position="217">
+          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/checkPerfectNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
