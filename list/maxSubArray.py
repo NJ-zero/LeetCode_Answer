@@ -2,6 +2,9 @@
 # author='Shichao-Dong'
 # create time: 2019/3/7 
 '''
+53.最大的子序和
+
+
 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 输入: [-2,1,-3,4,-1,2,1,-5,4],
 输出: 6
@@ -36,6 +39,18 @@ class Solution(object):
             if res < 0 :
                 res = 0
         return maxnum
+
+    def maxsub2(self,nums):
+        cur_sum=0
+        res = nums[0]
+        n=len(nums)
+        for i in range(n):
+            if cur_sum >0:
+                cur_sum += nums[i]
+            else:
+                cur_sum = nums[i]
+            res = max(res,cur_sum)
+        return res
 
     def maxsub3(self,nums):
         '''
