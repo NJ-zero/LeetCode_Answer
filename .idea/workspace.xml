@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/int/maxCount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/findErrorNums.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,11 +23,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/maxCount.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/judgeSquareSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/findErrorNums.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -59,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/string/reverseOnlyLetters.py" />
-        <option value="$PROJECT_DIR$/string/canConstruct.py" />
         <option value="$PROJECT_DIR$/string/compress.py" />
         <option value="$PROJECT_DIR$/string/repeatedSubstringPattern.py" />
         <option value="$PROJECT_DIR$/string/detectCapitalUse.py" />
@@ -110,12 +126,14 @@
         <option value="$PROJECT_DIR$/list/maxSubArray.py" />
         <option value="$PROJECT_DIR$/int/checkPerfectNumber.py" />
         <option value="$PROJECT_DIR$/int/maxCount.py" />
+        <option value="$PROJECT_DIR$/int/judgeSquareSum.py" />
+        <option value="$PROJECT_DIR$/list/findErrorNums.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2123" />
-    <option name="y" value="44" />
+    <option name="x" value="2072" />
+    <option name="y" value="84" />
     <option name="width" value="1137" />
     <option name="height" value="1000" />
   </component>
@@ -137,12 +155,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="erfen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="int" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minWindow">
+  <component name="RunManager" selected="Python.findErrorNums">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kthGrammar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="findErrorNums" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/digui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/digui/kthGrammar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findErrorNums.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lengthOfLongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="judgeSquareSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/judgeSquareSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +341,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.kthGrammar" />
-      <item itemvalue="Python.lengthOfLongestSubstring" />
       <item itemvalue="Python.minWindow" />
       <item itemvalue="Python.count1" />
       <item itemvalue="Python.tentoeight" />
+      <item itemvalue="Python.judgeSquareSum" />
+      <item itemvalue="Python.findErrorNums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.findErrorNums" />
+        <item itemvalue="Python.judgeSquareSum" />
         <item itemvalue="Python.minWindow" />
         <item itemvalue="Python.tentoeight" />
         <item itemvalue="Python.count1" />
-        <item itemvalue="Python.lengthOfLongestSubstring" />
-        <item itemvalue="Python.kthGrammar" />
       </list>
     </recent_temporary>
   </component>
@@ -354,20 +367,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00123" summary="443.压缩字符串">
-      <created>1571387960871</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1571387960872</updated>
-    </task>
-    <task id="LOCAL-00124" summary="459.重复的子字符串">
-      <created>1571395878750</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1571395878750</updated>
     </task>
     <task id="LOCAL-00125" summary="520. 检测大写字母">
       <created>1571396114954</created>
@@ -698,19 +697,33 @@
       <option name="project" value="LOCAL" />
       <updated>1573120036281</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="598.范围求和II">
+      <created>1573126080411</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1573126080411</updated>
+    </task>
+    <task id="LOCAL-00173" summary="633.平方数之和">
+      <created>1573126458399</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1573126458399</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2123" y="44" width="1137" height="1000" extended-state="0" />
+    <frame x="2072" y="84" width="1137" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2555066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2555066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -725,8 +738,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="234.回文链表" />
-    <MESSAGE value="237.删除链表中的节点" />
     <MESSAGE value="160.相交链表" />
     <MESSAGE value="876. 链表的中间结点" />
     <MESSAGE value="203.移除链表元素" />
@@ -750,15 +761,11 @@
     <MESSAGE value="统计一个数转换为2进制数后 1 的个数" />
     <MESSAGE value="53.最大的子序和" />
     <MESSAGE value="507.完美数" />
-    <option name="LAST_COMMIT_MESSAGE" value="507.完美数" />
+    <MESSAGE value="598.范围求和II" />
+    <MESSAGE value="633.平方数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="633.平方数之和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/fib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/mergelist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57" />
@@ -1077,6 +1084,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/judgeSquareSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findErrorNums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
