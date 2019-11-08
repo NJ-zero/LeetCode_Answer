@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/int/largestTriangleArea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/int/numPrimeArrangements.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -32,11 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/largestTriangleArea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="210">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/dayOfYear.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/int/numPrimeArrangements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -68,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/string/findLUSlength.py" />
-        <option value="$PROJECT_DIR$/string/reverseStr.py" />
         <option value="$PROJECT_DIR$/string/checkRecord.py" />
         <option value="$PROJECT_DIR$/string/judgeCircle.py" />
         <option value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
@@ -119,6 +135,8 @@
         <option value="$PROJECT_DIR$/int/selfDividingNumbers.py" />
         <option value="$PROJECT_DIR$/int/reachNumber.py" />
         <option value="$PROJECT_DIR$/int/largestTriangleArea.py" />
+        <option value="$PROJECT_DIR$/int/dayOfYear.py" />
+        <option value="$PROJECT_DIR$/int/numPrimeArrangements.py" />
       </list>
     </option>
   </component>
@@ -181,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.largestTriangleArea">
+  <component name="RunManager" selected="Python.numPrimeArrangements">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,28 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findErrorNums" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findErrorNums.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="judgeSquareSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dayOfYear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,7 +233,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/judgeSquareSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/dayOfYear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,6 +255,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/largestTriangleArea.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="numPrimeArrangements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/numPrimeArrangements.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +350,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.judgeSquareSum" />
-      <item itemvalue="Python.findErrorNums" />
       <item itemvalue="Python.selfDividingNumbers" />
       <item itemvalue="Python.reachNumber" />
       <item itemvalue="Python.largestTriangleArea" />
+      <item itemvalue="Python.dayOfYear" />
+      <item itemvalue="Python.numPrimeArrangements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.numPrimeArrangements" />
+        <item itemvalue="Python.dayOfYear" />
         <item itemvalue="Python.largestTriangleArea" />
         <item itemvalue="Python.reachNumber" />
         <item itemvalue="Python.selfDividingNumbers" />
-        <item itemvalue="Python.findErrorNums" />
-        <item itemvalue="Python.judgeSquareSum" />
       </list>
     </recent_temporary>
   </component>
@@ -358,20 +376,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00128" summary="551. 学生出勤记录 I">
-      <created>1571465260377</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1571465260377</updated>
-    </task>
-    <task id="LOCAL-00129" summary="657. 机器人能否返回原点">
-      <created>1571465484376</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1571465484376</updated>
     </task>
     <task id="LOCAL-00130" summary="1170. 比较字符串最小字母出现频次">
       <created>1571468047224</created>
@@ -702,7 +706,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573181914800</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="812.最大三角形面积">
+      <created>1573183970611</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1573183970611</updated>
+    </task>
+    <task id="LOCAL-00178" summary="1154.一年中的第几天">
+      <created>1573185266739</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1573185266739</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -729,8 +747,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="一些基本操作" />
-    <MESSAGE value="4.寻找两个有序数组的中位数" />
     <MESSAGE value="374.猜数字大小" />
     <MESSAGE value="349.两个数组的交集" />
     <MESSAGE value="441.排列硬币" />
@@ -754,23 +770,11 @@
     <MESSAGE value="645.错误的集合" />
     <MESSAGE value="728.自除数" />
     <MESSAGE value="754.到达终点数字" />
-    <option name="LAST_COMMIT_MESSAGE" value="754.到达终点数字" />
+    <MESSAGE value="812.最大三角形面积" />
+    <MESSAGE value="1154.一年中的第几天" />
+    <option name="LAST_COMMIT_MESSAGE" value="1154.一年中的第几天" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1089,8 +1093,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/int/largestTriangleArea.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="210">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/dayOfYear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/numPrimeArrangements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
