@@ -26,6 +26,8 @@ i遍历整个数组
 nums[i] <= nums[L] <= nums[R]
 所以nums[i] > 0 就跳出
 
+
+
 当 nums[i]+nums[L]+nums[R] == 0 时：执行循环
 判断左界 和 右届 是否和下一位置重复，则跳过，L+1  /  R-1
 当三数之和 大于 0，说明 nums[R] 太大，R左移
@@ -71,4 +73,5 @@ class Solution(object):
         return res
 
 
-
+s=Solution()
+print(s.threeSum([0,0,0]))
