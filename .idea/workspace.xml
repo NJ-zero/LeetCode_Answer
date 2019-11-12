@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
+      <change afterPath="$PROJECT_DIR$/other/restoreIpAddresses.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/checkInclusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/checkInclusion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="15">
+              <caret line="5" column="7" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -50,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/string/countBinarySubstrings.py" />
         <option value="$PROJECT_DIR$/string/rotatedDigits.py" />
         <option value="$PROJECT_DIR$/int/canWinNim.py" />
         <option value="$PROJECT_DIR$/digui/tribonacci.py" />
@@ -101,13 +109,14 @@
         <option value="$PROJECT_DIR$/int/addDigits.py" />
         <option value="$PROJECT_DIR$/int/isUgly.py" />
         <option value="$PROJECT_DIR$/string/checkInclusion.py" />
+        <option value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2218" />
-    <option name="y" value="108" />
-    <option name="width" value="1137" />
+    <option name="x" value="2239" />
+    <option name="y" value="146" />
+    <option name="width" value="957" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -124,6 +133,11 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.addDigits">
+  <component name="RunManager" selected="Python.restoreIpAddresses">
     <configuration name="addDigits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="smallestRangeI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="restoreIpAddresses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/smallestRangeI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +323,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.smallestRangeI" />
       <item itemvalue="Python.minCostToMoveChips" />
       <item itemvalue="Python.distributeCandies" />
       <item itemvalue="Python.checkStraightLine" />
       <item itemvalue="Python.addDigits" />
+      <item itemvalue="Python.restoreIpAddresses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.restoreIpAddresses" />
         <item itemvalue="Python.addDigits" />
         <item itemvalue="Python.checkStraightLine" />
         <item itemvalue="Python.distributeCandies" />
         <item itemvalue="Python.minCostToMoveChips" />
-        <item itemvalue="Python.smallestRangeI" />
       </list>
     </recent_temporary>
   </component>
@@ -335,13 +349,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00137" summary="788.旋转数字">
-      <created>1571648579896</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1571648579896</updated>
     </task>
     <task id="LOCAL-00138" summary="292.nim游戏">
       <created>1571648856751</created>
@@ -679,24 +686,31 @@
       <option name="project" value="LOCAL" />
       <updated>1573473290826</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="567.字符串的排列">
+      <created>1573551340854</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1573551340854</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2207" y="100" width="1137" height="877" extended-state="0" />
+    <frame x="2239" y="146" width="957" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21326165" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2542735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25477707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25477707" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21401274" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21401274" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -706,7 +720,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="718.最长重复子数组" />
     <MESSAGE value="744. 寻找比目标字母大的最小字母" />
     <MESSAGE value="852. 山脉数组的峰顶索引" />
     <MESSAGE value="875. 爱吃香蕉的珂珂" />
@@ -731,16 +744,10 @@
     <MESSAGE value="1232. 缀点成线" />
     <MESSAGE value="258. 各位相加" />
     <MESSAGE value="263. 丑数" />
-    <option name="LAST_COMMIT_MESSAGE" value="263. 丑数" />
+    <MESSAGE value="567.字符串的排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="567.字符串的排列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/intersection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -1068,8 +1075,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="5" column="7" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
