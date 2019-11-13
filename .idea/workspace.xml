@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/int/isPowerOfTwo.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +64,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/int/isPowerOfTwo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/isValid.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -100,9 +118,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/digui/tribonacci.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
-        <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" />
         <option value="$PROJECT_DIR$/lianbiao/hasCycle.py" />
         <option value="$PROJECT_DIR$/lianbiao/reverseList.py" />
@@ -151,6 +167,8 @@
         <option value="$PROJECT_DIR$/list/threeSum.py" />
         <option value="$PROJECT_DIR$/list/longestConsecutive.py" />
         <option value="$PROJECT_DIR$/int/isPowerOfTwo.py" />
+        <option value="$PROJECT_DIR$/other/isValid.py" />
+        <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
       </list>
     </option>
   </component>
@@ -178,7 +196,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="review_answer" type="462c0819:PsiDirectoryNode" />
+              <item name="lianbiao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,27 +408,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00141" summary="19. 删除链表的倒数第N个节点">
-      <created>1571710170737</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1571710170737</updated>
-    </task>
-    <task id="LOCAL-00142" summary="21.合并两个有序链表">
-      <created>1571715663563</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1571715663563</updated>
-    </task>
-    <task id="LOCAL-00143" summary="82. 删除排序链表中的重复元素 II">
-      <created>1571734194736</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1571734194736</updated>
     </task>
     <task id="LOCAL-00144" summary="141.环形链表">
       <created>1571735359661</created>
@@ -734,7 +731,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573611882980</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="231.2的幂">
+      <created>1573644498438</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1573644498439</updated>
+    </task>
+    <task id="LOCAL-00191" summary="231. 2的幂">
+      <created>1573644520374</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1573644520374</updated>
+    </task>
+    <task id="LOCAL-00192" summary="20.有效的括号">
+      <created>1573645900693</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1573645900694</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -761,9 +779,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="875. 爱吃香蕉的珂珂" />
-    <MESSAGE value="698. 划分为k个相等的子集" />
-    <MESSAGE value="779. 第K个语法符号？？？" />
     <MESSAGE value="11. 盛最多水的容器" />
     <MESSAGE value="统计一个数转换为2进制数后 1 的个数" />
     <MESSAGE value="53.最大的子序和" />
@@ -786,23 +801,12 @@
     <MESSAGE value="93.复原IP地址" />
     <MESSAGE value="15.三数之和" />
     <MESSAGE value="128.最长连续序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="128.最长连续序列" />
+    <MESSAGE value="231.2的幂" />
+    <MESSAGE value="231. 2的幂" />
+    <MESSAGE value="20.有效的括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.有效的括号" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/mostCommonWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/arrangeCoins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/findLength.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1119,8 +1123,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/int/isPowerOfTwo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/isValid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
