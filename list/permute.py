@@ -61,3 +61,29 @@ class Solution(object):
             output=output_new
         return output
 
+    def permutepp(self,nums):
+        '''
+        暂时看不懂 这种解法
+        :param nums:
+        :return:
+        '''
+        if not nums:
+            return
+        res=[]
+        n=len(nums)
+        vistied = [0] * n
+        def help(tmp,length):
+            if length == n:
+                res.append(tmp)
+            for i in range(n):
+                if vistied[i]:
+                    continue
+                vistied[i]=1
+                help(tmp+[nums[i]],length+1)
+                vistied[i]=0
+
+        help([],0)
+        return res
+
+s=Solution()
+print(s.permutepp([1,2,3]))
