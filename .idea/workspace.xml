@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/list/subsetsWithDup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/combinationSum.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/permute.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/permute.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/permute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="454">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="601">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -36,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list/subsetsWithDup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="316">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
@@ -70,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianbiao/getIntersectionNode.py" />
         <option value="$PROJECT_DIR$/lianbiao/middleNode.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
         <option value="$PROJECT_DIR$/lianbiao/ListNode.py" />
@@ -121,6 +128,7 @@
         <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
         <option value="$PROJECT_DIR$/list/permute.py" />
+        <option value="$PROJECT_DIR$/list/combinationSum.py" />
       </list>
     </option>
   </component>
@@ -183,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.permute">
+  <component name="RunManager" selected="Python.combinationSum">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,6 +213,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="combinationSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/combinationSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="permute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,27 +247,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/permute.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,19 +342,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.search" />
       <item itemvalue="Python.threeSumClosest" />
       <item itemvalue="Python.subsets" />
       <item itemvalue="Python.subsetsWithDup" />
       <item itemvalue="Python.permute" />
+      <item itemvalue="Python.combinationSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.combinationSum" />
         <item itemvalue="Python.permute" />
         <item itemvalue="Python.subsetsWithDup" />
         <item itemvalue="Python.subsets" />
         <item itemvalue="Python.threeSumClosest" />
-        <item itemvalue="Python.search" />
       </list>
     </recent_temporary>
   </component>
@@ -360,20 +368,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00150" summary="203.移除链表元素">
-      <created>1571889269129</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1571889269129</updated>
-    </task>
-    <task id="LOCAL-00151" summary="一些基本操作">
-      <created>1572405844801</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1572405844803</updated>
     </task>
     <task id="LOCAL-00152" summary="4.寻找两个有序数组的中位数">
       <created>1572423471000</created>
@@ -704,7 +698,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574132015917</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="90. 子集 II">
+      <created>1574144054911</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1574144054912</updated>
+    </task>
+    <task id="LOCAL-00200" summary="46. 全排列">
+      <created>1574144179880</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1574144179880</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -731,8 +739,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="645.错误的集合" />
-    <MESSAGE value="728.自除数" />
     <MESSAGE value="754.到达终点数字" />
     <MESSAGE value="812.最大三角形面积" />
     <MESSAGE value="1154.一年中的第几天" />
@@ -756,16 +762,11 @@
     <MESSAGE value="33. 搜索旋转排序数组" />
     <MESSAGE value="16. 最接近的三数之和" />
     <MESSAGE value="78.子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="78.子集" />
+    <MESSAGE value="90. 子集 II" />
+    <MESSAGE value="46. 全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="46. 全排列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/minWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1061,6 +1062,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/permute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/subsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
@@ -1068,16 +1083,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/permute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/subsetsWithDup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="316">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
