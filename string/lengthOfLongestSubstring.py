@@ -3,10 +3,17 @@
 # create time: 2019/3/5 
 
 '''
+3. 无重复字符的最长子串
+
 给定一个字符串，返回它最长的无重复的子串的长度
 Input: "abcabcbb"
 Output: 3
 Explanation: The answer is "abc", with the length of 3.
+
+思路：
+双指针 i，j 均为 0
+如果 s[j] 不在s[i:j] j+=1
+否则 i +=1
 '''
 
 class Solution(object):
