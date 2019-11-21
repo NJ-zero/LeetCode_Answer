@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="779. 第K个语法符号？？？">
-      <change afterPath="$PROJECT_DIR$/string/characterReplacement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/combinationSum2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/combinationSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/combinationSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,26 +18,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/permute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="975">
               <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="945">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/string/characterReplacement.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="381">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -69,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
         <option value="$PROJECT_DIR$/lianbiao/ListNode.py" />
         <option value="$PROJECT_DIR$/list/findMedianSortedArrays.py" />
         <option value="$PROJECT_DIR$/erfen/guessNumber.py" />
@@ -116,18 +116,19 @@
         <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
         <option value="$PROJECT_DIR$/list/permute.py" />
-        <option value="$PROJECT_DIR$/list/combinationSum.py" />
         <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/list/maxArea.py" />
         <option value="$PROJECT_DIR$/string/characterReplacement.py" />
+        <option value="$PROJECT_DIR$/list/combinationSum2.py" />
+        <option value="$PROJECT_DIR$/list/combinationSum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2212" />
-    <option name="y" value="33" />
-    <option name="width" value="1100" />
-    <option name="height" value="1002" />
+    <option name="x" value="69" />
+    <option name="y" value="23" />
+    <option name="width" value="1138" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -137,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,12 +148,13 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,12 +333,12 @@
     </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
-      <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.subsets" />
-      <item itemvalue="Python.subsetsWithDup" />
-      <item itemvalue="Python.permute" />
-      <item itemvalue="Python.combinationSum" />
       <item itemvalue="Python.characterReplacement" />
+      <item itemvalue="Python.combinationSum" />
+      <item itemvalue="Python.permute" />
+      <item itemvalue="Python.subsetsWithDup" />
+      <item itemvalue="Python.subsets" />
+      <item itemvalue="Python.thirdMax" />
     </list>
     <recent_temporary>
       <list>
@@ -359,13 +360,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00155" summary="441.排列硬币">
-      <created>1572426529501</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1572426529501</updated>
     </task>
     <task id="LOCAL-00156" summary="392.判断子序列">
       <created>1572428880994</created>
@@ -703,19 +697,26 @@
       <option name="project" value="LOCAL" />
       <updated>1574153165134</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="424. 替换后的最长重复字符">
+      <created>1574162755825</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162755825</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2212" y="33" width="1100" height="1002" extended-state="0" />
+    <frame x="69" y="23" width="1138" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26320666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15604396" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15604396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -730,7 +731,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1175. 质数排列" />
     <MESSAGE value="908.最小差值I" />
     <MESSAGE value="1217.玩筹码" />
     <MESSAGE value="1103.分糖果II" />
@@ -755,16 +755,10 @@
     <MESSAGE value="39. 组合总和" />
     <MESSAGE value="3. 无重复字符的最长子串" />
     <MESSAGE value="11. 盛最多水的容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. 盛最多水的容器" />
+    <MESSAGE value="424. 替换后的最长重复字符" />
+    <option name="LAST_COMMIT_MESSAGE" value="424. 替换后的最长重复字符" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/int/largestTriangleArea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/reachNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -962,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/permute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/subsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
@@ -1035,13 +1022,6 @@
     <entry file="file://$PROJECT_DIR$/string/mostCommonWord.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/lengthOfLastWord.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1050,8 +1030,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/characterReplacement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/permute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
