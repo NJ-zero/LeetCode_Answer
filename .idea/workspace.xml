@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="5.最长回文子串">
-      <change afterPath="$PROJECT_DIR$/string/countSubstrings.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="198.打家劫舍">
+      <change afterPath="$PROJECT_DIR$/list/subarraySum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="5" column="4" selection-start-line="5" selection-end-line="6" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -25,17 +25,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="420">
               <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/subarraySum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="30" selection-start-line="30" selection-end-line="48" selection-end-column="20" />
+            <state relative-caret-position="182">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/rob.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -68,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erfen/guessNumber.py" />
-        <option value="$PROJECT_DIR$/list/intersection.py" />
         <option value="$PROJECT_DIR$/int/arrangeCoins.py" />
         <option value="$PROJECT_DIR$/string/isSubsequence.py" />
         <option value="$PROJECT_DIR$/erfen/firstBadVersion.py" />
@@ -119,12 +144,14 @@
         <option value="$PROJECT_DIR$/list/combinationSum.py" />
         <option value="$PROJECT_DIR$/string/longestPalindrome.py" />
         <option value="$PROJECT_DIR$/string/countSubstrings.py" />
+        <option value="$PROJECT_DIR$/list/rob.py" />
+        <option value="$PROJECT_DIR$/list/subarraySum.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1808" />
-    <option name="y" value="70" />
+    <option name="x" value="1828" />
+    <option name="y" value="105" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -146,7 +173,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.countSubstrings">
+  <component name="RunManager" selected="Python.subarraySum">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsetsWithDup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="subarraySum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,7 +326,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/subsetsWithDup.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/subarraySum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +359,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.subsetsWithDup" />
       <item itemvalue="Python.permute" />
       <item itemvalue="Python.combinationSum" />
       <item itemvalue="Python.characterReplacement" />
       <item itemvalue="Python.countSubstrings" />
+      <item itemvalue="Python.subarraySum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subarraySum" />
         <item itemvalue="Python.countSubstrings" />
         <item itemvalue="Python.characterReplacement" />
         <item itemvalue="Python.combinationSum" />
         <item itemvalue="Python.permute" />
-        <item itemvalue="Python.subsetsWithDup" />
       </list>
     </recent_temporary>
   </component>
@@ -358,20 +385,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00159" summary="475.供暖器">
-      <created>1572438415984</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1572438415984</updated>
-    </task>
-    <task id="LOCAL-00160" summary="475.供暖器">
-      <created>1572438431074</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1572438431074</updated>
     </task>
     <task id="LOCAL-00161" summary="718.最长重复子数组">
       <created>1572515311014</created>
@@ -702,11 +715,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574321077461</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="647. 回文子串">
+      <created>1574322965897</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1574322965897</updated>
+    </task>
+    <task id="LOCAL-00209" summary="198.打家劫舍">
+      <created>1574324828286</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1574324828286</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1808" y="70" width="1138" height="936" extended-state="0" />
+    <frame x="1828" y="105" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
@@ -729,8 +756,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1232. 缀点成线" />
-    <MESSAGE value="258. 各位相加" />
     <MESSAGE value="263. 丑数" />
     <MESSAGE value="567.字符串的排列" />
     <MESSAGE value="93.复原IP地址" />
@@ -754,19 +779,11 @@
     <MESSAGE value="组合总和" />
     <MESSAGE value="76. 最小覆盖子串" />
     <MESSAGE value="5.最长回文子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.最长回文子串" />
+    <MESSAGE value="647. 回文子串" />
+    <MESSAGE value="198.打家劫舍" />
+    <option name="LAST_COMMIT_MESSAGE" value="198.打家劫舍" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/int/addDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/trailingZeroes.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/addBinary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -988,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/subsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
@@ -1012,13 +1022,6 @@
     <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1035,22 +1038,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="420">
           <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="5" column="4" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="30" selection-start-line="30" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="182">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/rob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/subarraySum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
