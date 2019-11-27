@@ -3,6 +3,8 @@
 # Author: dongshichao
 
 '''
+647. 回文子串
+
 给定一个字符串，你的任务是计算这个字符串中有多少个回文子串。
 
 具有不同开始位置或结束位置的子串，即使是由相同的字符组成，也会被计为是不同的子串。
@@ -20,6 +22,7 @@
 
 思路：
 方法同 5.最长回文子串
+longestPalindrome
 
 '''
 
@@ -34,7 +37,6 @@ class Solution(object):
         for i in range(len(s)):
             s1 = self.isppp(s,len(s),i,i)
             s2 = self.isppp(s,len(s),i,i+1)
-            print(i,s1,s2)
             sum += s1+s2
         return sum
 
