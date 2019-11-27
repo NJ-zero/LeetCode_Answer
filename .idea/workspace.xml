@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="287.寻找重复数">
-      <change afterPath="$PROJECT_DIR$/list/findNumberOfLIS.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="647. 回文子串">
+      <change afterPath="$PROJECT_DIR$/list/dailyTemperatures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,18 +22,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/findNumberOfLIS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="390">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/dailyTemperatures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="36" selection-start-line="36" selection-end-line="44" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="4206" column="8" selection-start-line="4206" selection-start-column="8" selection-end-line="4206" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="24" selection-start-line="24" selection-end-line="55" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -64,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
         <option value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
         <option value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
         <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
@@ -106,7 +136,6 @@
         <option value="$PROJECT_DIR$/list/combinationSum2.py" />
         <option value="$PROJECT_DIR$/list/combinationSum.py" />
         <option value="$PROJECT_DIR$/string/longestPalindrome.py" />
-        <option value="$PROJECT_DIR$/string/countSubstrings.py" />
         <option value="$PROJECT_DIR$/list/rob.py" />
         <option value="$PROJECT_DIR$/list/subarraySum.py" />
         <option value="$PROJECT_DIR$/list/wordBreak.py" />
@@ -115,12 +144,14 @@
         <option value="$PROJECT_DIR$/list/findDuplicate.py" />
         <option value="$PROJECT_DIR$/list/lengthOfLIS.py" />
         <option value="$PROJECT_DIR$/list/findNumberOfLIS.py" />
+        <option value="$PROJECT_DIR$/string/countSubstrings.py" />
+        <option value="$PROJECT_DIR$/list/dailyTemperatures.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1465" />
-    <option name="y" value="101" />
+    <option name="x" value="2089" />
+    <option name="y" value="80" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -177,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.findNumberOfLIS">
+  <component name="RunManager" selected="Python.dailyTemperatures">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +222,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/buddyStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dailyTemperatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/dailyTemperatures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,27 +335,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subarraySum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/subarraySum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,19 +359,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.subarraySum" />
       <item itemvalue="Python.findUnsortedSubarray" />
       <item itemvalue="Python.numSquares" />
       <item itemvalue="Python.lengthOfLIS" />
       <item itemvalue="Python.findNumberOfLIS" />
+      <item itemvalue="Python.dailyTemperatures" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dailyTemperatures" />
         <item itemvalue="Python.findNumberOfLIS" />
         <item itemvalue="Python.lengthOfLIS" />
         <item itemvalue="Python.numSquares" />
         <item itemvalue="Python.findUnsortedSubarray" />
-        <item itemvalue="Python.subarraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -354,20 +385,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00168" summary="15.三数之和">
-      <created>1573115471759</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1573115471759</updated>
-    </task>
-    <task id="LOCAL-00169" summary="统计一个数转换为2进制数后 1 的个数">
-      <created>1573115504625</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1573115504625</updated>
     </task>
     <task id="LOCAL-00170" summary="53.最大的子序和">
       <created>1573117182464</created>
@@ -698,11 +715,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574823117217</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="673. 最长递增子序列的个数">
+      <created>1574840755632</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1574840755632</updated>
+    </task>
+    <task id="LOCAL-00218" summary="647. 回文子串">
+      <created>1574843658444</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1574843658444</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1465" y="101" width="1138" height="936" extended-state="0" />
+    <frame x="2089" y="80" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
@@ -725,7 +756,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="231. 2的幂" />
     <MESSAGE value="20.有效的括号" />
     <MESSAGE value="21.合并两个有序链表" />
     <MESSAGE value="46.全排列" />
@@ -742,7 +772,6 @@
     <MESSAGE value="组合总和" />
     <MESSAGE value="76. 最小覆盖子串" />
     <MESSAGE value="5.最长回文子串" />
-    <MESSAGE value="647. 回文子串" />
     <MESSAGE value="198.打家劫舍" />
     <MESSAGE value="560. 和为K的子数组" />
     <MESSAGE value="139. 单词拆分" />
@@ -750,14 +779,11 @@
     <MESSAGE value="279.完全平方数" />
     <MESSAGE value="287.寻找重复数" />
     <MESSAGE value="300. 最长上升子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="300. 最长上升子序列" />
+    <MESSAGE value="673. 最长递增子序列的个数" />
+    <MESSAGE value="647. 回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="647. 回文子串" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -842,13 +868,6 @@
         <state relative-caret-position="-25" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/maxArea.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -911,13 +930,6 @@
     <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/minWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -932,31 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/rob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1027,10 +1018,52 @@
     <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/rob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/findNumberOfLIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="390">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" selection-start-line="24" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="4206" column="8" selection-start-line="4206" selection-start-column="8" selection-end-line="4206" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/dailyTemperatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="36" selection-start-line="36" selection-end-line="44" selection-end-column="18" />
         </state>
       </provider>
     </entry>
