@@ -35,3 +35,20 @@ class Solution(object):
             else:
                 j-=1
         return res
+
+    def mmmm(self,s):
+        '''
+        暴力解法，时间复杂度O(n^2)
+        :param s:
+        :return:
+        '''
+        res=0
+        for i in range(len(s)-1):
+            for j in range(i+1,len(s)):
+                res = max(res, min(s[i], s[j]) * (j - i))
+        return res
+
+
+s=Solution()
+print(s.maxArea([1,8,6,2,5,4,8,3,7]))
+print(s.mmmm([1,8,6,2,5,4,8,3,7]))
