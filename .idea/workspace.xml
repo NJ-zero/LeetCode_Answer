@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="416. 分割等和子集">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="287.寻找重复数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/findDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/findDuplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/moveZeroes.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/moveZeroes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,17 +25,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/canPartition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="480">
               <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/findDuplicate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/digui/kthGrammar.py" />
         <option value="$PROJECT_DIR$/review_answer/count1.py" />
         <option value="$PROJECT_DIR$/string/minWindow.py" />
         <option value="$PROJECT_DIR$/list/maxSubArray.py" />
@@ -128,12 +136,13 @@
         <option value="$PROJECT_DIR$/list/canPartition.py" />
         <option value="$PROJECT_DIR$/list/canPartitionKSubsets.py" />
         <option value="$PROJECT_DIR$/list/findDuplicate.py" />
+        <option value="$PROJECT_DIR$/list/moveZeroes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1721" />
-    <option name="y" value="58" />
+    <option name="x" value="2043" />
+    <option name="y" value="135" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -145,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +170,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,12 +349,12 @@
     </configuration>
     <list>
       <item itemvalue="Python.buddyStrings" />
-      <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.numSquares" />
-      <item itemvalue="Python.lengthOfLIS" />
-      <item itemvalue="Python.findNumberOfLIS" />
-      <item itemvalue="Python.dailyTemperatures" />
       <item itemvalue="Python.canPartition" />
+      <item itemvalue="Python.dailyTemperatures" />
+      <item itemvalue="Python.findNumberOfLIS" />
+      <item itemvalue="Python.lengthOfLIS" />
+      <item itemvalue="Python.numSquares" />
+      <item itemvalue="Python.thirdMax" />
     </list>
     <recent_temporary>
       <list>
@@ -367,13 +376,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00173" summary="633.平方数之和">
-      <created>1573126458399</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1573126458399</updated>
     </task>
     <task id="LOCAL-00174" summary="645.错误的集合">
       <created>1573127701309</created>
@@ -711,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575017057870</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="287.寻找重复数">
+      <created>1575025493866</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1575025493866</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1721" y="58" width="1138" height="936" extended-state="0" />
+    <frame x="2043" y="135" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
@@ -723,12 +732,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2120853" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2120853" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -756,19 +765,16 @@
     <MESSAGE value="139. 单词拆分" />
     <MESSAGE value="581. 最短无序连续子数组" />
     <MESSAGE value="279.完全平方数" />
-    <MESSAGE value="287.寻找重复数" />
     <MESSAGE value="300. 最长上升子序列" />
     <MESSAGE value="673. 最长递增子序列的个数" />
     <MESSAGE value="647. 回文子串" />
     <MESSAGE value="739. 每日温度" />
     <MESSAGE value="26. 删除排序数组中的重复项" />
     <MESSAGE value="416. 分割等和子集" />
-    <option name="LAST_COMMIT_MESSAGE" value="416. 分割等和子集" />
+    <MESSAGE value="287.寻找重复数" />
+    <option name="LAST_COMMIT_MESSAGE" value="287.寻找重复数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/maxProfit.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1022,10 +1028,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/canPartitionKSubsets.py" />
     <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/canPartition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -1036,24 +1050,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/canPartitionKSubsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/canPartition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/findDuplicate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/moveZeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
