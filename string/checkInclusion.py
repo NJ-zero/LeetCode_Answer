@@ -3,6 +3,8 @@
 # Author: dongshichao
 
 '''
+567.字符串的排列
+
 给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的排列。
 换句话说，第一个字符串的排列之一是第二个字符串的子串。
 
@@ -12,9 +14,13 @@
 输出: True
 解释: s2 包含 s1 的排列之一 ("ba").
 
-'''
-from collections import Counter
 
+思路：
+定一个长度和s1 相等的 滑窗，如果滑窗内各元素统计的值相等，则true
+不等，则右滑，减去最左边元素，最右边新进来的加一
+'''
+
+from collections import Counter
 
 class Solution(object):
     def checkInclusion(self, s1, s2):

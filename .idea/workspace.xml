@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="852. 山脉数组的峰顶索引">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="416. 分割等和子集">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/findDuplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/findDuplicate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,37 +14,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+        <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
+        <entry file="file://$PROJECT_DIR$/list/canPartition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="402">
+              <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
+        <entry file="file://$PROJECT_DIR$/list/findDuplicate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -60,10 +61,15 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cur2</find>
+      <find>maxArea</find>
+      <find>search</find>
     </findStrings>
     <replaceStrings>
       <replace>l2</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,65 +77,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/hasGroupsSizeX.py" />
-        <option value="$PROJECT_DIR$/list/maxDistToClosest.py" />
-        <option value="$PROJECT_DIR$/list/isOneBitCharacter.py" />
-        <option value="$PROJECT_DIR$/list/pivotIndex.py" />
-        <option value="$PROJECT_DIR$/list/minCostClimbingStairs.py" />
-        <option value="$PROJECT_DIR$/digui/minCostClimbingStairs.py" />
-        <option value="$PROJECT_DIR$/list/dominantIndex.py" />
-        <option value="$PROJECT_DIR$/string/countSegments.py" />
-        <option value="$PROJECT_DIR$/validPalindrome.py" />
-        <option value="$PROJECT_DIR$/string/reverseOnlyLetters.py" />
-        <option value="$PROJECT_DIR$/string/canConstruct.py" />
-        <option value="$PROJECT_DIR$/string/compress.py" />
-        <option value="$PROJECT_DIR$/string/repeatedSubstringPattern.py" />
-        <option value="$PROJECT_DIR$/string/detectCapitalUse.py" />
-        <option value="$PROJECT_DIR$/string/findLUSlength.py" />
-        <option value="$PROJECT_DIR$/string/reverseStr.py" />
-        <option value="$PROJECT_DIR$/string/checkRecord.py" />
-        <option value="$PROJECT_DIR$/string/judgeCircle.py" />
-        <option value="$PROJECT_DIR$/string/numSmallerByFrequency.py" />
-        <option value="$PROJECT_DIR$/string/gcdOfStrings.py" />
-        <option value="$PROJECT_DIR$/string/buddyStrings.py" />
-        <option value="$PROJECT_DIR$/mostCommonWord.py" />
-        <option value="$PROJECT_DIR$/string/isLongPressedName.py" />
-        <option value="$PROJECT_DIR$/string/countBinarySubstrings.py" />
-        <option value="$PROJECT_DIR$/string/rotatedDigits.py" />
-        <option value="$PROJECT_DIR$/int/canWinNim.py" />
-        <option value="$PROJECT_DIR$/digui/tribonacci.py" />
-        <option value="$PROJECT_DIR$/digui/canPartitionKSubsets.py" />
-        <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
+        <option value="$PROJECT_DIR$/digui/kthGrammar.py" />
+        <option value="$PROJECT_DIR$/review_answer/count1.py" />
+        <option value="$PROJECT_DIR$/string/minWindow.py" />
+        <option value="$PROJECT_DIR$/list/maxSubArray.py" />
+        <option value="$PROJECT_DIR$/int/checkPerfectNumber.py" />
+        <option value="$PROJECT_DIR$/int/maxCount.py" />
+        <option value="$PROJECT_DIR$/int/judgeSquareSum.py" />
+        <option value="$PROJECT_DIR$/list/findErrorNums.py" />
+        <option value="$PROJECT_DIR$/int/selfDividingNumbers.py" />
+        <option value="$PROJECT_DIR$/int/reachNumber.py" />
+        <option value="$PROJECT_DIR$/int/largestTriangleArea.py" />
+        <option value="$PROJECT_DIR$/int/dayOfYear.py" />
+        <option value="$PROJECT_DIR$/int/numPrimeArrangements.py" />
+        <option value="$PROJECT_DIR$/int/smallestRangeI.py" />
+        <option value="$PROJECT_DIR$/int/minCostToMoveChips.py" />
+        <option value="$PROJECT_DIR$/int/distributeCandies.py" />
+        <option value="$PROJECT_DIR$/int/checkStraightLine.py" />
+        <option value="$PROJECT_DIR$/int/addDigits.py" />
+        <option value="$PROJECT_DIR$/int/isUgly.py" />
+        <option value="$PROJECT_DIR$/string/checkInclusion.py" />
+        <option value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
+        <option value="$PROJECT_DIR$/list/threeSum.py" />
+        <option value="$PROJECT_DIR$/list/longestConsecutive.py" />
+        <option value="$PROJECT_DIR$/int/isPowerOfTwo.py" />
+        <option value="$PROJECT_DIR$/other/isValid.py" />
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
-        <option value="$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py" />
-        <option value="$PROJECT_DIR$/lianbiao/hasCycle.py" />
-        <option value="$PROJECT_DIR$/lianbiao/reverseList.py" />
-        <option value="$PROJECT_DIR$/lianbiao/isPalindrome.py" />
-        <option value="$PROJECT_DIR$/lianbiao/deleteNode.py" />
-        <option value="$PROJECT_DIR$/lianbiao/getIntersectionNode.py" />
-        <option value="$PROJECT_DIR$/lianbiao/middleNode.py" />
-        <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
-        <option value="$PROJECT_DIR$/lianbiao/ListNode.py" />
-        <option value="$PROJECT_DIR$/list/findMedianSortedArrays.py" />
-        <option value="$PROJECT_DIR$/erfen/guessNumber.py" />
-        <option value="$PROJECT_DIR$/list/intersection.py" />
-        <option value="$PROJECT_DIR$/int/arrangeCoins.py" />
-        <option value="$PROJECT_DIR$/string/isSubsequence.py" />
-        <option value="$PROJECT_DIR$/erfen/firstBadVersion.py" />
-        <option value="$PROJECT_DIR$/erfen/isPerfectSquare.py" />
-        <option value="$PROJECT_DIR$/list/findRadius.py" />
-        <option value="$PROJECT_DIR$/list/findLength.py" />
-        <option value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
-        <option value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
-        <option value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
+        <option value="$PROJECT_DIR$/list/productExceptSelf.py" />
+        <option value="$PROJECT_DIR$/list/search.py" />
+        <option value="$PROJECT_DIR$/list/threeSumClosest.py" />
+        <option value="$PROJECT_DIR$/list/subsets.py" />
+        <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
+        <option value="$PROJECT_DIR$/list/permute.py" />
+        <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
+        <option value="$PROJECT_DIR$/list/maxArea.py" />
+        <option value="$PROJECT_DIR$/string/characterReplacement.py" />
+        <option value="$PROJECT_DIR$/list/combinationSum2.py" />
+        <option value="$PROJECT_DIR$/list/combinationSum.py" />
+        <option value="$PROJECT_DIR$/string/longestPalindrome.py" />
+        <option value="$PROJECT_DIR$/list/rob.py" />
+        <option value="$PROJECT_DIR$/list/subarraySum.py" />
+        <option value="$PROJECT_DIR$/list/wordBreak.py" />
+        <option value="$PROJECT_DIR$/list/findUnsortedSubarray.py" />
+        <option value="$PROJECT_DIR$/int/numSquares.py" />
+        <option value="$PROJECT_DIR$/list/lengthOfLIS.py" />
+        <option value="$PROJECT_DIR$/list/findNumberOfLIS.py" />
+        <option value="$PROJECT_DIR$/string/countSubstrings.py" />
+        <option value="$PROJECT_DIR$/list/dailyTemperatures.py" />
+        <option value="$PROJECT_DIR$/list/removeduplicates.py" />
+        <option value="$PROJECT_DIR$/list/canPartition.py" />
+        <option value="$PROJECT_DIR$/list/canPartitionKSubsets.py" />
+        <option value="$PROJECT_DIR$/list/findDuplicate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="120" />
-    <option name="y" value="23" />
-    <option name="width" value="1137" />
-    <option name="height" value="877" />
+    <option name="x" value="1721" />
+    <option name="y" value="58" />
+    <option name="width" value="1138" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,11 +153,15 @@
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.isPerfectSquare">
+  <component name="RunManager" selected="Python.canPartition">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isPerfectSquare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="canPartition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/isPerfectSquare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/canPartition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dailyTemperatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,11 +241,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/isSubsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/dailyTemperatures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minEatingSpeed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="findNumberOfLIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/minEatingSpeed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findNumberOfLIS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +275,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nextGreatestLetter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lengthOfLIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +283,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/nextGreatestLetter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/lengthOfLIS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="peakIndexInMountainArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="numSquares" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,11 +304,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/erfen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/erfen/peakIndexInMountainArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/numSquares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +341,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.isPerfectSquare" />
-      <item itemvalue="Python.isSubsequence" />
-      <item itemvalue="Python.minEatingSpeed" />
-      <item itemvalue="Python.nextGreatestLetter" />
-      <item itemvalue="Python.peakIndexInMountainArray" />
+      <item itemvalue="Python.numSquares" />
+      <item itemvalue="Python.lengthOfLIS" />
+      <item itemvalue="Python.findNumberOfLIS" />
+      <item itemvalue="Python.dailyTemperatures" />
+      <item itemvalue="Python.canPartition" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.isPerfectSquare" />
-        <item itemvalue="Python.minEatingSpeed" />
-        <item itemvalue="Python.peakIndexInMountainArray" />
-        <item itemvalue="Python.nextGreatestLetter" />
-        <item itemvalue="Python.isSubsequence" />
+        <item itemvalue="Python.canPartition" />
+        <item itemvalue="Python.dailyTemperatures" />
+        <item itemvalue="Python.findNumberOfLIS" />
+        <item itemvalue="Python.lengthOfLIS" />
+        <item itemvalue="Python.numSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -357,366 +368,367 @@
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
     </task>
-    <task id="LOCAL-00116" summary="742.寻找数组的中心索引">
-      <created>1571205675337</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
+    <task id="LOCAL-00173" summary="633.平方数之和">
+      <created>1573126458399</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
       <option name="project" value="LOCAL" />
-      <updated>1571205675337</updated>
+      <updated>1573126458399</updated>
     </task>
-    <task id="LOCAL-00117" summary="746. 使用最小花费爬楼梯">
-      <created>1571210158682</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
+    <task id="LOCAL-00174" summary="645.错误的集合">
+      <created>1573127701309</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
       <option name="project" value="LOCAL" />
-      <updated>1571210158682</updated>
+      <updated>1573127701309</updated>
     </task>
-    <task id="LOCAL-00118" summary="747.至少是其他数字两倍的最大数">
-      <created>1571211140570</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
+    <task id="LOCAL-00175" summary="728.自除数">
+      <created>1573128857461</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
       <option name="project" value="LOCAL" />
-      <updated>1571211140570</updated>
+      <updated>1573128857461</updated>
     </task>
-    <task id="LOCAL-00119" summary="434.字符串中的单词数">
-      <created>1571212337499</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
+    <task id="LOCAL-00176" summary="754.到达终点数字">
+      <created>1573181914800</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
       <option name="project" value="LOCAL" />
-      <updated>1571212337499</updated>
+      <updated>1573181914800</updated>
     </task>
-    <task id="LOCAL-00120" summary="680. 验证回文字符串 Ⅱ">
-      <created>1571218732839</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
+    <task id="LOCAL-00177" summary="812.最大三角形面积">
+      <created>1573183970611</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
       <option name="project" value="LOCAL" />
-      <updated>1571218732839</updated>
+      <updated>1573183970611</updated>
     </task>
-    <task id="LOCAL-00121" summary="917.仅仅反转字母">
-      <created>1571300713637</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
+    <task id="LOCAL-00178" summary="1154.一年中的第几天">
+      <created>1573185266739</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
       <option name="project" value="LOCAL" />
-      <updated>1571300713637</updated>
+      <updated>1573185266739</updated>
     </task>
-    <task id="LOCAL-00122" summary="383.赎金信">
-      <created>1571302202130</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
+    <task id="LOCAL-00179" summary="1175. 质数排列">
+      <created>1573194696394</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
       <option name="project" value="LOCAL" />
-      <updated>1571302202130</updated>
+      <updated>1573194696394</updated>
     </task>
-    <task id="LOCAL-00123" summary="443.压缩字符串">
-      <created>1571387960871</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
+    <task id="LOCAL-00180" summary="908.最小差值I">
+      <created>1573206662110</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
       <option name="project" value="LOCAL" />
-      <updated>1571387960872</updated>
+      <updated>1573206662111</updated>
     </task>
-    <task id="LOCAL-00124" summary="459.重复的子字符串">
-      <created>1571395878750</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
+    <task id="LOCAL-00181" summary="1217.玩筹码">
+      <created>1573270598183</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
       <option name="project" value="LOCAL" />
-      <updated>1571395878750</updated>
+      <updated>1573270598183</updated>
     </task>
-    <task id="LOCAL-00125" summary="520. 检测大写字母">
-      <created>1571396114954</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
+    <task id="LOCAL-00182" summary="1103.分糖果II">
+      <created>1573281453846</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
       <option name="project" value="LOCAL" />
-      <updated>1571396114954</updated>
+      <updated>1573281453846</updated>
     </task>
-    <task id="LOCAL-00126" summary="521. 最长特殊序列 Ⅰ">
-      <created>1571396703989</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
+    <task id="LOCAL-00183" summary="1232. 缀点成线">
+      <created>1573471306292</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
       <option name="project" value="LOCAL" />
-      <updated>1571396703989</updated>
+      <updated>1573471306292</updated>
     </task>
-    <task id="LOCAL-00127" summary="541. 反转字符串 II">
-      <created>1571457082545</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
+    <task id="LOCAL-00184" summary="258. 各位相加">
+      <created>1573472594712</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
       <option name="project" value="LOCAL" />
-      <updated>1571457082545</updated>
+      <updated>1573472594712</updated>
     </task>
-    <task id="LOCAL-00128" summary="551. 学生出勤记录 I">
-      <created>1571465260377</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
+    <task id="LOCAL-00185" summary="263. 丑数">
+      <created>1573473290826</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
       <option name="project" value="LOCAL" />
-      <updated>1571465260377</updated>
+      <updated>1573473290826</updated>
     </task>
-    <task id="LOCAL-00129" summary="657. 机器人能否返回原点">
-      <created>1571465484376</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
+    <task id="LOCAL-00186" summary="567.字符串的排列">
+      <created>1573551340854</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
       <option name="project" value="LOCAL" />
-      <updated>1571465484376</updated>
+      <updated>1573551340854</updated>
     </task>
-    <task id="LOCAL-00130" summary="1170. 比较字符串最小字母出现频次">
-      <created>1571468047224</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
+    <task id="LOCAL-00187" summary="93.复原IP地址">
+      <created>1573559417547</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
       <option name="project" value="LOCAL" />
-      <updated>1571468047224</updated>
+      <updated>1573559417547</updated>
     </task>
-    <task id="LOCAL-00131" summary="1071.字符串的最大公因子">
-      <created>1571474781723</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
+    <task id="LOCAL-00188" summary="15.三数之和">
+      <created>1573560198240</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
       <option name="project" value="LOCAL" />
-      <updated>1571474781723</updated>
+      <updated>1573560198240</updated>
     </task>
-    <task id="LOCAL-00132" summary="859. 亲密字符串">
-      <created>1571475997897</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
+    <task id="LOCAL-00189" summary="128.最长连续序列">
+      <created>1573611882980</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
       <option name="project" value="LOCAL" />
-      <updated>1571475997897</updated>
+      <updated>1573611882980</updated>
     </task>
-    <task id="LOCAL-00133" summary="819.最常见的单词">
-      <created>1571476313330</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
+    <task id="LOCAL-00190" summary="231.2的幂">
+      <created>1573644498438</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
       <option name="project" value="LOCAL" />
-      <updated>1571476313331</updated>
+      <updated>1573644498439</updated>
     </task>
-    <task id="LOCAL-00134" summary="925. 长按键入">
-      <created>1571476905346</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
+    <task id="LOCAL-00191" summary="231. 2的幂">
+      <created>1573644520374</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
       <option name="project" value="LOCAL" />
-      <updated>1571476905346</updated>
+      <updated>1573644520374</updated>
     </task>
-    <task id="LOCAL-00135" summary="925. 长按键入">
-      <created>1571624328683</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
+    <task id="LOCAL-00192" summary="20.有效的括号">
+      <created>1573645900693</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
       <option name="project" value="LOCAL" />
-      <updated>1571624328683</updated>
+      <updated>1573645900694</updated>
     </task>
-    <task id="LOCAL-00136" summary="696. 计数二进制子串">
-      <created>1571647516638</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
+    <task id="LOCAL-00193" summary="21.合并两个有序链表">
+      <created>1573646114353</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
       <option name="project" value="LOCAL" />
-      <updated>1571647516638</updated>
+      <updated>1573646114353</updated>
     </task>
-    <task id="LOCAL-00137" summary="788.旋转数字">
-      <created>1571648579896</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
+    <task id="LOCAL-00194" summary="46.全排列">
+      <created>1573733135753</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
       <option name="project" value="LOCAL" />
-      <updated>1571648579896</updated>
+      <updated>1573733135753</updated>
     </task>
-    <task id="LOCAL-00138" summary="292.nim游戏">
-      <created>1571648856751</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
+    <task id="LOCAL-00195" summary="238. 除自身以外数组的乘积">
+      <created>1573810426927</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
       <option name="project" value="LOCAL" />
-      <updated>1571648856751</updated>
+      <updated>1573810426928</updated>
     </task>
-    <task id="LOCAL-00139" summary="1137.第 N 个泰波那契数">
-      <created>1571650268050</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
+    <task id="LOCAL-00196" summary="33. 搜索旋转排序数组">
+      <created>1573899879537</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
       <option name="project" value="LOCAL" />
-      <updated>1571650268050</updated>
+      <updated>1573899879538</updated>
     </task>
-    <task id="LOCAL-00140" summary="19. 删除链表的倒数第N个节点">
-      <created>1571660435261</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
+    <task id="LOCAL-00197" summary="16. 最接近的三数之和">
+      <created>1574077922539</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
       <option name="project" value="LOCAL" />
-      <updated>1571660435261</updated>
+      <updated>1574077922539</updated>
     </task>
-    <task id="LOCAL-00141" summary="19. 删除链表的倒数第N个节点">
-      <created>1571710170737</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
+    <task id="LOCAL-00198" summary="78.子集">
+      <created>1574132015917</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
       <option name="project" value="LOCAL" />
-      <updated>1571710170737</updated>
+      <updated>1574132015917</updated>
     </task>
-    <task id="LOCAL-00142" summary="21.合并两个有序链表">
-      <created>1571715663563</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
+    <task id="LOCAL-00199" summary="90. 子集 II">
+      <created>1574144054911</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
       <option name="project" value="LOCAL" />
-      <updated>1571715663563</updated>
+      <updated>1574144054912</updated>
     </task>
-    <task id="LOCAL-00143" summary="82. 删除排序链表中的重复元素 II">
-      <created>1571734194736</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
+    <task id="LOCAL-00200" summary="46. 全排列">
+      <created>1574144179880</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
       <option name="project" value="LOCAL" />
-      <updated>1571734194736</updated>
+      <updated>1574144179880</updated>
     </task>
-    <task id="LOCAL-00144" summary="141.环形链表">
-      <created>1571735359661</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
+    <task id="LOCAL-00201" summary="39. 组合总和">
+      <created>1574149981586</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
       <option name="project" value="LOCAL" />
-      <updated>1571735359661</updated>
+      <updated>1574149981586</updated>
     </task>
-    <task id="LOCAL-00145" summary="206.反转链表">
-      <created>1571736694234</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
+    <task id="LOCAL-00202" summary="3. 无重复字符的最长子串">
+      <created>1574151309175</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
       <option name="project" value="LOCAL" />
-      <updated>1571736694234</updated>
+      <updated>1574151309175</updated>
     </task>
-    <task id="LOCAL-00146" summary="234.回文链表">
-      <created>1571737472233</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
+    <task id="LOCAL-00203" summary="11. 盛最多水的容器">
+      <created>1574153165133</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
       <option name="project" value="LOCAL" />
-      <updated>1571737472233</updated>
+      <updated>1574153165134</updated>
     </task>
-    <task id="LOCAL-00147" summary="237.删除链表中的节点">
-      <created>1571737918870</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
+    <task id="LOCAL-00204" summary="424. 替换后的最长重复字符">
+      <created>1574162755825</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
       <option name="project" value="LOCAL" />
-      <updated>1571737918870</updated>
+      <updated>1574162755825</updated>
     </task>
-    <task id="LOCAL-00148" summary="160.相交链表">
-      <created>1571746284143</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
+    <task id="LOCAL-00205" summary="组合总和">
+      <created>1574306779800</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
       <option name="project" value="LOCAL" />
-      <updated>1571746284143</updated>
+      <updated>1574306779801</updated>
     </task>
-    <task id="LOCAL-00149" summary="876. 链表的中间结点">
-      <created>1571886441414</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
+    <task id="LOCAL-00206" summary="76. 最小覆盖子串">
+      <created>1574320689357</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
       <option name="project" value="LOCAL" />
-      <updated>1571886441414</updated>
+      <updated>1574320689357</updated>
     </task>
-    <task id="LOCAL-00150" summary="203.移除链表元素">
-      <created>1571889269129</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
+    <task id="LOCAL-00207" summary="5.最长回文子串">
+      <created>1574321077461</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
       <option name="project" value="LOCAL" />
-      <updated>1571889269129</updated>
+      <updated>1574321077461</updated>
     </task>
-    <task id="LOCAL-00151" summary="一些基本操作">
-      <created>1572405844801</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
+    <task id="LOCAL-00208" summary="647. 回文子串">
+      <created>1574322965897</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
       <option name="project" value="LOCAL" />
-      <updated>1572405844803</updated>
+      <updated>1574322965897</updated>
     </task>
-    <task id="LOCAL-00152" summary="4.寻找两个有序数组的中位数">
-      <created>1572423471000</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
+    <task id="LOCAL-00209" summary="198.打家劫舍">
+      <created>1574324828286</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
       <option name="project" value="LOCAL" />
-      <updated>1572423471001</updated>
+      <updated>1574324828286</updated>
     </task>
-    <task id="LOCAL-00153" summary="374.猜数字大小">
-      <created>1572423876935</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
+    <task id="LOCAL-00210" summary="560. 和为K的子数组">
+      <created>1574327896319</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
       <option name="project" value="LOCAL" />
-      <updated>1572423876935</updated>
+      <updated>1574327896319</updated>
     </task>
-    <task id="LOCAL-00154" summary="349.两个数组的交集">
-      <created>1572424664186</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
+    <task id="LOCAL-00211" summary="139. 单词拆分">
+      <created>1574330180825</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
       <option name="project" value="LOCAL" />
-      <updated>1572424664186</updated>
+      <updated>1574330180825</updated>
     </task>
-    <task id="LOCAL-00155" summary="441.排列硬币">
-      <created>1572426529501</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
+    <task id="LOCAL-00212" summary="581. 最短无序连续子数组">
+      <created>1574407486943</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
       <option name="project" value="LOCAL" />
-      <updated>1572426529501</updated>
+      <updated>1574407486943</updated>
     </task>
-    <task id="LOCAL-00156" summary="392.判断子序列">
-      <created>1572428880994</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
+    <task id="LOCAL-00213" summary="279.完全平方数">
+      <created>1574680607135</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
       <option name="project" value="LOCAL" />
-      <updated>1572428880994</updated>
+      <updated>1574680607135</updated>
     </task>
-    <task id="LOCAL-00157" summary="278.第一个错误的版本">
-      <created>1572434513070</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
+    <task id="LOCAL-00214" summary="287.寻找重复数">
+      <created>1574768434410</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
       <option name="project" value="LOCAL" />
-      <updated>1572434513070</updated>
+      <updated>1574768434410</updated>
     </task>
-    <task id="LOCAL-00158" summary="367.有效的完全平方数">
-      <created>1572435064793</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
+    <task id="LOCAL-00215" summary="300. 最长上升子序列">
+      <created>1574821797912</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
       <option name="project" value="LOCAL" />
-      <updated>1572435064793</updated>
+      <updated>1574821797913</updated>
     </task>
-    <task id="LOCAL-00159" summary="475.供暖器">
-      <created>1572438415984</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
+    <task id="LOCAL-00216" summary="300. 最长上升子序列">
+      <created>1574823117217</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
       <option name="project" value="LOCAL" />
-      <updated>1572438415984</updated>
+      <updated>1574823117217</updated>
     </task>
-    <task id="LOCAL-00160" summary="475.供暖器">
-      <created>1572438431074</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
+    <task id="LOCAL-00217" summary="673. 最长递增子序列的个数">
+      <created>1574840755632</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
       <option name="project" value="LOCAL" />
-      <updated>1572438431074</updated>
+      <updated>1574840755632</updated>
     </task>
-    <task id="LOCAL-00161" summary="718.最长重复子数组">
-      <created>1572515311014</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
+    <task id="LOCAL-00218" summary="647. 回文子串">
+      <created>1574843658444</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
       <option name="project" value="LOCAL" />
-      <updated>1572515311015</updated>
+      <updated>1574843658444</updated>
     </task>
-    <task id="LOCAL-00162" summary="744. 寻找比目标字母大的最小字母">
-      <created>1572589936561</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
+    <task id="LOCAL-00219" summary="739. 每日温度">
+      <created>1574848474984</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
       <option name="project" value="LOCAL" />
-      <updated>1572589936561</updated>
+      <updated>1574848474984</updated>
     </task>
-    <task id="LOCAL-00163" summary="852. 山脉数组的峰顶索引">
-      <created>1572595002395</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
+    <task id="LOCAL-00220" summary="26. 删除排序数组中的重复项">
+      <created>1574999948356</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
       <option name="project" value="LOCAL" />
-      <updated>1572595002395</updated>
+      <updated>1574999948356</updated>
     </task>
-    <task id="LOCAL-00164" summary="852. 山脉数组的峰顶索引">
-      <created>1572795444126</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
+    <task id="LOCAL-00221" summary="416. 分割等和子集">
+      <created>1575017057870</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
       <option name="project" value="LOCAL" />
-      <updated>1572795444128</updated>
+      <updated>1575017057870</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="120" y="23" width="1137" height="877" extended-state="0" />
+    <frame x="1721" y="58" width="1138" height="936" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26702508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1834395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32126698" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21564245" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2120853" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -725,399 +737,323 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="788.旋转数字" />
-    <MESSAGE value="292.nim游戏" />
-    <MESSAGE value="1137.第 N 个泰波那契数" />
-    <MESSAGE value="19. 删除链表的倒数第N个节点" />
-    <MESSAGE value="21.合并两个有序链表" />
-    <MESSAGE value="82. 删除排序链表中的重复元素 II" />
-    <MESSAGE value="141.环形链表" />
-    <MESSAGE value="206.反转链表" />
-    <MESSAGE value="234.回文链表" />
-    <MESSAGE value="237.删除链表中的节点" />
-    <MESSAGE value="160.相交链表" />
-    <MESSAGE value="876. 链表的中间结点" />
-    <MESSAGE value="203.移除链表元素" />
-    <MESSAGE value="一些基本操作" />
-    <MESSAGE value="4.寻找两个有序数组的中位数" />
-    <MESSAGE value="374.猜数字大小" />
-    <MESSAGE value="349.两个数组的交集" />
-    <MESSAGE value="441.排列硬币" />
-    <MESSAGE value="392.判断子序列" />
-    <MESSAGE value="278.第一个错误的版本" />
-    <MESSAGE value="367.有效的完全平方数" />
-    <MESSAGE value="475.供暖器" />
-    <MESSAGE value="718.最长重复子数组" />
-    <MESSAGE value="744. 寻找比目标字母大的最小字母" />
-    <MESSAGE value="852. 山脉数组的峰顶索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="852. 山脉数组的峰顶索引" />
+    <MESSAGE value="238. 除自身以外数组的乘积" />
+    <MESSAGE value="33. 搜索旋转排序数组" />
+    <MESSAGE value="16. 最接近的三数之和" />
+    <MESSAGE value="78.子集" />
+    <MESSAGE value="90. 子集 II" />
+    <MESSAGE value="46. 全排列" />
+    <MESSAGE value="39. 组合总和" />
+    <MESSAGE value="3. 无重复字符的最长子串" />
+    <MESSAGE value="11. 盛最多水的容器" />
+    <MESSAGE value="424. 替换后的最长重复字符" />
+    <MESSAGE value="组合总和" />
+    <MESSAGE value="76. 最小覆盖子串" />
+    <MESSAGE value="5.最长回文子串" />
+    <MESSAGE value="198.打家劫舍" />
+    <MESSAGE value="560. 和为K的子数组" />
+    <MESSAGE value="139. 单词拆分" />
+    <MESSAGE value="581. 最短无序连续子数组" />
+    <MESSAGE value="279.完全平方数" />
+    <MESSAGE value="287.寻找重复数" />
+    <MESSAGE value="300. 最长上升子序列" />
+    <MESSAGE value="673. 最长递增子序列的个数" />
+    <MESSAGE value="647. 回文子串" />
+    <MESSAGE value="739. 每日温度" />
+    <MESSAGE value="26. 删除排序数组中的重复项" />
+    <MESSAGE value="416. 分割等和子集" />
+    <option name="LAST_COMMIT_MESSAGE" value="416. 分割等和子集" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/reverseOnlyLetters.py">
+    <entry file="file://$PROJECT_DIR$/other/maxProfit.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/maxProfitII.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/productExceptSelf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/searchInsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        <state relative-caret-position="-25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/maxArea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/judgeCircle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/string/countSegments.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/numSmallerByFrequency.py">
+    <entry file="file://$PROJECT_DIR$/list/intersection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/gcdOfStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/repeatedSubstringPattern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/reverseStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="306">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/string/buddyStrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
+        <state relative-caret-position="-95" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/reverseWords.py">
+    <entry file="file://$PROJECT_DIR$/string/mostCommonWord.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/isLongPressedName.py">
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLastWord.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/FirstNotRepeatingChar.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/characterReplacement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/repeatedStringMatch.py">
+    <entry file="file://$PROJECT_DIR$/list/permute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/subsetsWithDup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="20" />
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="420">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/rotatedDigits.py">
+    <entry file="file://$PROJECT_DIR$/list/combinationSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="945">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
+    <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="40">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/digui/fib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/tribonacci.py">
+    <entry file="file://$PROJECT_DIR$/list/subarraySum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/mergelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/middleNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/hasCycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/removeElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="290">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/ListNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/findMedianSortedArrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/intersection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" selection-start-line="29" selection-end-line="41" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/intersect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/findRadius.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/mostCommonWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/arrangeCoins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/findLength.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/time.py" />
-    <entry file="file://$PROJECT_DIR$/paixu/selectionSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/digui/canPartitionKSubsets.py">
+    <entry file="file://$PROJECT_DIR$/list/wordBreak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
+    <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/hasCycle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/numSquares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="130">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/list/findLengthOfLCIS.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/nextGreatestLetter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/reverseint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
+    <entry file="file://$PROJECT_DIR$/list/rob.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/firstBadVersion.py">
+    <entry file="file://$PROJECT_DIR$/list/lengthOfLIS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findNumberOfLIS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/dailyTemperatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63090">
+          <caret line="4206" column="8" selection-start-line="4206" selection-start-column="8" selection-end-line="4206" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findUnsortedSubarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/canPartitionKSubsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/canPartition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/findDuplicate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
