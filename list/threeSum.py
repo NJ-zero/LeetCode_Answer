@@ -26,13 +26,15 @@ i遍历整个数组
 nums[i] <= nums[L] <= nums[R]
 所以nums[i] > 0 就跳出
 
-
-
 当 nums[i]+nums[L]+nums[R] == 0 时：执行循环
 判断左界 和 右届 是否和下一位置重复，则跳过，L+1  /  R-1
 当三数之和 大于 0，说明 nums[R] 太大，R左移
 当三数之和 小于 0，说明 nums[L] 太小，L右移
 
+思路2：
+暴力解法
+参考两数之和，相当于 target = -(a+b)，同是用hash表
+这边重复问题比较难搞，还没有搞定
 
 '''
 
@@ -72,6 +74,33 @@ class Solution(object):
                     L += 1
         return res
 
+    def three(self,nums):
+        dic={}
+        nums.sort()
+        for num in nums:
+            if num in dic:
+                dic[num]+=1
+            else:
+                dic[num]=1
+        res=[]
+
+        for i in range(len(nums)-1):
+            if i>0 and nums[i] == nums[i-1]:
+                continue
+            for j in range(i+1,len(nums)):
+                if j > 0 and nums[j] == nums[j - 1]:
+                    continue
+                a = nums[i] + nums[j]
+                if (0-a) in dic and dic[0-a]>0:
+                    n=[nums[i],nums[j],(0-a)]
+                    res.append(n)
+                    dic[0-a]-=1
+        return res
+
+
+
+
 
 s=Solution()
-print(s.threeSum([0,0,0]))
+print(s.threeSum([-1, 0, 1, 2, -1, -4, -1]))
+print(s.three([-1, 0, 1, 2, -1, -4, -1]))
