@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="15.三数之和">
+      <change afterPath="$PROJECT_DIR$/lianbiao/addTwoNumbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/threeSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/threeSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/threeSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-169">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -50,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/maxSubArray.py" />
         <option value="$PROJECT_DIR$/int/checkPerfectNumber.py" />
         <option value="$PROJECT_DIR$/int/maxCount.py" />
         <option value="$PROJECT_DIR$/int/judgeSquareSum.py" />
@@ -74,7 +91,6 @@
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/list/productExceptSelf.py" />
         <option value="$PROJECT_DIR$/list/search.py" />
-        <option value="$PROJECT_DIR$/list/threeSumClosest.py" />
         <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
         <option value="$PROJECT_DIR$/list/permute.py" />
@@ -101,12 +117,14 @@
         <option value="$PROJECT_DIR$/digui/climbStairs.py" />
         <option value="$PROJECT_DIR$/list/twosum.py" />
         <option value="$PROJECT_DIR$/list/threeSum.py" />
+        <option value="$PROJECT_DIR$/list/threeSumClosest.py" />
+        <option value="$PROJECT_DIR$/lianbiao/addTwoNumbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1671" />
-    <option name="y" value="135" />
+    <option name="x" value="2052" />
+    <option name="y" value="86" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -128,7 +146,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="lianbiao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,13 +358,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00179" summary="1175. 质数排列">
-      <created>1573194696394</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1573194696394</updated>
     </task>
     <task id="LOCAL-00180" summary="908.最小差值I">
       <created>1573206662110</created>
@@ -684,19 +695,26 @@
       <option name="project" value="LOCAL" />
       <updated>1575439601446</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="15.三数之和">
+      <created>1575443247464</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1575443247464</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1671" y="135" width="1138" height="936" extended-state="0" />
+    <frame x="1984" y="107" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -739,23 +757,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="15.三数之和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/canWinNim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/productExceptSelf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/searchInsert.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -767,13 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -893,9 +887,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/int/numSquares.py">
@@ -1033,6 +1024,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
