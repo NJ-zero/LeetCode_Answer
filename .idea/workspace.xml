@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="15.三数之和">
-      <change afterPath="$PROJECT_DIR$/lianbiao/addTwoNumbers.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="2.两数相加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/minWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/minWindow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,28 +14,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+        <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+            <state relative-caret-position="-294">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+        <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-169">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-75">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
+        <entry file="file://$PROJECT_DIR$/string/minWindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="640">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -54,6 +54,8 @@
       <find>cur2</find>
       <find>maxArea</find>
       <find>search</find>
+      <find>get</find>
+      <find>get(</find>
     </findStrings>
     <replaceStrings>
       <replace>l2</replace>
@@ -68,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/checkPerfectNumber.py" />
         <option value="$PROJECT_DIR$/int/maxCount.py" />
         <option value="$PROJECT_DIR$/int/judgeSquareSum.py" />
         <option value="$PROJECT_DIR$/list/findErrorNums.py" />
@@ -94,7 +95,6 @@
         <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
         <option value="$PROJECT_DIR$/list/permute.py" />
-        <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/string/characterReplacement.py" />
         <option value="$PROJECT_DIR$/list/combinationSum2.py" />
         <option value="$PROJECT_DIR$/list/combinationSum.py" />
@@ -119,12 +119,14 @@
         <option value="$PROJECT_DIR$/list/threeSum.py" />
         <option value="$PROJECT_DIR$/list/threeSumClosest.py" />
         <option value="$PROJECT_DIR$/lianbiao/addTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
+        <option value="$PROJECT_DIR$/string/minWindow.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2052" />
-    <option name="y" value="86" />
+    <option name="x" value="1996" />
+    <option name="y" value="42" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -146,7 +148,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="lianbiao" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.threeSum">
+  <component name="RunManager" selected="Python.minWindow">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,27 +247,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findNumberOfLIS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/findNumberOfLIS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="maxArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,6 +260,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/maxArea.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/minWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +334,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.findNumberOfLIS" />
       <item itemvalue="Python.dailyTemperatures" />
       <item itemvalue="Python.canPartition" />
       <item itemvalue="Python.maxArea" />
       <item itemvalue="Python.threeSum" />
+      <item itemvalue="Python.minWindow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minWindow" />
         <item itemvalue="Python.threeSum" />
         <item itemvalue="Python.maxArea" />
         <item itemvalue="Python.canPartition" />
         <item itemvalue="Python.dailyTemperatures" />
-        <item itemvalue="Python.findNumberOfLIS" />
       </list>
     </recent_temporary>
   </component>
@@ -358,20 +360,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00180" summary="908.最小差值I">
-      <created>1573206662110</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1573206662111</updated>
-    </task>
-    <task id="LOCAL-00181" summary="1217.玩筹码">
-      <created>1573270598183</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1573270598183</updated>
     </task>
     <task id="LOCAL-00182" summary="1103.分糖果II">
       <created>1573281453846</created>
@@ -702,19 +690,33 @@
       <option name="project" value="LOCAL" />
       <updated>1575443247464</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="2.两数相加">
+      <created>1575457808580</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1575457808580</updated>
+    </task>
+    <task id="LOCAL-00230" summary="3. 无重复字符的最长子串">
+      <created>1575460270494</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1575460270494</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="107" width="1138" height="936" extended-state="0" />
+    <frame x="1996" y="42" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,10 +731,8 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="90. 子集 II" />
     <MESSAGE value="46. 全排列" />
     <MESSAGE value="39. 组合总和" />
-    <MESSAGE value="3. 无重复字符的最长子串" />
     <MESSAGE value="424. 替换后的最长重复字符" />
     <MESSAGE value="组合总和" />
     <MESSAGE value="76. 最小覆盖子串" />
@@ -754,23 +754,11 @@
     <MESSAGE value="70.爬楼梯" />
     <MESSAGE value="1.两数之和" />
     <MESSAGE value="15.三数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.三数之和" />
+    <MESSAGE value="2.两数相加" />
+    <MESSAGE value="3. 无重复字符的最长子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 无重复字符的最长子串" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/searchInsert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -838,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/countBinarySubstrings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -906,13 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/lengthOfLIS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -931,13 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63090">
-          <caret line="4206" column="8" selection-start-line="4206" selection-start-column="8" selection-end-line="4206" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1020,20 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicates.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1045,10 +998,59 @@
     <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="-294">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="244" column="8" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>

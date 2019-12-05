@@ -11,7 +11,16 @@
 输入: S = "ADOBECODEBANC", T = "ABC"
 输出: "BANC"
 
+思路二：
+1. 初始，left指针和right指针都指向S的第一个元素.
+2. 将 right 指针右移，扩张窗口，直到得到一个可行窗口，亦即包含T的全部字母的窗口。
+3. 得到可行的窗口后，将left指针逐个右移，若得到的窗口依然可行，则更新最小窗口大小。
+4. 若窗口不再可行，则跳转至 2。
+
+
+
 '''
+from collections import Counter
 
 class Solution(object):
     def minWindow(self, s, t):
@@ -46,15 +55,36 @@ class Solution(object):
             return ""
         return res
 
+    def mmmm(self,s,t):
+
+        dic_t={}
+        for i in t:
+            dic_t[i] = dic_t.get(i,0)+1
+        i,j=0,0
+        window_t=Counter() # 统计滑窗中每个字出现的次数
+        res=""
+        min_len=len(s)
+        while j < len(s):
+            n = s[j]
+            window_t[n] +=1
+            j +=1
+
+            while all(map(lambda x: window_t[x] >= dic_t[x], dic_t.keys())): #说明滑窗已包含全部t的元素
+                if j-i <= min_len:
+                    res = s[i:j]
+                    min_len = j-i
+                window_t[s[i]] -= 1 # 起点往左移
+                i += 1
+        return res
+
+
+
+s=Solution()
+print(s.mmmm("ADOBECODEBANC","ABC"))
 
 dic={1:2,3:1,4:2,6:-1}
 print(sum(dic.values()))
 print(any(map(lambda x : x>0, dic.values())))
-dic={}
-t="abcac"
-for i in t:
-    dic[i] = dic.get(i, 0) + 1
 
-print(dic)
 
 
