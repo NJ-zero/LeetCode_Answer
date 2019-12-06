@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="76. 最小覆盖子串">
-      <change afterPath="$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="209. 长度最小的子数组">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/checkInclusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/checkInclusion.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="287">
               <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/minSubArrayLen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -79,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/judgeSquareSum.py" />
         <option value="$PROJECT_DIR$/list/findErrorNums.py" />
         <option value="$PROJECT_DIR$/int/selfDividingNumbers.py" />
         <option value="$PROJECT_DIR$/int/reachNumber.py" />
@@ -92,7 +109,6 @@
         <option value="$PROJECT_DIR$/int/checkStraightLine.py" />
         <option value="$PROJECT_DIR$/int/addDigits.py" />
         <option value="$PROJECT_DIR$/int/isUgly.py" />
-        <option value="$PROJECT_DIR$/string/checkInclusion.py" />
         <option value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
         <option value="$PROJECT_DIR$/list/longestConsecutive.py" />
         <option value="$PROJECT_DIR$/int/isPowerOfTwo.py" />
@@ -130,12 +146,14 @@
         <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
         <option value="$PROJECT_DIR$/string/minWindow.py" />
         <option value="$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py" />
+        <option value="$PROJECT_DIR$/list/minSubArrayLen.py" />
+        <option value="$PROJECT_DIR$/string/checkInclusion.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1928" />
-    <option name="y" value="91" />
+    <option name="x" value="1770" />
+    <option name="y" value="56" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -192,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lengthOfLongestSubstringTwoDistinct">
+  <component name="RunManager" selected="Python.minSubArrayLen">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,27 +224,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/buddyStrings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="canPartition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/canPartition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,6 +266,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/maxArea.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minSubArrayLen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/minSubArrayLen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,19 +361,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.canPartition" />
       <item itemvalue="Python.maxArea" />
       <item itemvalue="Python.threeSum" />
       <item itemvalue="Python.minWindow" />
       <item itemvalue="Python.lengthOfLongestSubstringTwoDistinct" />
+      <item itemvalue="Python.minSubArrayLen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minSubArrayLen" />
         <item itemvalue="Python.lengthOfLongestSubstringTwoDistinct" />
         <item itemvalue="Python.minWindow" />
         <item itemvalue="Python.threeSum" />
         <item itemvalue="Python.maxArea" />
-        <item itemvalue="Python.canPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -369,20 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00183" summary="1232. 缀点成线">
-      <created>1573471306292</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1573471306292</updated>
-    </task>
-    <task id="LOCAL-00184" summary="258. 各位相加">
-      <created>1573472594712</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1573472594712</updated>
     </task>
     <task id="LOCAL-00185" summary="263. 丑数">
       <created>1573473290826</created>
@@ -713,19 +717,33 @@
       <option name="project" value="LOCAL" />
       <updated>1575515625592</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="159. 至多包含两个不同字符的最长子串">
+      <created>1575617089763</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1575617089764</updated>
+    </task>
+    <task id="LOCAL-00233" summary="209. 长度最小的子数组">
+      <created>1575620030575</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1575620030575</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1928" y="91" width="1138" height="936" extended-state="0" />
+    <frame x="1770" y="56" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -740,8 +758,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="46. 全排列" />
-    <MESSAGE value="39. 组合总和" />
     <MESSAGE value="424. 替换后的最长重复字符" />
     <MESSAGE value="组合总和" />
     <MESSAGE value="5.最长回文子串" />
@@ -765,17 +781,11 @@
     <MESSAGE value="2.两数相加" />
     <MESSAGE value="3. 无重复字符的最长子串" />
     <MESSAGE value="76. 最小覆盖子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="76. 最小覆盖子串" />
+    <MESSAGE value="159. 至多包含两个不同字符的最长子串" />
+    <MESSAGE value="209. 长度最小的子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="209. 长度最小的子数组" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/checkRecord.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/isSubsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/countSegments.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1058,8 +1068,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="287">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/minSubArrayLen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>

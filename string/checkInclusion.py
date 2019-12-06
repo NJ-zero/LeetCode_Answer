@@ -38,17 +38,14 @@ class Solution(object):
             return False
 
         while j < m:
-
             s[s2[j]] +=1
             if c==s:
                 return True
-
             # 每次切片都counter耗时过长，每次窗口增加最右边元素，减少最左边元素
             # 如果最左边的元素已经是0了，则删除这个元素
             s[s2[i]] -= 1
             if s[s2[i]] == 0:
                 del s[s2[i]]
-
             i +=1
             j +=1
         return False
