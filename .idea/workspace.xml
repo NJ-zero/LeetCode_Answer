@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="567.字符串的排列">
-      <change afterPath="$PROJECT_DIR$/string/longestPalindromeSubseq.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="9.回文数">
+      <change afterPath="$PROJECT_DIR$/other/intToRoman.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,13 +34,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
+            <state relative-caret-position="-183">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/reverseint.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="69" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/other/romanToInt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="72" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/intToRoman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/longestPalindromeSubseq.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
@@ -90,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/selfDividingNumbers.py" />
-        <option value="$PROJECT_DIR$/int/reachNumber.py" />
         <option value="$PROJECT_DIR$/int/largestTriangleArea.py" />
         <option value="$PROJECT_DIR$/int/dayOfYear.py" />
         <option value="$PROJECT_DIR$/int/numPrimeArrangements.py" />
@@ -141,6 +175,8 @@
         <option value="$PROJECT_DIR$/list/minSubArrayLen.py" />
         <option value="$PROJECT_DIR$/string/checkInclusion.py" />
         <option value="$PROJECT_DIR$/string/longestPalindromeSubseq.py" />
+        <option value="$PROJECT_DIR$/int/isPalindrome.py" />
+        <option value="$PROJECT_DIR$/other/intToRoman.py" />
       </list>
     </option>
   </component>
@@ -168,7 +204,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.longestPalindromeSubseq">
+  <component name="RunManager" selected="Python.intToRoman">
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lengthOfLongestSubstringTwoDistinct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="intToRoman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,11 +290,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/intToRoman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="isPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/int" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int/isPalindrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,27 +366,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/minWindow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="thirdMax" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -354,19 +390,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.minWindow" />
-      <item itemvalue="Python.lengthOfLongestSubstringTwoDistinct" />
       <item itemvalue="Python.minSubArrayLen" />
       <item itemvalue="Python.countSubstrings" />
       <item itemvalue="Python.longestPalindromeSubseq" />
+      <item itemvalue="Python.isPalindrome" />
+      <item itemvalue="Python.intToRoman" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.intToRoman" />
+        <item itemvalue="Python.isPalindrome" />
         <item itemvalue="Python.longestPalindromeSubseq" />
         <item itemvalue="Python.countSubstrings" />
         <item itemvalue="Python.minSubArrayLen" />
-        <item itemvalue="Python.lengthOfLongestSubstringTwoDistinct" />
-        <item itemvalue="Python.minWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -380,20 +416,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00186" summary="567.字符串的排列">
-      <created>1573551340854</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1573551340854</updated>
-    </task>
-    <task id="LOCAL-00187" summary="93.复原IP地址">
-      <created>1573559417547</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1573559417547</updated>
     </task>
     <task id="LOCAL-00188" summary="15.三数之和">
       <created>1573560198240</created>
@@ -724,7 +746,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575621976301</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="516. 最长回文子序列">
+      <created>1575704582167</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1575704582167</updated>
+    </task>
+    <task id="LOCAL-00236" summary="9.回文数">
+      <created>1575708503997</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1575708503997</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -751,8 +787,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="组合总和" />
-    <MESSAGE value="5.最长回文子串" />
     <MESSAGE value="198.打家劫舍" />
     <MESSAGE value="560. 和为K的子数组" />
     <MESSAGE value="139. 单词拆分" />
@@ -776,27 +810,11 @@
     <MESSAGE value="159. 至多包含两个不同字符的最长子串" />
     <MESSAGE value="209. 长度最小的子数组" />
     <MESSAGE value="567.字符串的排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="567.字符串的排列" />
+    <MESSAGE value="516. 最长回文子序列" />
+    <MESSAGE value="9.回文数" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.回文数" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/intersection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/buddyStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/mostCommonWord.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLastWord.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/FirstNotRepeatingChar.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1070,17 +1088,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/longestPalindromeSubseq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/reverseint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/isPalindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/romanToInt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="72" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/intToRoman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
