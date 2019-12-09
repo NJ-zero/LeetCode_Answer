@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="9.回文数">
-      <change afterPath="$PROJECT_DIR$/other/intToRoman.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="14. 最长公共前缀">
+      <change afterPath="$PROJECT_DIR$/int/letterCombinations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,24 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/minSubArrayLen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/intToRoman.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -77,19 +59,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/longestPalindromeSubseq.py">
+        <entry file="file://$PROJECT_DIR$/list/longestCommonPrefix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
+        <entry file="file://$PROJECT_DIR$/list/threeSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="47" column="47" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="-46">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/int/letterCombinations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/longestPalindromeSubseq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -126,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/largestTriangleArea.py" />
-        <option value="$PROJECT_DIR$/int/dayOfYear.py" />
         <option value="$PROJECT_DIR$/int/numPrimeArrangements.py" />
         <option value="$PROJECT_DIR$/int/smallestRangeI.py" />
         <option value="$PROJECT_DIR$/int/minCostToMoveChips.py" />
@@ -177,6 +184,8 @@
         <option value="$PROJECT_DIR$/string/longestPalindromeSubseq.py" />
         <option value="$PROJECT_DIR$/int/isPalindrome.py" />
         <option value="$PROJECT_DIR$/other/intToRoman.py" />
+        <option value="$PROJECT_DIR$/list/longestCommonPrefix.py" />
+        <option value="$PROJECT_DIR$/int/letterCombinations.py" />
       </list>
     </option>
   </component>
@@ -204,7 +213,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="int" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -416,20 +425,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00188" summary="15.三数之和">
-      <created>1573560198240</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1573560198240</updated>
-    </task>
-    <task id="LOCAL-00189" summary="128.最长连续序列">
-      <created>1573611882980</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1573611882980</updated>
     </task>
     <task id="LOCAL-00190" summary="231.2的幂">
       <created>1573644498438</created>
@@ -760,19 +755,33 @@
       <option name="project" value="LOCAL" />
       <updated>1575708503997</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="12. 整数转罗马数字">
+      <created>1575710345478</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1575710345478</updated>
+    </task>
+    <task id="LOCAL-00238" summary="14. 最长公共前缀">
+      <created>1575879018612</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1575879018612</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1766" y="44" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -787,8 +796,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="198.打家劫舍" />
-    <MESSAGE value="560. 和为K的子数组" />
     <MESSAGE value="139. 单词拆分" />
     <MESSAGE value="581. 最短无序连续子数组" />
     <MESSAGE value="279.完全平方数" />
@@ -812,19 +819,11 @@
     <MESSAGE value="567.字符串的排列" />
     <MESSAGE value="516. 最长回文子序列" />
     <MESSAGE value="9.回文数" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.回文数" />
+    <MESSAGE value="12. 整数转罗马数字" />
+    <MESSAGE value="14. 最长公共前缀" />
+    <option name="LAST_COMMIT_MESSAGE" value="14. 最长公共前缀" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/FirstNotRepeatingChar.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/characterReplacement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/permute.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1004,20 +1003,6 @@
     <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1127,6 +1112,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/longestCommonPrefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/threeSumClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/letterCombinations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
