@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="203. 移除链表元素">
-      <change afterPath="$PROJECT_DIR$/list/nextPermutation.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="31. 下一个排列">
+      <change afterPath="$PROJECT_DIR$/list/searchRange.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +59,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/nextPermutation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/searchRange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -100,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/addDigits.py" />
         <option value="$PROJECT_DIR$/int/isUgly.py" />
         <option value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
         <option value="$PROJECT_DIR$/list/longestConsecutive.py" />
@@ -151,6 +159,7 @@
         <option value="$PROJECT_DIR$/list/sortedSquares.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
         <option value="$PROJECT_DIR$/list/nextPermutation.py" />
+        <option value="$PROJECT_DIR$/list/searchRange.py" />
       </list>
     </option>
   </component>
@@ -390,13 +399,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00195" summary="238. 除自身以外数组的乘积">
-      <created>1573810426927</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1573810426928</updated>
     </task>
     <task id="LOCAL-00196" summary="33. 搜索旋转排序数组">
       <created>1573899879537</created>
@@ -734,19 +736,26 @@
       <option name="project" value="LOCAL" />
       <updated>1575948046078</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="31. 下一个排列">
+      <created>1575950101423</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1575950101423</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1709" y="91" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -761,7 +770,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="647. 回文子串" />
     <MESSAGE value="739. 每日温度" />
     <MESSAGE value="26. 删除排序数组中的重复项" />
     <MESSAGE value="416. 分割等和子集" />
@@ -786,12 +794,10 @@
     <MESSAGE value="88. 合并两个有序数组" />
     <MESSAGE value="977.有序数组的平方" />
     <MESSAGE value="203. 移除链表元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="203. 移除链表元素" />
+    <MESSAGE value="31. 下一个排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="31. 下一个排列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/wordBreak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1101,6 +1107,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/searchRange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
