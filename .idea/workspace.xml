@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="31. 下一个排列">
-      <change afterPath="$PROJECT_DIR$/list/searchRange.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="34. 在排序数组中查找元素的第一个和最后一个位置">
+      <change afterPath="$PROJECT_DIR$/other/isValidSudoku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/searchRange.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/searchInsert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/other/isValidSudoku.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="23" selection-start-line="23" selection-end-line="42" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -109,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/int/isUgly.py" />
         <option value="$PROJECT_DIR$/other/restoreIpAddresses.py" />
         <option value="$PROJECT_DIR$/list/longestConsecutive.py" />
         <option value="$PROJECT_DIR$/int/isPowerOfTwo.py" />
@@ -160,6 +177,7 @@
         <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
         <option value="$PROJECT_DIR$/list/nextPermutation.py" />
         <option value="$PROJECT_DIR$/list/searchRange.py" />
+        <option value="$PROJECT_DIR$/other/isValidSudoku.py" />
       </list>
     </option>
   </component>
@@ -187,7 +205,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,13 +417,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00196" summary="33. 搜索旋转排序数组">
-      <created>1573899879537</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1573899879538</updated>
     </task>
     <task id="LOCAL-00197" summary="16. 最接近的三数之和">
       <created>1574077922539</created>
@@ -743,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575950101423</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="34. 在排序数组中查找元素的第一个和最后一个位置">
+      <created>1575959836450</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1575959836450</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -770,7 +788,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="739. 每日温度" />
     <MESSAGE value="26. 删除排序数组中的重复项" />
     <MESSAGE value="416. 分割等和子集" />
     <MESSAGE value="287.寻找重复数" />
@@ -795,19 +812,10 @@
     <MESSAGE value="977.有序数组的平方" />
     <MESSAGE value="203. 移除链表元素" />
     <MESSAGE value="31. 下一个排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="31. 下一个排列" />
+    <MESSAGE value="34. 在排序数组中查找元素的第一个和最后一个位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="34. 在排序数组中查找元素的第一个和最后一个位置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list/wordBreak.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="7" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/maxSubArray.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/numSquares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1114,6 +1122,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/searchInsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/isValidSudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="23" selection-start-line="23" selection-end-line="42" selection-end-column="19" />
         </state>
       </provider>
     </entry>
