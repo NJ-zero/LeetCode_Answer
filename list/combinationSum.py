@@ -59,5 +59,26 @@ class Solution(object):
         help(candidates,target,[])
         return res
 
+    def commm(self,candidates,target):
+        if not candidates:
+            return []
+        if min(candidates) > target:
+            return []
+        candidates.sort()
+        res=[]
+        n = len(candidates)
+
+        def help(i,tar,tmp):
+            if tar == target:
+                res.append(tmp)
+            for j in range(i,n):
+                if tar + candidates[j] > target:
+                    break
+                help(j,tar + candidates[j],tmp + [candidates[j]])
+        help(0,0,[])
+        return res
+
+
 s=Solution()
 print(s.combinationSum([2,3,6,7],8))
+print(s.commm([2,3,6,7],8))
