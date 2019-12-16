@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="19. 删除链表的倒数第N个节点">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="46. 全排列">
+      <change afterPath="$PROJECT_DIR$/list/permuteUnique.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/permute.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/permute.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +14,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/nextPermutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/subsets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="747">
               <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
             </state>
           </provider>
@@ -41,33 +32,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="25" selection-start-line="25" selection-end-line="58" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/permute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-1304">
               <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="543">
               <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
             </state>
           </provider>
@@ -127,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/other/isValid.py" />
         <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
         <option value="$PROJECT_DIR$/list/productExceptSelf.py" />
         <option value="$PROJECT_DIR$/list/search.py" />
@@ -178,12 +159,13 @@
         <option value="$PROJECT_DIR$/list/maximumGap.py" />
         <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
         <option value="$PROJECT_DIR$/list/permute.py" />
+        <option value="$PROJECT_DIR$/list/permuteUnique.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1658" />
-    <option name="y" value="58" />
+    <option name="x" value="2005" />
+    <option name="y" value="63" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -417,13 +399,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00201" summary="39. 组合总和">
-      <created>1574149981586</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1574149981586</updated>
     </task>
     <task id="LOCAL-00202" summary="3. 无重复字符的最长子串">
       <created>1574151309175</created>
@@ -761,19 +736,26 @@
       <option name="project" value="LOCAL" />
       <updated>1576065811502</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="46. 全排列">
+      <created>1576487451629</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1576487451630</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1658" y="58" width="1138" height="936" extended-state="0" />
+    <frame x="2005" y="63" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -828,7 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. 盛最多水的容器" />
     <MESSAGE value="70.爬楼梯" />
     <MESSAGE value="1.两数之和" />
     <MESSAGE value="15.三数之和" />
@@ -853,16 +834,10 @@
     <MESSAGE value="169.多数元素" />
     <MESSAGE value="164. 最大间距" />
     <MESSAGE value="19. 删除链表的倒数第N个节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. 删除链表的倒数第N个节点" />
+    <MESSAGE value="46. 全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="46. 全排列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1114,34 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/maximumGap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/MoreThanHalfNum_Solution.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1152,6 +1099,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1159,13 +1109,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/maximumGap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/permute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-1304">
           <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
