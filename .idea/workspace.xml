@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="39. 组合总和">
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="40. 组合总和 II">
+      <change afterPath="$PROJECT_DIR$/string/findTheDifference_389.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/combinationSum2.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/combinationSum2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/combinationSum2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-507">
@@ -50,15 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/permute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1304">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -66,8 +61,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
+            <state relative-caret-position="-87">
               <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/string/findTheDifference_389.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -84,15 +95,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="543">
               <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/other/generateParenthesis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -129,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianbiao/mergeTwoLists.py" />
-        <option value="$PROJECT_DIR$/list/productExceptSelf.py" />
         <option value="$PROJECT_DIR$/list/search.py" />
         <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
@@ -180,12 +180,14 @@
         <option value="$PROJECT_DIR$/list/permuteUnique.py" />
         <option value="$PROJECT_DIR$/list/combinationSum.py" />
         <option value="$PROJECT_DIR$/list/combinationSum2.py" />
+        <option value="$PROJECT_DIR$/string/389.findTheDifference.py" />
+        <option value="$PROJECT_DIR$/string/findTheDifference_389.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1887" />
-    <option name="y" value="73" />
+    <option name="x" value="2075" />
+    <option name="y" value="89" />
     <option name="width" value="1138" />
     <option name="height" value="936" />
   </component>
@@ -208,7 +210,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -419,13 +421,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00204" summary="424. 替换后的最长重复字符">
-      <created>1574162755825</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1574162755825</updated>
     </task>
     <task id="LOCAL-00205" summary="组合总和">
       <created>1574306779800</created>
@@ -763,24 +758,31 @@
       <option name="project" value="LOCAL" />
       <updated>1576494963677</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="40. 组合总和 II">
+      <created>1576496659774</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1576496659774</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1887" y="73" width="1138" height="936" extended-state="0" />
+    <frame x="2075" y="89" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2120853" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2120853" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32938388" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -830,7 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15.三数之和" />
     <MESSAGE value="2.两数相加" />
     <MESSAGE value="3. 无重复字符的最长子串" />
     <MESSAGE value="76. 最小覆盖子串" />
@@ -855,30 +856,10 @@
     <MESSAGE value="46. 全排列" />
     <MESSAGE value="47.全排列 II" />
     <MESSAGE value="39. 组合总和" />
-    <option name="LAST_COMMIT_MESSAGE" value="39. 组合总和" />
+    <MESSAGE value="40. 组合总和 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="40. 组合总和 II" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/minWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="4" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/string/checkInclusion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1129,20 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/permute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/subsetsWithDup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84" />
@@ -1166,6 +1133,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-507">
           <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/permute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/389.findTheDifference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/string/findTheDifference_389.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
