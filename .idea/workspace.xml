@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="389.找不同">
-      <change afterPath="$PROJECT_DIR$/string/longestPalindrome_409.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="409. 最长回文串">
+      <change afterPath="$PROJECT_DIR$/list/numberOfBoomerangs_447.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string/longestPalindrome_409.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/numberOfBoomerangs_447.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -70,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/subsets.py" />
         <option value="$PROJECT_DIR$/list/subsetsWithDup.py" />
         <option value="$PROJECT_DIR$/string/characterReplacement.py" />
         <option value="$PROJECT_DIR$/string/longestPalindrome.py" />
@@ -121,14 +129,15 @@
         <option value="$PROJECT_DIR$/string/389.findTheDifference.py" />
         <option value="$PROJECT_DIR$/string/findTheDifference_389.py" />
         <option value="$PROJECT_DIR$/string/longestPalindrome_409.py" />
+        <option value="$PROJECT_DIR$/list/numberOfBoomerangs_447.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1861" />
-    <option name="y" value="58" />
-    <option name="width" value="1138" />
-    <option name="height" value="936" />
+    <option name="x" value="1896" />
+    <option name="y" value="111" />
+    <option name="width" value="1239" />
+    <option name="height" value="957" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -149,7 +158,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="lianbiao" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
@@ -365,13 +374,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00206" summary="76. 最小覆盖子串">
-      <created>1574320689357</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1574320689357</updated>
     </task>
     <task id="LOCAL-00207" summary="5.最长回文子串">
       <created>1574321077461</created>
@@ -709,19 +711,26 @@
       <option name="project" value="LOCAL" />
       <updated>1576568384408</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="409. 最长回文串">
+      <created>1576659681860</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1576659681862</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1861" y="58" width="1138" height="936" extended-state="0" />
+    <frame x="1974" y="111" width="1138" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25425246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20379147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,7 +785,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3. 无重复字符的最长子串" />
     <MESSAGE value="76. 最小覆盖子串" />
     <MESSAGE value="159. 至多包含两个不同字符的最长子串" />
     <MESSAGE value="209. 长度最小的子数组" />
@@ -801,16 +809,10 @@
     <MESSAGE value="39. 组合总和" />
     <MESSAGE value="40. 组合总和 II" />
     <MESSAGE value="389.找不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="389.找不同" />
+    <MESSAGE value="409. 最长回文串" />
+    <option name="LAST_COMMIT_MESSAGE" value="409. 最长回文串" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/string/countSubstrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/int/reverseint.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1106,8 +1108,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string/longestPalindrome_409.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/numberOfBoomerangs_447.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
