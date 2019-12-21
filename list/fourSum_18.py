@@ -74,3 +74,57 @@ s=Solution()
 print(s.fourSum([0,1,5,0,1,5,5,-4],11))
 
 
+
+### 测试其他用的代码
+def test(func):
+    print("@@@")
+    def our_wrapper():
+        req = func()
+        print("***")
+        return req
+    return our_wrapper
+
+def tester(title):
+    def our_wrapper(func):
+        work = title
+        @test
+        def inner_wrapp(*args,**kwargs):
+            req = func()
+            print("###{}".format(work))
+            return req
+        return inner_wrapp
+    return our_wrapper
+
+@tester(title="$$$")
+def two():
+    type = "!!!"
+    return type
+
+@test
+def one():
+    return 111
+
+# print("--------")
+
+t =two()
+print(t)
+print("--------")
+on =one()
+print(on)
+print("--------")
+
+def use_logging(func):
+    print("ffff")
+    def wrapper():
+        print("%s is running" % func.__name__)
+        return func()
+    return wrapper
+
+@use_logging
+def foo():
+    print("i am foo")
+
+print(111)
+foo()
+
+
