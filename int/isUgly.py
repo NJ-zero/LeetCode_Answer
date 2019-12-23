@@ -50,3 +50,11 @@ class Solution:
                 return True
             if last == num :
                 return False
+
+    def isss(self, num):
+        if num < 0 :
+            return False
+        for e in [2,3,5]:
+            while num % e == 0:
+                num = num / e
+        return num == 1

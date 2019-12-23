@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="349.两个数组的交集">
-      <change afterPath="$PROJECT_DIR$/list/fourSum_18.py" afterDir="false" />
+    <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="18.四数之和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/int/isUgly.py" beforeDir="false" afterPath="$PROJECT_DIR$/int/isUgly.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,11 +67,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/fourSum_18.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/int/isPowerOfTwo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-79" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/int/isUgly.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -113,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/list/findUnsortedSubarray.py" />
         <option value="$PROJECT_DIR$/int/numSquares.py" />
         <option value="$PROJECT_DIR$/list/lengthOfLIS.py" />
         <option value="$PROJECT_DIR$/list/findNumberOfLIS.py" />
@@ -164,14 +179,15 @@
         <option value="$PROJECT_DIR$/string/isIsomorphic_205.py" />
         <option value="$PROJECT_DIR$/list/intersection.py" />
         <option value="$PROJECT_DIR$/list/fourSum_18.py" />
+        <option value="$PROJECT_DIR$/int/isUgly.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1657" />
-    <option name="y" value="55" />
+    <option name="x" value="1892" />
+    <option name="y" value="159" />
     <option name="width" value="1239" />
-    <option name="height" value="957" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,7 +208,7 @@
             <path>
               <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="int" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,20 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00213" summary="279.完全平方数">
-      <created>1574680607135</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1574680607135</updated>
-    </task>
-    <task id="LOCAL-00214" summary="287.寻找重复数">
-      <created>1574768434410</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1574768434410</updated>
     </task>
     <task id="LOCAL-00215" summary="300. 最长上升子序列">
       <created>1574821797912</created>
@@ -747,19 +749,33 @@
       <option name="project" value="LOCAL" />
       <updated>1576823413811</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="18.四数之和">
+      <created>1576915524586</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1576915524586</updated>
+    </task>
+    <task id="LOCAL-00263" summary="18.四数之和">
+      <created>1576920319521</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1576920319521</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1657" y="55" width="1239" height="957" extended-state="0" />
+    <frame x="1892" y="159" width="1239" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23316912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23316912" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19884393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21910828" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32048458" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -814,7 +830,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12. 整数转罗马数字" />
     <MESSAGE value="14. 最长公共前缀" />
     <MESSAGE value="17. 电话号码的字母组合" />
     <MESSAGE value="22. 括号生成" />
@@ -839,21 +854,10 @@
     <MESSAGE value="204. 计数质数" />
     <MESSAGE value="205.同构字符串" />
     <MESSAGE value="349.两个数组的交集" />
-    <option name="LAST_COMMIT_MESSAGE" value="349.两个数组的交集" />
+    <MESSAGE value="18.四数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.四数之和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/sortedSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/mergelist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -867,9 +871,6 @@
           <caret line="23" column="72" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="72" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review_answer/count1.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/list/removeduplicates.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1134,10 +1135,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/review_answer/count1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/list/fourSum_18.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/isPowerOfTwo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/int/isUgly.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
