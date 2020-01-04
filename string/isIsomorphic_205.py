@@ -37,6 +37,33 @@ class Solution(object):
         """
         return list(map(s.index,s))==list(map(t.index,t))
 
+
+    def isIII(self, s, t):
+        '''
+        要想同构，那么s 和 t 中的字母，必须是 一一 对应的关系
+        一对多 a-b , a-c 不行
+        多对一 b-a , c-a 不行
+        hash用来保存 对应关系
+        aabc  eefg
+        a-e
+        b-f
+        c-g
+        :param s:
+        :param t:
+        :return:
+        '''
+        hash = {}
+        for i ,c in enumerate(s):
+            if hash.get(c):
+                if hash[c] != t[i]:
+                    return False
+            else:
+                if t[i] in hash.values():
+                    return False
+                hash[c] = t[i]
+        return True
+
+
 s=Solution()
 print(s.isIsomorphic("abba","abab"))
 
