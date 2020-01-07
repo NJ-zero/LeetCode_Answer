@@ -43,7 +43,7 @@ class Solution(object):
             return 0
         max_n = max(nums)
         min_n = min(nums)
-        gap = math.ceil((max_n-min_n)/(len(nums)-1))
+        gap = math.ceil((max_n-min_n)/(len(nums)-1))    #桶的长度
         bucket = [[float("inf"),float("-inf")] for _ in range(n-1)]
         for num in nums:
             if num == max_n or num == min_n:
