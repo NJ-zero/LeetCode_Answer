@@ -43,12 +43,16 @@ class Solution(object):
             return 0
         max_n = max(nums)
         min_n = min(nums)
-        gap = math.ceil((max_n-min_n)/(len(nums)-1))    #桶的长度
+        # 相邻的最大差值一定不小于该数组的最大值减去最小值除以间隔个数，取上界
+        gap = math.ceil((max_n-min_n)/(len(nums)-1))
+
+        # 这么多桶
         bucket = [[float("inf"),float("-inf")] for _ in range(n-1)]
+
         for num in nums:
-            if num == max_n or num == min_n:
+            if num == max_n or num == min_n:   # 最大值、最小值不放到桶里面
                 continue
-            loc = (num - min_n) //gap
+            loc = (num - min_n) //gap     # 决定这个数放在哪个桶，也就是距离最小数有几个gap
             bucket[loc][0] = min(num,bucket[loc][0])
             bucket[loc][1] = max(num,bucket[loc][1])
 
@@ -66,3 +70,17 @@ class Solution(object):
 s=Solution()
 print(s.maximumGap([3,6,9,1]))
 print(s.maxbucket([3,6,9,1]))
+
+a=[9,10,11,25]
+s={1:0,2:0,3:0}
+for ass in a:
+    print("ass:",ass)
+    s = dict(sorted(s.items(),key = lambda x:x[1]))
+
+    for i in s :
+        if s[i] < ass:
+            s[i] = ass
+            break
+    print(s)
+
+print(list(s.values()))
