@@ -34,6 +34,10 @@ for i in range(len(n)-1):
 
 对上面的方法迭代，不断加入新的元素
 
+思路四：
+见最后一种方法
+依次取出数组中的每一个元素，对剩余n-1个元素做全排列，再将该元素与所有全排列组合
+
 
 '''
 
@@ -43,7 +47,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        if len(nums) < 1:
+        if len(nums) <= 1:
             return [nums]
         output=[[nums[0],nums[1]],[nums[1],nums[0]]]
 
@@ -85,5 +89,52 @@ class Solution(object):
         help([],0)
         return res
 
+
+    def pppp(self,nums):
+        '''
+        例如：[1, 2, 3, 4] 的全排列可以由下面 4 种情况得到：
+        1 + permute([2, 3, 4])
+        2 + permute([1, 3, 4])
+        3 + permute([1, 2, 4])
+        4 + permute([1, 2, 3])
+        根据这个思路，编码如下，注意：在递归方法执行以后，需要再执行一次交换操作，这一步是状态重置的操作
+
+        :param nums:
+        :return:
+        '''
+
+        def backtrace(first = 0):
+            if first == n:
+                out.append(nums[:])
+            for i in range(first,n):
+                nums[first],nums[i] = nums[i],nums[first]
+                backtrace(first + 1)
+                nums[first],nums[i] = nums[i],nums[first]
+
+        n = len(nums)
+        out = []
+        backtrace()
+        return out
+
+    def per(self,nums):
+        # 依次取出数组中的每一个元素，对剩余n-1个元素做全排列，再将该元素与所有全排列组合
+        def helper(nums):
+            if len(nums) <=1:
+                return [nums]
+            n = []
+            for i in range(len(nums)):
+                iterm = nums.pop(i)
+                subres = helper(nums)
+                for res in subres:
+                    n.append([iterm] + res)
+                nums.insert(i,iterm)
+            return n
+
+        res = helper(nums)
+        return res
+
+
 s=Solution()
-print(s.permutepp([1,2,3]))
+print(s.permute([1,2,3]))
+print(s.pppp([1,2,3]))
+print(s.per([1,2,3]))

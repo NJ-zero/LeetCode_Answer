@@ -18,6 +18,12 @@ Explanation: The answer is "abc", with the length of 3.
 
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
+        '''
+        最优解
+        如果右侧在hash表中，则更新left为 right 值所在位置+1
+        :param s:
+        :return:
+        '''
         left,right=0,0
         res=0
         pos_dic={}
@@ -38,6 +44,28 @@ class Solution(object):
                 i += 1
             res = max(res,j-i)
         return res
+
+    def lllll(self,s):
+        '''
+        时间复杂度O(n)
+        :param s:
+        :return:
+        '''
+        lookup=list()
+        max_len,cur_len=0,0
+        for i in range(len(s)):
+            if s[i] not in lookup:
+                lookup.append(s[i])
+                cur_len +=1
+            else:
+                index = lookup.index(s[i])
+                lookup = lookup[index+1:]
+                lookup.append(s[i])
+                cur_len = len(lookup)
+            max_len = max(max_len,cur_len)
+        return max_len
+
+
 if __name__=='__main__':
     s=Solution()
     a = s.lengthOfLongestSubstring("abccdxccfagcefghji")

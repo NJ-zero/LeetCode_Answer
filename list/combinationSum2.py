@@ -29,10 +29,7 @@ candidates 中的每个数字在每个组合中只能使用一次。
 和 上一个不用，这个是做加法
 且 没有强调 没有重复元素 ,且只能使用一次
 
-
-
 '''
-
 
 class Solution(object):
     def combinationSum2(self, candidates, target):
@@ -61,3 +58,32 @@ class Solution(object):
         help(0,0,[])
 
         return res
+
+    def commm(self, candidates, target):
+        if not candidates:
+            return []
+        if min(candidates) > target:
+            return []
+        candidates.sort()
+        n = len(candidates)
+        res=[]
+
+        def help(can,tar,tmp):
+            if tar == 0:
+                res.append(tmp)
+            if tar < 0 :
+                return
+
+            for i in range(n):
+                if can[i] > target:
+                    break
+                if i > 0 and can[i] == can[i-1]:
+                    continue
+                help(can[i+1:],tar - can[i],tmp + [can[i]])
+
+        help(candidates,target,[])
+        return res
+
+s=Solution()
+print(s.combinationSum2([10,1,2,7,6,1,5],8))
+print(s.commm([10,1,2,7,6,1,5],8))

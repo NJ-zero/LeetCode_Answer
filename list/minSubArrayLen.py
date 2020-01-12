@@ -3,7 +3,10 @@
 # Author: dongshichao
 
 '''
-给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组。如果不存在符合条件的连续子数组，返回 0。
+209. 长度最小的子数组
+
+给定一个含有 n 个正整数的数组和一个正整数 s ，找出该数组中满足其和 ≥ s 的长度最小的连续子数组。
+如果不存在符合条件的连续子数组，返回 0。
 
 示例:
 
@@ -26,19 +29,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        i , j = 0 ,-1
+        i , j = 0 ,0
         sum = 0
         res = len(nums)+1
-        while i < len(nums):
-            if sum < s and j+1 < len(nums):
-                sum += nums[j+1]
-                j+=1
-            else:
-                sum -= nums[i]
-                i+=1
-            if sum >=s:
+        while j < len(nums):
+            sum += nums[j]
+            while sum >=s:
                 res = min(res,j-i+1)
-        if res == len(nums+1):
+                sum -= nums[i]
+                i +=1
+            j+=1
+        if res == len(nums)+1:
             res = 0
         return res
 
