@@ -25,13 +25,13 @@ def sort(arr,first,last):
             if arr[j] >= base:
                 j=j-1
             arr[i]=arr[j]
-
             if arr[i]< base:
                 i=i+1
             arr[j]=arr[i]
         arr[i]=base
+
         sort(arr,first,i-1)
-        sort(arr,j+1,last)
+        sort(arr,i+1,last)
     return arr
 
 b=[2,1,4,5,12,41,62,13,18,23,25]
