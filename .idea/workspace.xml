@@ -2,54 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c62ebef-dd7c-4978-9e90-6219b1315b72" name="Default" comment="164. 最大间距">
-      <change afterPath="$PROJECT_DIR$/review_answer/bytedance/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review_answer/bytedance/sixteenadd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/07_rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/16.06.smallestDifference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/859_buddyStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/860_lemonadeChange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge/massage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianbiao/445_addTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paixu/quickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/paixu/quickSort.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/tentoeight.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review_answer/bytedance/sixteenadd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,119 +25,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cur2</find>
-      <find>maxArea</find>
-      <find>search</find>
-      <find>get</find>
-      <find>get(</find>
-      <find>dp</find>
-      <find>largestNumber</find>
-      <find>&gt;</find>
-      <find>全排列</find>
-      <find>回文</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>l2</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/string</dir>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/list/canPartition.py" />
-        <option value="$PROJECT_DIR$/list/canPartitionKSubsets.py" />
-        <option value="$PROJECT_DIR$/list/findDuplicate.py" />
-        <option value="$PROJECT_DIR$/list/moveZeroes.py" />
-        <option value="$PROJECT_DIR$/list/maxArea.py" />
-        <option value="$PROJECT_DIR$/digui/climbStairs.py" />
-        <option value="$PROJECT_DIR$/list/twosum.py" />
-        <option value="$PROJECT_DIR$/list/threeSum.py" />
-        <option value="$PROJECT_DIR$/list/threeSumClosest.py" />
-        <option value="$PROJECT_DIR$/lianbiao/addTwoNumbers.py" />
-        <option value="$PROJECT_DIR$/string/lengthOfLongestSubstring.py" />
-        <option value="$PROJECT_DIR$/string/minWindow.py" />
-        <option value="$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py" />
-        <option value="$PROJECT_DIR$/list/minSubArrayLen.py" />
-        <option value="$PROJECT_DIR$/string/checkInclusion.py" />
-        <option value="$PROJECT_DIR$/string/longestPalindromeSubseq.py" />
-        <option value="$PROJECT_DIR$/int/isPalindrome.py" />
-        <option value="$PROJECT_DIR$/other/intToRoman.py" />
-        <option value="$PROJECT_DIR$/list/longestCommonPrefix.py" />
-        <option value="$PROJECT_DIR$/int/letterCombinations.py" />
-        <option value="$PROJECT_DIR$/other/generateParenthesis.py" />
-        <option value="$PROJECT_DIR$/list/mergelist.py" />
-        <option value="$PROJECT_DIR$/list/sortedSquares.py" />
-        <option value="$PROJECT_DIR$/lianbiao/removeElements.py" />
-        <option value="$PROJECT_DIR$/list/nextPermutation.py" />
-        <option value="$PROJECT_DIR$/list/searchRange.py" />
-        <option value="$PROJECT_DIR$/other/isValidSudoku.py" />
-        <option value="$PROJECT_DIR$/list/majorityElement.py" />
-        <option value="$PROJECT_DIR$/lianbiao/removeNthFromEnd.py" />
-        <option value="$PROJECT_DIR$/list/permute.py" />
-        <option value="$PROJECT_DIR$/list/permuteUnique.py" />
-        <option value="$PROJECT_DIR$/list/combinationSum.py" />
-        <option value="$PROJECT_DIR$/list/combinationSum2.py" />
-        <option value="$PROJECT_DIR$/string/389.findTheDifference.py" />
-        <option value="$PROJECT_DIR$/string/findTheDifference_389.py" />
-        <option value="$PROJECT_DIR$/string/longestPalindrome_409.py" />
-        <option value="$PROJECT_DIR$/list/numberOfBoomerangs_447.py" />
-        <option value="$PROJECT_DIR$/int/isHappy_202.py" />
-        <option value="$PROJECT_DIR$/list/distributeCandies.py" />
-        <option value="$PROJECT_DIR$/int/countPrimes.py" />
-        <option value="$PROJECT_DIR$/list/intersection.py" />
-        <option value="$PROJECT_DIR$/list/fourSum_18.py" />
-        <option value="$PROJECT_DIR$/int/isUgly.py" />
-        <option value="$PROJECT_DIR$/list/largestNumber_179.py" />
-        <option value="$PROJECT_DIR$/list/rob_213.py" />
-        <option value="$PROJECT_DIR$/string/isIsomorphic_205.py" />
-        <option value="$PROJECT_DIR$/list/maximumGap.py" />
-        <option value="$PROJECT_DIR$/checkip.py" />
-        <option value="$PROJECT_DIR$/review_answer/tentoeight.py" />
-        <option value="$PROJECT_DIR$/review_answer/bytedance/sixteenadd.py" />
-        <option value="$PROJECT_DIR$/paixu/quickSort.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2027" />
-    <option name="y" value="35" />
-    <option name="width" value="1003" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1ZTXLFCNrWkcXTpLmQWnedj0BGr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode_Answer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode_Answer" type="462c0819:PsiDirectoryNode" />
-              <item name="paixu" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -186,19 +51,49 @@
       <recent name="$PROJECT_DIR$/int" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.quickSort">
+  <component name="RunManager" selected="Python.07_rotate">
+    <configuration name="07_rotate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge/07_rotate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="859_buddyStrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/challenge/859_buddyStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="buddyStrings" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,48 +107,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/buddyStrings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="checkip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="maximumGap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list/maximumGap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,19 +202,19 @@
     <list>
       <item itemvalue="Python.buddyStrings" />
       <item itemvalue="Python.thirdMax" />
-      <item itemvalue="Python.maximumGap" />
-      <item itemvalue="Python.checkip" />
-      <item itemvalue="Python.tentoeight" />
-      <item itemvalue="Python.sixteenadd" />
+      <item itemvalue="Python.07_rotate" />
+      <item itemvalue="Python.859_buddyStrings" />
       <item itemvalue="Python.quickSort" />
+      <item itemvalue="Python.sixteenadd" />
+      <item itemvalue="Python.tentoeight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07_rotate" />
+        <item itemvalue="Python.859_buddyStrings" />
         <item itemvalue="Python.quickSort" />
         <item itemvalue="Python.sixteenadd" />
         <item itemvalue="Python.tentoeight" />
-        <item itemvalue="Python.checkip" />
-        <item itemvalue="Python.maximumGap" />
       </list>
     </recent_temporary>
   </component>
@@ -375,20 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534920506521</updated>
-    </task>
-    <task id="LOCAL-00221" summary="416. 分割等和子集">
-      <created>1575017057870</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1575017057870</updated>
-    </task>
-    <task id="LOCAL-00222" summary="287.寻找重复数">
-      <created>1575025493866</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1575025493866</updated>
     </task>
     <task id="LOCAL-00223" summary="283.移动零">
       <created>1575372317911</created>
@@ -719,31 +558,22 @@
       <option name="project" value="LOCAL" />
       <updated>1578397232955</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="191.位 1 的个数">
+      <created>1585828080387</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1585828080387</updated>
+    </task>
+    <task id="LOCAL-00271" summary="274.H指数">
+      <created>1585831062453</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1585831062453</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="2027" y="35" width="1003" height="877" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26985744" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2178344" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3197452" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23312102" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.16305733" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -751,20 +581,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -786,8 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="88. 合并两个有序数组" />
-    <MESSAGE value="977.有序数组的平方" />
     <MESSAGE value="203. 移除链表元素" />
     <MESSAGE value="31. 下一个排列" />
     <MESSAGE value="34. 在排序数组中查找元素的第一个和最后一个位置" />
@@ -811,273 +626,51 @@
     <MESSAGE value="205.同构字符串" />
     <MESSAGE value="213.打家劫舍II" />
     <MESSAGE value="164. 最大间距" />
-    <option name="LAST_COMMIT_MESSAGE" value="164. 最大间距" />
+    <MESSAGE value="191.位 1 的个数" />
+    <MESSAGE value="274.H指数" />
+    <option name="LAST_COMMIT_MESSAGE" value="274.H指数" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/int/maxCount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="4800" column="8" selection-start-line="4800" selection-start-column="8" selection-end-line="4800" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/countPrimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/isIsomorphic_205.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/rob_213.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/maximumGap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/largestNumber_179.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/int/largestTriangleArea.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/majorityElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="53" selection-start-line="53" selection-end-line="62" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/subsetsWithDup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/isPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/middleNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/ListNode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/removeElements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/permute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/permuteUnique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/restoreIpAddresses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/longestCommonPrefix.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/twosum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/nextPermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/getIntersectionNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/removeNthFromEnd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/hasCycle.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/deleteDuplicatesII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/rob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/fib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/reverseList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="43" selection-start-line="43" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/validPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digui/climbStairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/addBinary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/canConstruct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/buddyStrings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindrome_409.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/guessNumber.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/isPerfectSquare.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/minEatingSpeed.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstringTwoDistinct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/longestPalindromeSubseq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLastWord.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/lengthOfLongestSubstring.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/mergeTwoLists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/mergelist.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/erfen/peakIndexInMountainArray.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianbiao/addTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review_answer/tentoeight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/review_answer/bytedance/sixteenadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paixu/quickSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="392" y="233" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584864053931">
+      <screen x="65" y="23" width="1727" height="1097" />
+    </state>
+    <state x="392" y="233" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.23.1727.1097@65.23.1727.1097" timestamp="1584864053931" />
+    <state x="2306" y="189" key="CommitChangelistDialog2" timestamp="1585831062305">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2306" y="189" key="CommitChangelistDialog2/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1585831062305" />
+    <state width="1379" height="169" key="GridCell.Tab.0.bottom" timestamp="1586265852397">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1379" height="169" key="GridCell.Tab.0.bottom/64.23.1728.1097@64.23.1728.1097" timestamp="1585143412190" />
+    <state width="1379" height="169" key="GridCell.Tab.0.bottom/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1586265852397" />
+    <state width="1379" height="169" key="GridCell.Tab.0.center" timestamp="1586265852396">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1379" height="169" key="GridCell.Tab.0.center/64.23.1728.1097@64.23.1728.1097" timestamp="1585143412190" />
+    <state width="1379" height="169" key="GridCell.Tab.0.center/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1586265852396" />
+    <state width="1379" height="169" key="GridCell.Tab.0.left" timestamp="1586265852396">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1379" height="169" key="GridCell.Tab.0.left/64.23.1728.1097@64.23.1728.1097" timestamp="1585143412189" />
+    <state width="1379" height="169" key="GridCell.Tab.0.left/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1586265852396" />
+    <state width="1379" height="169" key="GridCell.Tab.0.right" timestamp="1586265852397">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1379" height="169" key="GridCell.Tab.0.right/64.23.1728.1097@64.23.1728.1097" timestamp="1585143412190" />
+    <state width="1379" height="169" key="GridCell.Tab.0.right/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1586265852397" />
+    <state x="2197" y="203" key="SettingsEditor" timestamp="1585885898447">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2197" y="203" key="SettingsEditor/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1585885898447" />
+    <state x="429" y="210" key="SettingsEditor/65.23.1727.1097@65.23.1727.1097" timestamp="1584864696803" />
+    <state x="605" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1584864005968">
+      <screen x="65" y="23" width="1727" height="1097" />
+    </state>
+    <state x="605" y="403" key="com.intellij.ide.util.TipDialog/65.23.1727.1097@65.23.1727.1097" timestamp="1584864005968" />
+    <state x="2228" y="337" width="639" height="486" key="find.popup" timestamp="1586261163526">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2228" y="337" width="639" height="486" key="find.popup/65.23.1727.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1586261163526" />
   </component>
 </project>
